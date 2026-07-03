@@ -1,5 +1,7 @@
 # Job Package
 
+## Русский
+
 Готовый пакет позиционирования для найма, фриланса, контрактной работы и продуктовых коллабораций.
 
 ## Короткое позиционирование
@@ -55,7 +57,7 @@
 
 ---
 
-# Job Package
+## English
 
 Positioning package for hiring, freelance, contract work and product collaborations.
 

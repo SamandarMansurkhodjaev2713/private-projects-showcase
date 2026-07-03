@@ -1,5 +1,7 @@
 # Visual Evidence Pack
 
+## Русский
+
 Карта того, что можно реально открыть, проверить или показать визуально без раскрытия приватного кода.
 
 ## Живые и проверяемые доказательства
@@ -41,7 +43,7 @@
 
 ---
 
-# Visual Evidence Pack
+## English
 
 Map of what can be opened, verified or shown visually without exposing private code.
 

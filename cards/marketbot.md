@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** commerce automation с event-driven backend, а не просто бот для уведомлений.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | Offers, subscriptions, affiliate links, Telegram delivery |
+| Сложность | RabbitMQ, gRPC, service boundaries, admin visibility |
+| Эффект | Показывает backend для бизнес-процессов и монетизации |
+
 **Что это:** Marketbot - приватная e-commerce automation платформа для сбора офферов, подписок, affiliate links, Telegram notifications и операционной панели.
 
 **Какую проблему решает:** commerce/offers продукту нужны ingestion, фильтрация, подписки, уведомления, генерация ссылок, админский контроль, обработка ошибок и доставка событий пользователю без ручной рутины.
@@ -26,6 +34,14 @@
 **Что можно показать:** case study, архитектуру сервисов, безопасные screenshots и demo flow без коммерческих данных.
 
 ## English
+
+> **Main signal:** commerce automation with an event-driven backend, not just a notification bot.
+
+| Quick view | Detail |
+|---|---|
+| Product | Offers, subscriptions, affiliate links and Telegram delivery |
+| Complexity | RabbitMQ, gRPC, service boundaries and admin visibility |
+| Impact | Shows backend work for business workflows and monetization |
 
 **What it is:** Marketbot is a private e-commerce automation platform for offer collection, subscriptions, affiliate links, Telegram notifications and an operational admin panel.
 

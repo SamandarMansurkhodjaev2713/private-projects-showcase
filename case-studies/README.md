@@ -1,4 +1,6 @@
-# Технические case studies
+# Технические case studies / Technical Case Studies
+
+## Русский
 
 Здесь лежат более глубокие описания проектов: не “рекламная карточка”, а технический one-pager с проблемой, стеком, архитектурой и причинами решений. Все материалы написаны безопасно: без приватного кода, секретов, клиентских данных и внутренней бизнес-логики.
 
@@ -21,7 +23,7 @@
 
 ---
 
-# Technical Case Studies
+## English
 
 This folder contains deeper project writeups: not marketing cards, but technical one-pagers with problem, stack, architecture and reasoning. All materials are code-safe: no private source code, secrets, customer data or internal business logic.
 

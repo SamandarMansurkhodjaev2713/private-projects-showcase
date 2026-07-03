@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** это не prompt-demo, а live legal AI продукт с источниками, доменной логикой и roadmap.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | Legal AI assistant, доступный на [klawis.uz](https://klawis.uz) |
+| Сложность | RAG, legal routing, citations, sensitive-domain UX |
+| Эффект | Показывает applied AI, где важны доверие, доказательность и продуктовая ответственность |
+
 **Что это:** Klawis - задеплоенный legal AI продукт, который помогает пользователю разобраться в юридической ситуации: структурирует проблему, определяет направление, подбирает релевантные источники, объясняет возможные шаги и делает ответ проверяемым.
 
 **Какую проблему решает:** обычный chatbot в юридическом домене недостаточен: важны источники, юрисдикция, аккуратность формулировок, ограничения ответственности и доверие к ответу. Klawis строится как продукт, где AI не просто “отвечает красиво”, а работает через контекст, документы, routing и проверяемую выдачу.
@@ -26,6 +34,14 @@
 **Что можно показать:** [live product](https://klawis.uz), архитектурную карточку и безопасное описание без приватной логики.
 
 ## English
+
+> **Main signal:** this is not a prompt demo, but a live legal AI product with sources, domain logic and a roadmap.
+
+| Quick view | Detail |
+|---|---|
+| Product | Legal AI assistant live at [klawis.uz](https://klawis.uz) |
+| Complexity | RAG, legal routing, citations and sensitive-domain UX |
+| Impact | Shows applied AI where trust, evidence and product responsibility matter |
 
 **What it is:** Klawis is a deployed legal AI product that helps users understand a legal situation: it structures the problem, identifies the direction, retrieves relevant sources, explains possible next steps and makes the answer traceable.
 

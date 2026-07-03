@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** automation не для happy path, а для нестабильного внешнего workflow с диагностикой и операторским контролем.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | Browser automation система с Telegram control |
+| Сложность | Sessions, timing, retries, diagnostics, Docker runtime |
+| Эффект | Показывает надежную автоматизацию в реальных, ломких условиях |
+
 **Что это:** VFS Killer Main - приватная browser automation система для сложного внешнего workflow, управляемая через Telegram bot и поддержанная diagnostics-first инструментами.
 
 **Какую проблему решает:** реальные browser workflows ломаются из-за таймингов, сессий, внешнего состояния, сетевых ошибок, прокси, нестабильных страниц и anti-automation friction. В таких задачах недостаточно написать “скрипт, который кликает кнопки”.
@@ -26,6 +34,14 @@
 **Что можно показать:** code-safe architecture, demo script, обезличенный workflow, screenshots diagnostics и описание без приватных данных.
 
 ## English
+
+> **Main signal:** automation built for unstable external workflows, not happy-path scripting.
+
+| Quick view | Detail |
+|---|---|
+| Product | Browser automation system with Telegram control |
+| Complexity | Sessions, timing, retries, diagnostics and Docker runtime |
+| Impact | Shows reliable automation under fragile real-world conditions |
 
 **What it is:** VFS Killer Main is a private browser automation system for a complex external workflow, controlled through a Telegram bot and supported by diagnostics-first tooling.
 

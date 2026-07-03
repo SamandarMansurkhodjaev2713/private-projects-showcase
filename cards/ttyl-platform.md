@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** полноценная on-prem collaboration платформа с enterprise-сложностью, а не очередной CRUD.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | Self-hosted workspace для проектов, чатов, файлов и audit |
+| Сложность | RBAC, realtime, storage, search, workers, on-prem deployment |
+| Эффект | Показывает system design и понимание корпоративных ограничений |
+
 **Что это:** TTYL Platform - приватная on-prem collaboration платформа для команд: проекты, задачи, чаты, файлы, поиск, уведомления, роли, audit logs и рабочее пространство без передачи данных во внешний SaaS.
 
 **Какую проблему решает:** некоторым командам нужны современные collaboration tools, но они не могут или не хотят отдавать внутренние данные сторонним сервисам. Платформа дает контролируемую среду, где коммуникация, файлы и управление проектами находятся внутри инфраструктуры.
@@ -26,6 +34,14 @@
 **Что можно показать:** code-safe архитектуру, карточку, диаграмму модулей и приватный walkthrough без исходного кода.
 
 ## English
+
+> **Main signal:** a real on-prem collaboration platform with enterprise complexity, not another CRUD app.
+
+| Quick view | Detail |
+|---|---|
+| Product | Self-hosted workspace for projects, chat, files and audit |
+| Complexity | RBAC, realtime, storage, search, workers and on-prem deployment |
+| Impact | Shows system design and understanding of enterprise constraints |
 
 **What it is:** TTYL Platform is a private on-prem collaboration platform for teams: projects, tasks, chat, files, search, notifications, roles, audit logs and workspace management without moving internal data into an external SaaS.
 

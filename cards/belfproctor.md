@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** системный проект за пределами web: Windows agent, protected telemetry и admin review workflow.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | Proctoring/monitoring система с desktop-agent |
+| Сложность | Heartbeat, uploads, retries, policy, admin visibility |
+| Эффект | Показывает работу с чувствительными данными, deployment и operational UX |
+
 **Что это:** BelfProctor - приватная proctoring/monitoring система с Windows client-agent, backend ingestion API и admin panel для просмотра событий, статусов и материалов проверки.
 
 **Какую проблему решает:** proctoring система не может быть просто веб-формой. Нужно устанавливаемое клиентское приложение, heartbeat, сбор событий, защищенная передача данных, retry logic, политика мониторинга, admin visibility и понятный workflow проверки.
@@ -26,6 +34,14 @@
 **Что можно показать:** архитектуру, карточку, safe demo сценарий, обезличенные screenshots и описание без клиентских данных.
 
 ## English
+
+> **Main signal:** a system project beyond web: Windows agent, protected telemetry and admin review workflow.
+
+| Quick view | Detail |
+|---|---|
+| Product | Proctoring/monitoring system with a desktop agent |
+| Complexity | Heartbeat, uploads, retries, policy and admin visibility |
+| Impact | Shows sensitive data handling, deployment and operational UX |
 
 **What it is:** BelfProctor is a private proctoring/monitoring system with a Windows client-agent, backend ingestion API and admin panel for reviewing events, statuses and verification material.
 

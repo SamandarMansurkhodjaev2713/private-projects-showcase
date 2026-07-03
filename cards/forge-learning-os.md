@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** Learning OS, где обучение превращается в доказательства навыка, портфолио и коммерческие офферы.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | AI-native learning platform с evidence engine |
+| Сложность | Missions, gates, portfolio cases, client-offer workflow |
+| Эффект | Показывает product-first мышление и сильную доменную модель |
+
 **Что это:** Forge / Learning OS - личный продукт и case study платформы для AI-native обучения, где прогресс измеряется не “просмотренными уроками”, а реальными артефактами: проектами, evidence, портфолио-кейсами, миссиями и client-offer workflow.
 
 **Какую проблему решает:** большинство learning platforms продают контент, но слабо показывают реальный навык. Forge превращает обучение в систему доказательств: что человек построил, как он прошел gates, какие артефакты создал и как это можно показать рынку.
@@ -26,6 +34,14 @@
 **Что можно показать:** private case study, архитектурную карту, product walkthrough и план безопасной demo-версии.
 
 ## English
+
+> **Main signal:** a Learning OS where education becomes proof of skill, portfolio output and commercial offers.
+
+| Quick view | Detail |
+|---|---|
+| Product | AI-native learning platform with an evidence engine |
+| Complexity | Missions, gates, portfolio cases and client-offer workflow |
+| Impact | Shows product-first thinking and a strong domain model |
 
 **What it is:** Forge / Learning OS is a personal product and case study for an AI-native learning platform where progress is measured not by “watched lessons”, but by real artifacts: projects, evidence, portfolio cases, missions and client-offer workflow.
 

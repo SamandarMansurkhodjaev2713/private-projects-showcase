@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** Telegram automation, где есть не только бот, но и workflow, reminders, async jobs, CI и reliability patterns.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | Public Rust bot + private AI task workflow |
+| Сложность | State, reminders, outbox, retries, SQLx, Telegram UX |
+| Эффект | Показывает backend discipline в практической автоматизации |
+
 **Что это:** направление Telegram task automation: публичный Rust `Task-manager` и приватный `Task Manage Bot` case study с AI/voice-to-task логикой, напоминаниями, назначениями и операционными workflow.
 
 **Какую проблему решает:** задачи в чатах, голосовых сообщениях и быстрых переписках легко теряются. Нужна система, которая превращает неструктурированную коммуникацию в задачи, сроки, напоминания, статусы и контроль выполнения.
@@ -26,6 +34,14 @@
 **Что можно показать:** [публичный репозиторий](https://github.com/SamandarMansurkhodjaev2713/Task-manager), GitHub Actions CI, карточку и private case study.
 
 ## English
+
+> **Main signal:** Telegram automation with workflow, reminders, async jobs, CI and reliability patterns.
+
+| Quick view | Detail |
+|---|---|
+| Product | Public Rust bot + private AI task workflow |
+| Complexity | State, reminders, outbox, retries, SQLx and Telegram UX |
+| Impact | Shows backend discipline in practical automation |
 
 **What it is:** a Telegram task automation direction: the public Rust `Task-manager` and the private `Task Manage Bot` case study with AI/voice-to-task logic, reminders, assignments and operational workflows.
 

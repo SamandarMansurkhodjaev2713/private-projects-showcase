@@ -1,5 +1,7 @@
 # Demo & Interview Kit
 
+## Русский
+
 Практичный сценарий, что показывать на интервью, созвоне с клиентом, разговоре с техлидом или презентации партнеру.
 
 ## Правила безопасного показа
@@ -61,7 +63,7 @@
 
 ---
 
-# Demo & Interview Kit
+## English
 
 A practical route for interviews, client calls, tech-lead conversations and partner presentations.
 

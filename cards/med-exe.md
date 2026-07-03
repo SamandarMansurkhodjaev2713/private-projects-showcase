@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** offline desktop app для чувствительного домена, где важны Rust core, typed boundaries и точность.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | Health-tech/research desktop application |
+| Сложность | Rust calculations, Tauri shell, typed IPC, SQLite, offline privacy |
+| Эффект | Показывает аккуратность в домене, где ошибки и данные критичны |
+
 **Что это:** med-exe - приватное offline desktop приложение для медицинских/исследовательских расчетов, patient profiles и локальной работы с чувствительной расчетной логикой.
 
 **Какую проблему решает:** в health-tech и research-инструментах нельзя полагаться на “примерно работает”. Важны deterministic calculations, воспроизводимость, приватность, offline mode и понятное разделение UI от доменной логики.
@@ -26,6 +34,14 @@
 **Что можно показать:** code-safe case study, архитектуру, обезличенный walkthrough и screenshots без персональных данных.
 
 ## English
+
+> **Main signal:** an offline desktop app for a sensitive domain where Rust core, typed boundaries and accuracy matter.
+
+| Quick view | Detail |
+|---|---|
+| Product | Health-tech/research desktop application |
+| Complexity | Rust calculations, Tauri shell, typed IPC, SQLite and offline privacy |
+| Impact | Shows care in a domain where errors and data are critical |
 
 **What it is:** med-exe is a private offline desktop application for medical/research calculations, patient profiles and local work with sensitive calculation logic.
 

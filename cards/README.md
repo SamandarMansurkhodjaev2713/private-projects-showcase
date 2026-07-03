@@ -1,4 +1,6 @@
-# Галерея карточек проектов
+# Галерея карточек проектов / Project Card Gallery
+
+## Русский
 
 Здесь лежат отдельные, shareable карточки сильных проектов. Каждую карточку можно отправить HR, техлиду, клиенту или партнеру как самостоятельный материал: сначала русский блок, затем английский.
 
@@ -31,7 +33,7 @@
 
 ---
 
-# Project Card Gallery
+## English
 
 This folder contains separate shareable cards for selected strong projects. Each card can be sent to a recruiter, tech lead, client or partner as a standalone material: Russian first, English second.
 

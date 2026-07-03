@@ -1,4 +1,6 @@
-# Карта проектов
+# Карта проектов / Project Map
+
+## Русский
 
 Короткая, безопасная и продающая карта сильных проектов. Если времени мало, этот файл дает быстрый ответ на три вопроса: **что я строю**, **какой стек использую** и **почему эти проекты показывают сильный инженерный уровень**.
 
@@ -51,7 +53,7 @@
 
 ---
 
-# Project Map
+## English
 
 A short, safe and persuasive map of selected strong projects. If time is limited, this file answers three questions quickly: **what I build**, **what stack I use** and **why these projects demonstrate strong engineering ability**.
 

@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** публичный proof, где видно весь путь от firmware и serial protocol до realtime dashboard.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | Embedded + full-stack smart environment system |
+| Сложность | C++ firmware, protocol, Node bridge, WebSocket, React dashboard |
+| Эффект | Показывает широту: hardware-adjacent logic, backend bridge и UI |
+
 **Что это:** Sentinel Edge / smart-system - публичный embedded + full-stack проект: firmware на Arduino-style C++, serial protocol, Node.js bridge и React/Vite realtime dashboard для локальной smart environment системы.
 
 **Какую проблему решает:** многие embedded демо заканчиваются выводом данных с датчика. Здесь проект показывает полный контур: сбор телеметрии, baseline learning, anomaly scoring, события, serial communication, bridge и операторский dashboard.
@@ -26,6 +34,14 @@
 **Что можно показать:** [публичный репозиторий](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system), [dashboard demo](https://samandarmansurkhodjaev2713.github.io/sentinel-edge-smart-system/), карточку и документацию.
 
 ## English
+
+> **Main signal:** public proof that shows the full path from firmware and serial protocol to realtime dashboard.
+
+| Quick view | Detail |
+|---|---|
+| Product | Embedded + full-stack smart environment system |
+| Complexity | C++ firmware, protocol, Node bridge, WebSocket and React dashboard |
+| Impact | Shows breadth: hardware-adjacent logic, backend bridge and UI |
 
 **What it is:** Sentinel Edge / smart-system is a public embedded + full-stack project: Arduino-style C++ firmware, serial protocol, Node.js bridge and React/Vite realtime dashboard for a local smart environment system.
 

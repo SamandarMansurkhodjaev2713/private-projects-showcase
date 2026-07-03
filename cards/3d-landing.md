@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** визуальный frontend, который можно открыть и сразу почувствовать: WebGL, motion, live demo и polish.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | Interactive Three.js landing |
+| Сложность | 3D scene, animation loop, responsive layout, performance choices |
+| Эффект | Показывает вкус, визуальное мышление и frontend, который запоминается |
+
 **Что это:** 3d-landing - публичный Three.js/WebGL landing с интерактивной 3D-сценой, визуальной подачей, motion и performance-aware frontend реализацией.
 
 **Какую проблему решает:** многие портфолио-проекты выглядят как статичные страницы. Этот проект показывает, что я могу делать frontend, который не только работает, но и производит впечатление: сцена, движение, адаптивность, визуальный ритм и аккуратная презентация.
@@ -26,6 +34,14 @@
 **Что можно показать:** [live demo](https://samandarmansurkhodjaev2713.github.io/3d-landing/), [public repo](https://github.com/SamandarMansurkhodjaev2713/3d-landing), карточку и screenshot/video.
 
 ## English
+
+> **Main signal:** visual frontend that can be opened and felt immediately: WebGL, motion, live demo and polish.
+
+| Quick view | Detail |
+|---|---|
+| Product | Interactive Three.js landing |
+| Complexity | 3D scene, animation loop, responsive layout and performance choices |
+| Impact | Shows taste, visual thinking and memorable frontend work |
 
 **What it is:** 3d-landing is a public Three.js/WebGL landing with an interactive 3D scene, visual storytelling, motion and performance-aware frontend implementation.
 

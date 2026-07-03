@@ -9,6 +9,14 @@
 
 ## Русский
 
+> **Главный сигнал:** это live founder-led продукт, где я отвечаю не только за код, но и за продукт, эмоцию, privacy и запуск.
+
+| Быстрый взгляд | Деталь |
+|---|---|
+| Продукт | Consumer app для пар, live на [SoftlyLove.uz](https://softlylove.uz) |
+| Сложность | Emotional UX, private flows, mobile-first, retention thinking |
+| Эффект | Показывает founder mindset и способность строить продукт от идеи до рынка |
+
 **Что это:** CoupleOS / Softly - мой founder-led продукт для пар, построенный вокруг эмоционального UX, приватных взаимодействий, привычек, вопросов, воспоминаний и легких relationship flows. Live: [SoftlyLove.uz](https://softlylove.uz).
 
 **Какую проблему решает:** отношениям часто не хватает мягкой структуры: регулярных check-ins, маленьких ритуалов, безопасного пространства для вопросов и ощущений. Продукт помогает превратить это в понятный mobile-first опыт, который не выглядит как сухой трекер.
@@ -26,6 +34,14 @@
 **Что можно показать:** [SoftlyLove.uz](https://softlylove.uz), карточку, roadmap, безопасные скриншоты и product walkthrough.
 
 ## English
+
+> **Main signal:** this is a live founder-led product where I own not only code, but product, emotion, privacy and launch.
+
+| Quick view | Detail |
+|---|---|
+| Product | Consumer app for couples, live at [SoftlyLove.uz](https://softlylove.uz) |
+| Complexity | Emotional UX, private flows, mobile-first product and retention thinking |
+| Impact | Shows founder mindset and the ability to build from idea to market |
 
 **What it is:** CoupleOS / Softly is my founder-led product for couples, built around emotional UX, private interactions, habits, questions, memories and lightweight relationship flows. Live: [SoftlyLove.uz](https://softlylove.uz).
 

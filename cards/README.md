@@ -66,4 +66,4 @@ These cards are written as a safe showcase: they present the product, stack, arc
 
 ---
 
-[Назад к витрине](../README.md) | [Карта проектов](../project-cards.md) | [Job Package](../job-package.md) | [Demo Kit](../demo-kit.md) | [Visual Evidence](../visual-evidence-pack.md)
+[Назад к витрине](../README.md) | [Карта проектов](../project-cards.md) | [Путеводитель](../portfolio-guide.md) | [Сотрудничество](../collaboration.md) | [Доказательства](../proof.md)

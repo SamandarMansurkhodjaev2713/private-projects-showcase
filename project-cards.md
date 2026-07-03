@@ -46,9 +46,9 @@
 ## Полезные ссылки
 
 - [Галерея карточек](cards/README.md)
-- [Job package](job-package.md)
-- [Demo kit](demo-kit.md)
-- [Visual evidence pack](visual-evidence-pack.md)
+- [Путеводитель по портфолио](portfolio-guide.md)
+- [Сотрудничество](collaboration.md)
+- [Доказательства](proof.md)
 - [Главная витрина](README.md)
 
 ---
@@ -99,7 +99,7 @@ For deeper review, open the separate cards in [`cards/`](cards/README.md). Every
 ## Useful Links
 
 - [Project card gallery](cards/README.md)
-- [Job package](job-package.md)
-- [Demo kit](demo-kit.md)
-- [Visual evidence pack](visual-evidence-pack.md)
+- [Portfolio guide](portfolio-guide.md)
+- [Collaboration](collaboration.md)
+- [Proof](proof.md)
 - [Main showcase](README.md)

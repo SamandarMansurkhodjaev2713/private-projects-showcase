@@ -1,4 +1,4 @@
-# Visual Evidence Pack
+# Доказательства / Proof
 
 ## Русский
 
@@ -19,29 +19,19 @@
 
 | Проект | Лучший формат | Почему |
 |---|---|---|
-| TTYL Platform | 3-5 обезличенных screenshots + architecture diagram | Показать enterprise system design без приватного кода |
+| TTYL Platform | Обезличенные screenshots + architecture diagram | Показать enterprise system design без приватного кода |
 | BelfProctor | Safe admin screenshots + agent flow diagram | Показать Windows agent, telemetry и review workflow |
 | VFS Killer Main | Diagnostics screenshots + workflow diagram | Показать сложность automation без раскрытия чувствительных данных |
 | Marketbot | Service map + admin flow screenshots | Показать event-driven commerce automation |
 | med-exe | Offline app screenshots без персональных данных | Показать desktop architecture и sensitive-domain UX |
 | Forge / Learning OS | Product walkthrough + architecture map | Показать evidence engine, portfolio cases и client-offer workflow |
 
-## Что уже выглядит сильнее
-
-- В профиле есть понятное позиционирование: full-stack, AI automation, product-minded software engineer, founder.
-- Образование в IT Park University видно как сильный credibility signal.
-- Приватные проекты не спрятаны, а оформлены как профессиональные code-safe case studies.
-- Публичные проекты получили live proof, CI/Actions или demo routes там, где это безопасно.
-- Карточки проектов теперь читаются сначала на русском, затем на английском.
-
 ## Safety rules
 
 - Не показывать приватный source code.
 - Не показывать `.env`, tokens, credentials, API keys.
 - Не показывать client data, внутренние названия компаний, реальные персональные данные.
-- Для приватных проектов использовать карточки, архитектурные схемы, обезличенные screenshots и demo scripts.
-
----
+- Для приватных проектов использовать карточки, архитектурные схемы, обезличенные screenshots и case studies.
 
 ## English
 
@@ -62,24 +52,20 @@ Map of what can be opened, verified or shown visually without exposing private c
 
 | Project | Best format | Why |
 |---|---|---|
-| TTYL Platform | 3-5 anonymized screenshots + architecture diagram | Show enterprise system design without private code |
+| TTYL Platform | Anonymized screenshots + architecture diagram | Show enterprise system design without private code |
 | BelfProctor | Safe admin screenshots + agent flow diagram | Show Windows agent, telemetry and review workflow |
 | VFS Killer Main | Diagnostic screenshots + workflow diagram | Show automation complexity without sensitive data |
 | Marketbot | Service map + admin flow screenshots | Show event-driven commerce automation |
 | med-exe | Offline app screenshots without personal data | Show desktop architecture and sensitive-domain UX |
 | Forge / Learning OS | Product walkthrough + architecture map | Show evidence engine, portfolio cases and client-offer workflow |
 
-## What Already Looks Stronger
-
-- The profile has clear positioning: full-stack, AI automation, product-minded software engineer and founder.
-- IT Park University education is visible as a credibility signal.
-- Private projects are not hidden; they are presented as professional code-safe case studies.
-- Public projects have live proof, CI/Actions or demo routes where safe.
-- Project cards now read Russian first, English second.
-
 ## Safety Rules
 
 - Do not show private source code.
 - Do not show `.env`, tokens, credentials or API keys.
 - Do not show client data, internal company names or real personal data.
-- For private projects, use cards, architecture diagrams, anonymized screenshots and demo scripts.
+- For private projects, use cards, architecture diagrams, anonymized screenshots and case studies.
+
+---
+
+[Главная витрина](README.md) | [Путеводитель](portfolio-guide.md) | [Сотрудничество](collaboration.md) | [Карточки](cards/README.md)

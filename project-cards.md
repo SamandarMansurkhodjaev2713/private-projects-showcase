@@ -6,6 +6,10 @@ These cards are designed for recruiters, tech leads, founders and clients who ne
 
 > Source code is public only where safe. Private/commercial projects are presented through architecture and product case studies without exposing customer data, secrets or proprietary implementation details.
 
+## Shareable One-Page Cards
+
+For cleaner per-project sharing, open the **[Project Card Gallery](cards/README.md)**. It contains separate English/Russian one-page cards for each strong project.
+
 ## Quick Index
 
 | Project | Category | Strongest signal |
@@ -19,6 +23,7 @@ These cards are designed for recruiters, tech leads, founders and clients who ne
 | [Task-manager / Task Manage Bot](#task-manager--task-manage-bot) | Telegram automation | Clean bot architecture, reminders, async jobs and task workflows |
 | [med-exe](#med-exe) | Health-tech desktop | Offline Tauri/Rust desktop architecture for sensitive medical logic |
 | [Marketbot](#marketbot) | E-commerce automation | Event-driven offers, subscriptions, affiliate links and Telegram notifications |
+| [CoupleOS](#coupleos) | Consumer relationship product | Mobile-first private UX, emotional product design and retention mechanics |
 | [3d-landing](#3d-landing) | Creative frontend | Three.js/WebGL landing, visual frontend and adaptive performance |
 
 ---
@@ -194,6 +199,25 @@ These cards are designed for recruiters, tech leads, founders and clients who ne
 
 ---
 
+## CoupleOS
+
+<p>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-App-111111?style=flat-square">
+  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-Auth%20%2B%20Data-3ecf8e?style=flat-square">
+  <img alt="PWA" src="https://img.shields.io/badge/PWA-Mobile--first-5b21b6?style=flat-square">
+  <img alt="Product" src="https://img.shields.io/badge/Signal-Consumer%20Product%20Thinking-be185d?style=flat-square">
+</p>
+
+| Field | English | Русский |
+|---|---|---|
+| What it is | A mobile-first product for couples: emotional check-ins, memories, rituals, private interactions, questions and lightweight relationship flows. | Mobile-first продукт для пар: emotional check-ins, воспоминания, rituals, private interactions, вопросы и лёгкие relationship flows. |
+| Problem | Relationship products need to feel personal and safe while still having retention mechanics, privacy-aware data handling and fast mobile UX. | Relationship-продукты должны ощущаться личными и безопасными, но при этом иметь retention mechanics, приватную работу с данными и быстрый mobile UX. |
+| Architecture | Next.js/React mobile-first app, Supabase auth/database/storage, feature modules, PWA direction, push-notification flow and clear prototype/production boundaries. | Next.js/React mobile-first app, Supabase auth/database/storage, feature modules, PWA direction, push-notification flow и понятные границы prototype/production. |
+| Why it matters | Shows founder-style consumer product thinking: emotional UX, privacy, product mechanics, mobile polish and design taste. | Показывает founder-style consumer product thinking: эмоциональный UX, приватность, product mechanics, mobile polish и вкус к дизайну. |
+| Links | [One-page card](cards/coupleos.md) · [Case study](case-studies/coupleos.md) | [Карточка](cards/coupleos.md) · [Описание кейса](case-studies/coupleos.md) |
+
+---
+
 ## 3d-landing
 
 <p>
@@ -215,18 +239,18 @@ These cards are designed for recruiters, tech leads, founders and clients who ne
 
 ## How To Read These Cards
 
-For a recruiter: start with **Forge**, **Sentinel Edge**, **Task-manager** and **3d-landing** to see breadth and public proof.
+For a recruiter: start with **Forge**, **Sentinel Edge**, **Task-manager**, **CoupleOS** and **3d-landing** to see breadth, product taste and public proof.
 
 For a tech lead: start with **TTYL Platform**, **Klawis**, **BelfProctor**, **VFS Killer Main**, **Marketbot** and **med-exe** to see architecture, domain complexity and system design.
 
-For a founder/client: start with **Forge**, **Marketbot**, **Task-manager** and **Klawis** to see product thinking and business workflow automation.
+For a founder/client: start with **Forge**, **CoupleOS**, **Marketbot**, **Task-manager** and **Klawis** to see product thinking and business workflow automation.
 
 ---
 
 # Русская версия: как читать витрину
 
-Для HR: начните с **Forge**, **Sentinel Edge**, **Task-manager** и **3d-landing** — там быстро видна широта и публичные доказательства.
+Для HR: начните с **Forge**, **Sentinel Edge**, **Task-manager**, **CoupleOS** и **3d-landing** — там быстро видна широта, продуктовый вкус и публичные доказательства.
 
 Для техлида: начните с **TTYL Platform**, **Klawis**, **BelfProctor**, **VFS Killer Main**, **Marketbot** и **med-exe** — там видны архитектура, доменная сложность и системное мышление.
 
-Для founder/client: начните с **Forge**, **Marketbot**, **Task-manager** и **Klawis** — там лучше всего видны продуктовая логика и автоматизация бизнес-процессов.
+Для founder/client: начните с **Forge**, **CoupleOS**, **Marketbot**, **Task-manager** и **Klawis** — там лучше всего видны продуктовая логика и автоматизация бизнес-процессов.

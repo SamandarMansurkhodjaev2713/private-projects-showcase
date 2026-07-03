@@ -43,6 +43,8 @@ These cards are designed for fast review by recruiters, tech leads, founders and
 - For **freelance or contract sales**, start with Forge, Marketbot, Task-manager, Klawis and VFS Killer Main.
 - For **investors or partners**, start with Forge, CoupleOS, TTYL Platform, Klawis and Sentinel Edge.
 
+For a more complete hiring and presentation flow, open the [Job Package](../job-package.md) and [Demo & Interview Kit](../demo-kit.md).
+
 ---
 
-[Back to main showcase](../README.md) · [Compact project cards](../project-cards.md)
+[Back to main showcase](../README.md) · [Compact project cards](../project-cards.md) · [Job Package](../job-package.md) · [Demo Kit](../demo-kit.md)

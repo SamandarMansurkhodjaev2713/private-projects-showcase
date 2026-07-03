@@ -23,6 +23,13 @@ Start here for a fast, polished overview of the strongest projects:
 
 For separate shareable one-page cards, open the **[Project Card Gallery](cards/README.md)**.
 
+## Hiring & Demo Package
+
+Use these when you need to share the portfolio with a recruiter, tech lead, founder, client or investor:
+
+- **[Job Package](job-package.md)** — positioning, role fit, short pitches, outreach messages and proof map.
+- **[Demo & Interview Kit](demo-kit.md)** — what to show first, project demo scripts, safe private-code explanation and screenshot/video checklist.
+
 ## Featured Case Studies
 
 | Project | Domain | Stack | Main signal |
@@ -95,6 +102,13 @@ These projects show a profile that is broader than “frontend” or “backend�
 **[Bilingual project cards](project-cards.md)** — карточки на английском и русском для Forge, TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Sentinel Edge, Task-manager, med-exe, Marketbot, CoupleOS и 3d-landing.
 
 Для отдельных shareable one-page карточек откройте **[Project Card Gallery](cards/README.md)**.
+
+## Пакет для найма и демонстрации
+
+Эти документы удобно отправлять HR, техлиду, founder/client или партнёру:
+
+- **[Job Package](job-package.md)** — позиционирование, подходящие роли, короткие pitches, сообщения для отправки и карта доказательств.
+- **[Demo & Interview Kit](demo-kit.md)** — что показывать первым, скрипты демонстрации проектов, безопасное объяснение приватного кода и checklist для скриншотов/видео.
 
 ## Что показывают эти проекты
 

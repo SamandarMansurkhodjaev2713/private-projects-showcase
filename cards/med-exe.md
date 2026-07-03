@@ -14,6 +14,10 @@
 
 **Problem it solves:** clinical and research tools need deterministic logic, reproducibility and privacy-aware local execution. A web-only product can be inappropriate when sensitive data should remain on the machine.
 
+**Why it stands out:** med-exe is strong because it treats sensitive calculation software as a real product, not a quick form. The architecture separates UI, typed desktop IPC, Rust domain logic, local persistence and privacy boundaries, which is exactly what matters in medical-style tooling.
+
+**Strongest signals:** Rust/Tauri desktop architecture, deterministic domain logic, local-first privacy, typed boundaries, SQLite persistence, testing/formatting discipline and separation between UX and sensitive calculations.
+
 **Stack:** Tauri 2, Rust workspace, React, TypeScript, Vite, SQLite, typed IPC boundaries, Zod/typed validation, Rust tests, clippy, rustfmt, frontend tests and typecheck.
 
 **Architecture:** the UI communicates with the Rust core through typed Tauri commands. Calculation logic lives in the domain/calculation engine, while persistence is handled separately through SQLite.
@@ -38,6 +42,10 @@ flowchart LR
 **Что это:** med-exe — приватное offline Windows desktop application для расчёта cardiometabolic risk и управления patient profiles.
 
 **Какую проблему решает:** медицинские и research-инструменты требуют deterministic logic, reproducibility и privacy-aware локального запуска. Web-only архитектура не всегда подходит, если sensitive data должны оставаться на устройстве.
+
+**Уникальность:** med-exe силён тем, что относится к sensitive calculation software как к настоящему продукту, а не как к быстрой форме. Архитектура разделяет UI, typed desktop IPC, Rust domain logic, local persistence и privacy boundaries — именно это важно в medical-style tooling.
+
+**Сильнейшие стороны:** Rust/Tauri desktop architecture, deterministic domain logic, local-first privacy, typed boundaries, SQLite persistence, testing/formatting discipline и разделение UX от чувствительных вычислений.
 
 **Стек:** Tauri 2, Rust workspace, React, TypeScript, Vite, SQLite, typed IPC boundaries, Zod/typed validation, Rust tests, clippy, rustfmt, frontend tests и typecheck.
 

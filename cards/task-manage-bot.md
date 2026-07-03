@@ -14,6 +14,10 @@
 
 **Problem it solves:** teams often create tasks informally in chats and voice messages. Without assignment, deadlines, reminders and review loops, important work disappears inside conversation history.
 
+**Why it stands out:** this project is strong because it turns messy human communication into a managed operational loop. It is not only a Telegram bot: it combines transcription, structured extraction, task domain logic, reminders, queues/outbox, retries and team-facing reliability patterns.
+
+**Strongest signals:** practical AI automation, voice-to-task flow, structured outputs, reminder/outbox patterns, bot UX, idempotency, clean architecture and public/private proof in the same direction.
+
 **Stack:** Rust/Teloxide/SQLx/Docker for the public task-manager direction; Python 3.12, aiogram 3, OpenAI transcription/structured outputs, PostgreSQL, SQLAlchemy async, Alembic, queues/outbox, retries, pytest, mypy, ruff and Docker Compose for the private bot case.
 
 **Architecture:** the bot interface is separated from transcription, structured parsing, task domain logic, persistence and reminders. Background work uses outbox/retry patterns so the bot can remain responsive.
@@ -40,6 +44,10 @@ flowchart TB
 **Что это:** Task-manager / Task Manage Bot — направление Telegram automation. С одной стороны есть публичный Rust task-manager, с другой — приватный AI-powered bot, который превращает сообщения и голосовые в задачи, напоминания и operational workflow.
 
 **Какую проблему решает:** в командах задачи часто рождаются в чатах и голосовых. Без назначения, сроков, напоминаний и review loop они теряются в истории сообщений.
+
+**Уникальность:** проект силён тем, что превращает хаотичную человеческую коммуникацию в управляемый operational loop. Это не просто Telegram bot: здесь есть transcription, structured extraction, task domain logic, reminders, queues/outbox, retries и reliability patterns для командной работы.
+
+**Сильнейшие стороны:** practical AI automation, voice-to-task flow, structured outputs, reminder/outbox patterns, bot UX, idempotency, clean architecture и связка public/private proof в одном направлении.
 
 **Стек:** Rust/Teloxide/SQLx/Docker для публичного направления Task-manager; Python 3.12, aiogram 3, OpenAI transcription/structured outputs, PostgreSQL, SQLAlchemy async, Alembic, queues/outbox, retries, pytest, mypy, ruff, Docker Compose для приватного bot case.
 

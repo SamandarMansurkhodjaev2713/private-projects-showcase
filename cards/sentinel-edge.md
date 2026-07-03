@@ -14,6 +14,10 @@
 
 **Problem it solves:** many embedded demos stop at raw sensor values. Sentinel Edge adds adaptive baselines, anomaly scoring, finite-state machine states, explainable events and a real dashboard without pretending to be heavyweight cloud AI.
 
+**Why it stands out:** Sentinel Edge is a rare portfolio signal because it connects hardware-style constraints with full-stack product presentation. It shows that the system is thought through from firmware and protocol design to realtime UI, documentation, QA notes and public repo polish.
+
+**Strongest signals:** C++/Arduino-style firmware, compact protocol design, Node serial bridge, realtime React dashboard, bounded state, anomaly logic, hardware/software integration and public documentation.
+
 **Stack:** Arduino-style C++ for UNO-class devices, serial `TEL`/`EVT`/`CMD` protocol, Node.js, `serialport`, `ws`, React 19, Vite, TypeScript, Tailwind CSS, Framer Motion, Zustand, uPlot and detailed product/QA/deployment docs.
 
 **Architecture:** firmware handles sensors, signal processing, baselines, anomaly scoring, FSM decisions and protocol output. The Node bridge isolates serial transport from the browser. The dashboard focuses on realtime visualization and controls.
@@ -39,6 +43,10 @@ flowchart LR
 **Что это:** Sentinel Edge / smart-system — публичный проект на стыке embedded и full-stack: Arduino-style прошивка, serial protocol, Node.js bridge и React/Vite realtime dashboard.
 
 **Какую проблему решает:** многие embedded-демо заканчиваются выводом значений датчиков. Здесь есть adaptive baseline, anomaly scoring, FSM states, explainable events и полноценная operator console без фейкового заявления про “большой AI”.
+
+**Уникальность:** Sentinel Edge — редкий сигнал для портфолио, потому что соединяет hardware-style ограничения с full-stack продуктовой подачей. Здесь видно мышление от firmware и protocol design до realtime UI, документации, QA notes и публично оформленного repo.
+
+**Сильнейшие стороны:** C++/Arduino-style firmware, compact protocol design, Node serial bridge, realtime React dashboard, bounded state, anomaly logic, hardware/software integration и публичная документация.
 
 **Стек:** Arduino-style C++ для UNO-class devices, serial protocol `TEL`/`EVT`/`CMD`, Node.js, `serialport`, `ws`, React 19, Vite, TypeScript, Tailwind CSS, Framer Motion, Zustand, uPlot, подробная документация по продукту, архитектуре, QA и демо.
 

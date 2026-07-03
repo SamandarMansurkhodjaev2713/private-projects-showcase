@@ -16,14 +16,14 @@ For cleaner per-project sharing, open the **[Project Card Gallery](cards/README.
 |---|---|---|
 | [Forge / Learning OS](#forge--learning-os) | EdTech / product platform | Founder-style product engineering, evidence engine, portfolio and client-offer workflows |
 | [TTYL Platform](#ttyl-platform) | Enterprise collaboration | On-prem system design: projects, chat, files, search, audit and realtime |
-| [Klawis](#klawis) | Legal-tech AI | RAG, citations, deterministic legal routing and AI explanation |
+| [Klawis](#klawis) | Legal-tech AI | Deployed legal AI with RAG, citations, legal routing and active roadmap |
 | [BelfProctor](#belfproctor) | Proctoring / monitoring | Windows client-agent, protected telemetry, admin panel and deployment packaging |
 | [VFS Killer Main](#vfs-killer-main) | Browser automation | Playwright/Camoufox automation, Telegram control, diagnostics and Docker runtime |
 | [Sentinel Edge](#sentinel-edge--smart-system) | Embedded / IoT | Arduino firmware, serial protocol, Node bridge and realtime React dashboard |
 | [Task-manager / Task Manage Bot](#task-manager--task-manage-bot) | Telegram automation | Clean bot architecture, reminders, async jobs and task workflows |
 | [med-exe](#med-exe) | Health-tech desktop | Offline Tauri/Rust desktop architecture for sensitive medical logic |
 | [Marketbot](#marketbot) | E-commerce automation | Event-driven offers, subscriptions, affiliate links and Telegram notifications |
-| [CoupleOS](#coupleos) | Consumer relationship product | Mobile-first private UX, emotional product design and retention mechanics |
+| [CoupleOS / Softly](#coupleos--softly) | Consumer relationship product | Founder-led live product with emotional UX, privacy and retention mechanics |
 | [3d-landing](#3d-landing) | Creative frontend | Three.js/WebGL landing, visual frontend and adaptive performance |
 
 ---
@@ -72,16 +72,17 @@ For cleaner per-project sharing, open the **[Project Card Gallery](cards/README.
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-API-009688?style=flat-square">
   <img alt="RAG" src="https://img.shields.io/badge/RAG-Citations-6d28d9?style=flat-square">
   <img alt="LegalTech" src="https://img.shields.io/badge/Domain-LegalTech-334155?style=flat-square">
+  <img alt="Live" src="https://img.shields.io/badge/Live-klawis.uz-15803d?style=flat-square">
   <img alt="AI" src="https://img.shields.io/badge/Signal-AI%20Architecture-7c3aed?style=flat-square">
 </p>
 
 | Field | English | Русский |
 |---|---|---|
-| What it is | A legal AI navigator that turns a user situation into structured legal direction, likely jurisdiction, documents, timelines and source-backed explanation. | Legal AI navigator, который превращает ситуацию пользователя в структурированное юридическое направление: юрисдикция, документы, сроки и объяснение с источниками. |
+| What it is | A deployed legal AI navigator that turns a user situation into structured legal direction, likely jurisdiction, documents, timelines and source-backed explanation. | Задеплоенный Legal AI navigator, который превращает ситуацию пользователя в структурированное юридическое направление: юрисдикция, документы, сроки и объяснение с источниками. |
 | Problem | Legal answers must be traceable. A generic chatbot is not enough when accuracy, jurisdiction and citations matter. | Юридические ответы должны быть проверяемыми. Обычного chatbot недостаточно, когда важны точность, юрисдикция и ссылки на источники. |
 | Architecture | Deterministic legal routing + retrieval/citations + AI explanation layer + validation/evaluation pipeline. | Deterministic legal routing + retrieval/citations + AI explanation layer + validation/evaluation pipeline. |
-| Why it matters | Demonstrates applied AI beyond prompt engineering: domain routing, RAG, citation discipline and sensitive-domain UX. | Показывает applied AI глубже prompt engineering: доменная маршрутизация, RAG, дисциплина цитирования и UX для чувствительного домена. |
-| Links | [Case study](case-studies/klawis.md) | [Описание кейса](case-studies/klawis.md) |
+| Why it matters | Demonstrates applied AI beyond prompt engineering: domain routing, RAG, citation discipline, active product roadmap and sensitive-domain UX. | Показывает applied AI глубже prompt engineering: доменная маршрутизация, RAG, дисциплина цитирования, roadmap развития и UX для чувствительного домена. |
+| Links | [Live product](https://klawis.uz) · [Case study](case-studies/klawis.md) | [Live product](https://klawis.uz) · [Описание кейса](case-studies/klawis.md) |
 
 ---
 
@@ -199,22 +200,24 @@ For cleaner per-project sharing, open the **[Project Card Gallery](cards/README.
 
 ---
 
-## CoupleOS
+## CoupleOS / Softly
 
 <p>
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-App-111111?style=flat-square">
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-Auth%20%2B%20Data-3ecf8e?style=flat-square">
   <img alt="PWA" src="https://img.shields.io/badge/PWA-Mobile--first-5b21b6?style=flat-square">
+  <img alt="Founder" src="https://img.shields.io/badge/Role-Founder-be185d?style=flat-square">
+  <img alt="Live" src="https://img.shields.io/badge/Live-SoftlyLove.uz-15803d?style=flat-square">
   <img alt="Product" src="https://img.shields.io/badge/Signal-Consumer%20Product%20Thinking-be185d?style=flat-square">
 </p>
 
 | Field | English | Русский |
 |---|---|---|
-| What it is | A mobile-first product for couples: emotional check-ins, memories, rituals, private interactions, questions and lightweight relationship flows. | Mobile-first продукт для пар: emotional check-ins, воспоминания, rituals, private interactions, вопросы и лёгкие relationship flows. |
+| What it is | A founder-led live mobile-first product for couples: emotional check-ins, memories, rituals, private interactions, questions and lightweight relationship flows. | Founder-led live mobile-first продукт для пар: emotional check-ins, воспоминания, rituals, private interactions, вопросы и лёгкие relationship flows. |
 | Problem | Relationship products need to feel personal and safe while still having retention mechanics, privacy-aware data handling and fast mobile UX. | Relationship-продукты должны ощущаться личными и безопасными, но при этом иметь retention mechanics, приватную работу с данными и быстрый mobile UX. |
 | Architecture | Next.js/React mobile-first app, Supabase auth/database/storage, feature modules, PWA direction, push-notification flow and clear prototype/production boundaries. | Next.js/React mobile-first app, Supabase auth/database/storage, feature modules, PWA direction, push-notification flow и понятные границы prototype/production. |
-| Why it matters | Shows founder-style consumer product thinking: emotional UX, privacy, product mechanics, mobile polish and design taste. | Показывает founder-style consumer product thinking: эмоциональный UX, приватность, product mechanics, mobile polish и вкус к дизайну. |
-| Links | [One-page card](cards/coupleos.md) · [Case study](case-studies/coupleos.md) | [Карточка](cards/coupleos.md) · [Описание кейса](case-studies/coupleos.md) |
+| Why it matters | Shows founder-style consumer product thinking: emotional UX, privacy, product mechanics, mobile polish, retention and design taste. | Показывает founder-style consumer product thinking: эмоциональный UX, приватность, product mechanics, mobile polish, retention и вкус к дизайну. |
+| Links | [Live product](https://softlylove.uz) · [One-page card](cards/coupleos.md) · [Case study](case-studies/coupleos.md) | [Live product](https://softlylove.uz) · [Карточка](cards/coupleos.md) · [Описание кейса](case-studies/coupleos.md) |
 
 ---
 
@@ -239,18 +242,18 @@ For cleaner per-project sharing, open the **[Project Card Gallery](cards/README.
 
 ## How To Read These Cards
 
-For a recruiter: start with **Forge**, **Sentinel Edge**, **Task-manager**, **CoupleOS** and **3d-landing** to see breadth, product taste and public proof.
+For a recruiter: start with **Forge**, **Sentinel Edge**, **Task-manager**, **CoupleOS / Softly** and **3d-landing** to see breadth, product taste and public proof.
 
 For a tech lead: start with **TTYL Platform**, **Klawis**, **BelfProctor**, **VFS Killer Main**, **Marketbot** and **med-exe** to see architecture, domain complexity and system design.
 
-For a founder/client: start with **Forge**, **CoupleOS**, **Marketbot**, **Task-manager** and **Klawis** to see product thinking and business workflow automation.
+For a founder/client: start with **Forge**, **CoupleOS / Softly**, **Marketbot**, **Task-manager** and **Klawis** to see product thinking and business workflow automation.
 
 ---
 
 # Русская версия: как читать витрину
 
-Для HR: начните с **Forge**, **Sentinel Edge**, **Task-manager**, **CoupleOS** и **3d-landing** — там быстро видна широта, продуктовый вкус и публичные доказательства.
+Для HR: начните с **Forge**, **Sentinel Edge**, **Task-manager**, **CoupleOS / Softly** и **3d-landing** — там быстро видна широта, продуктовый вкус и публичные доказательства.
 
 Для техлида: начните с **TTYL Platform**, **Klawis**, **BelfProctor**, **VFS Killer Main**, **Marketbot** и **med-exe** — там видны архитектура, доменная сложность и системное мышление.
 
-Для founder/client: начните с **Forge**, **CoupleOS**, **Marketbot**, **Task-manager** и **Klawis** — там лучше всего видны продуктовая логика и автоматизация бизнес-процессов.
+Для founder/client: начните с **Forge**, **CoupleOS / Softly**, **Marketbot**, **Task-manager** и **Klawis** — там лучше всего видны продуктовая логика и автоматизация бизнес-процессов.

@@ -24,19 +24,19 @@ Use this document when someone asks: "What projects should I look at?", "What ex
 
 | Audience | 3-minute route | 10-15 minute route |
 |---|---|---|
-| HR / Recruiter | Profile README -> [Project cards](project-cards.md) -> [Forge](cards/forge-learning-os.md) -> [Sentinel Edge](cards/sentinel-edge.md) | Add [CoupleOS](cards/coupleos.md), [3d-landing](cards/3d-landing.md), [Task-manager](cards/task-manage-bot.md) |
+| HR / Recruiter | Profile README -> [Project cards](project-cards.md) -> [Forge](cards/forge-learning-os.md) -> [Sentinel Edge](cards/sentinel-edge.md) | Add [CoupleOS / Softly](cards/coupleos.md), [3d-landing](cards/3d-landing.md), [Task-manager](cards/task-manage-bot.md) |
 | Tech lead | [TTYL](cards/ttyl-platform.md) -> [Klawis](cards/klawis.md) -> [BelfProctor](cards/belfproctor.md) | Add [VFS Killer Main](cards/vfs-killer-main.md), [Marketbot](cards/marketbot.md), [med-exe](cards/med-exe.md), [Sentinel Edge](cards/sentinel-edge.md) |
-| Founder / Client | [Forge](cards/forge-learning-os.md) -> [Marketbot](cards/marketbot.md) -> [Task Manage Bot](cards/task-manage-bot.md) | Add [Klawis](cards/klawis.md), [VFS Killer Main](cards/vfs-killer-main.md), [CoupleOS](cards/coupleos.md) |
-| Investor / Partner | [Forge](cards/forge-learning-os.md) -> [CoupleOS](cards/coupleos.md) -> [TTYL](cards/ttyl-platform.md) | Add [Klawis](cards/klawis.md), [Sentinel Edge](cards/sentinel-edge.md), [3d-landing](cards/3d-landing.md) |
+| Founder / Client | [Forge](cards/forge-learning-os.md) -> [Marketbot](cards/marketbot.md) -> [Task Manage Bot](cards/task-manage-bot.md) | Add [Klawis](cards/klawis.md), [VFS Killer Main](cards/vfs-killer-main.md), [CoupleOS / Softly](cards/coupleos.md) |
+| Investor / Partner | [Forge](cards/forge-learning-os.md) -> [CoupleOS / Softly](cards/coupleos.md) -> [TTYL](cards/ttyl-platform.md) | Add [Klawis](cards/klawis.md), [Sentinel Edge](cards/sentinel-edge.md), [3d-landing](cards/3d-landing.md) |
 
 ## Маршруты показа
 
 | Аудитория | Маршрут на 3 минуты | Маршрут на 10-15 минут |
 |---|---|---|
-| HR / рекрутер | Profile README -> [Project cards](project-cards.md) -> [Forge](cards/forge-learning-os.md) -> [Sentinel Edge](cards/sentinel-edge.md) | Добавить [CoupleOS](cards/coupleos.md), [3d-landing](cards/3d-landing.md), [Task-manager](cards/task-manage-bot.md) |
+| HR / рекрутер | Profile README -> [Project cards](project-cards.md) -> [Forge](cards/forge-learning-os.md) -> [Sentinel Edge](cards/sentinel-edge.md) | Добавить [CoupleOS / Softly](cards/coupleos.md), [3d-landing](cards/3d-landing.md), [Task-manager](cards/task-manage-bot.md) |
 | Техлид | [TTYL](cards/ttyl-platform.md) -> [Klawis](cards/klawis.md) -> [BelfProctor](cards/belfproctor.md) | Добавить [VFS Killer Main](cards/vfs-killer-main.md), [Marketbot](cards/marketbot.md), [med-exe](cards/med-exe.md), [Sentinel Edge](cards/sentinel-edge.md) |
-| Founder / клиент | [Forge](cards/forge-learning-os.md) -> [Marketbot](cards/marketbot.md) -> [Task Manage Bot](cards/task-manage-bot.md) | Добавить [Klawis](cards/klawis.md), [VFS Killer Main](cards/vfs-killer-main.md), [CoupleOS](cards/coupleos.md) |
-| Инвестор / партнёр | [Forge](cards/forge-learning-os.md) -> [CoupleOS](cards/coupleos.md) -> [TTYL](cards/ttyl-platform.md) | Добавить [Klawis](cards/klawis.md), [Sentinel Edge](cards/sentinel-edge.md), [3d-landing](cards/3d-landing.md) |
+| Founder / клиент | [Forge](cards/forge-learning-os.md) -> [Marketbot](cards/marketbot.md) -> [Task Manage Bot](cards/task-manage-bot.md) | Добавить [Klawis](cards/klawis.md), [VFS Killer Main](cards/vfs-killer-main.md), [CoupleOS / Softly](cards/coupleos.md) |
+| Инвестор / партнёр | [Forge](cards/forge-learning-os.md) -> [CoupleOS / Softly](cards/coupleos.md) -> [TTYL](cards/ttyl-platform.md) | Добавить [Klawis](cards/klawis.md), [Sentinel Edge](cards/sentinel-edge.md), [3d-landing](cards/3d-landing.md) |
 
 ## 30-Second Opening
 
@@ -54,14 +54,14 @@ I build complete technical products: frontend, backend, AI workflows, automation
 |---|---|---|---|
 | Forge / Learning OS | [Card](cards/forge-learning-os.md), [case study](case-studies/forge-learning-os.md) | "This is my product-first learning platform: projects, missions, evidence, portfolio and client offers." | Product architecture, domain modeling, founder-style execution |
 | TTYL Platform | [Card](cards/ttyl-platform.md), [case study](case-studies/ttyl-platform.md) | "This is an on-prem collaboration platform with projects, chat, files, search, notifications and audit." | Enterprise full-stack architecture, realtime, permissions, storage |
-| Klawis | [Card](cards/klawis.md), [case study](case-studies/klawis.md) | "This is legal AI where the answer must be structured, source-backed and safer than a generic chatbot." | RAG, citations, deterministic routing, sensitive-domain UX |
+| Klawis | [Card](cards/klawis.md), [live](https://klawis.uz), [case study](case-studies/klawis.md) | "This is a deployed legal AI product where the answer must be structured, source-backed and safer than a generic chatbot." | RAG, citations, deterministic routing, active roadmap, sensitive-domain UX |
 | BelfProctor | [Card](cards/belfproctor.md), [case study](case-studies/belfproctor.md) | "This is a proctoring/monitoring system with Windows agent, backend ingestion and admin review panel." | Agent/backend/admin separation, telemetry, deployment thinking |
 | VFS Killer Main | [Card](cards/vfs-killer-main.md), [case study](case-studies/vfs-killer-main.md) | "This is browser automation for an unstable external workflow controlled through Telegram." | Playwright/Camoufox automation, diagnostics, retries, external state |
 | Sentinel Edge | [Card](cards/sentinel-edge.md), [public repo](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system) | "This is a local smart-system with C++ firmware, serial protocol, Node bridge and realtime React dashboard." | Embedded + full-stack breadth, protocol design, realtime UI |
 | Task Manage Bot | [Card](cards/task-manage-bot.md), [case study](case-studies/task-manage-bot.md) | "This turns chat/voice messages into structured tasks with reminders and async processing." | Practical AI automation, queues, reminders, idempotency |
 | med-exe | [Card](cards/med-exe.md), [case study](case-studies/med-exe.md) | "This is an offline desktop app where calculation logic and local privacy matter." | Rust/Tauri, typed IPC, deterministic domain logic |
 | Marketbot | [Card](cards/marketbot.md), [case study](case-studies/marketbot.md) | "This is commerce automation with ingestion, subscriptions, affiliate links and notifications." | Event-driven backend, RabbitMQ/gRPC, service boundaries |
-| CoupleOS | [Card](cards/coupleos.md), [case study](case-studies/coupleos.md) | "This is a mobile-first consumer product for couples with private UX and retention mechanics." | Consumer product thinking, mobile UX, privacy-aware data boundaries |
+| CoupleOS / Softly | [Card](cards/coupleos.md), [live](https://softlylove.uz), [case study](case-studies/coupleos.md) | "This is my founder-led mobile-first consumer product for couples with emotional UX, privacy and retention mechanics." | Founder ownership, consumer product thinking, mobile UX, privacy-aware data boundaries |
 | 3d-landing | [Card](cards/3d-landing.md), [public repo](https://github.com/SamandarMansurkhodjaev2713/3d-landing) | "This shows visual frontend: Three.js/WebGL, motion and polished product presentation." | Creative frontend, visual polish, performance-aware rendering |
 
 ## Скрипты демонстрации проектов
@@ -70,14 +70,14 @@ I build complete technical products: frontend, backend, AI workflows, automation
 |---|---|---|---|
 | Forge / Learning OS | [Card](cards/forge-learning-os.md), [case study](case-studies/forge-learning-os.md) | "Это мой product-first Learning OS: projects, missions, evidence, portfolio и client offers." | Product architecture, domain modeling, founder-style execution |
 | TTYL Platform | [Card](cards/ttyl-platform.md), [case study](case-studies/ttyl-platform.md) | "Это on-prem collaboration platform с projects, chat, files, search, notifications и audit." | Enterprise full-stack architecture, realtime, permissions, storage |
-| Klawis | [Card](cards/klawis.md), [case study](case-studies/klawis.md) | "Это legal AI, где ответ должен быть structured, source-backed и безопаснее обычного chatbot." | RAG, citations, deterministic routing, sensitive-domain UX |
+| Klawis | [Card](cards/klawis.md), [live](https://klawis.uz), [case study](case-studies/klawis.md) | "Это задеплоенный legal AI продукт, где ответ должен быть structured, source-backed и безопаснее обычного chatbot." | RAG, citations, deterministic routing, active roadmap, sensitive-domain UX |
 | BelfProctor | [Card](cards/belfproctor.md), [case study](case-studies/belfproctor.md) | "Это proctoring/monitoring система: Windows agent, backend ingestion и admin review panel." | Agent/backend/admin separation, telemetry, deployment thinking |
 | VFS Killer Main | [Card](cards/vfs-killer-main.md), [case study](case-studies/vfs-killer-main.md) | "Это browser automation для нестабильного внешнего workflow с управлением через Telegram." | Playwright/Camoufox automation, diagnostics, retries, external state |
 | Sentinel Edge | [Card](cards/sentinel-edge.md), [public repo](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system) | "Это локальная smart-system: C++ firmware, serial protocol, Node bridge и realtime React dashboard." | Embedded + full-stack breadth, protocol design, realtime UI |
 | Task Manage Bot | [Card](cards/task-manage-bot.md), [case study](case-studies/task-manage-bot.md) | "Проект превращает chat/voice messages в structured tasks с reminders и async processing." | Practical AI automation, queues, reminders, idempotency |
 | med-exe | [Card](cards/med-exe.md), [case study](case-studies/med-exe.md) | "Это offline desktop app, где важны calculation logic и local privacy." | Rust/Tauri, typed IPC, deterministic domain logic |
 | Marketbot | [Card](cards/marketbot.md), [case study](case-studies/marketbot.md) | "Это commerce automation с ingestion, subscriptions, affiliate links и notifications." | Event-driven backend, RabbitMQ/gRPC, service boundaries |
-| CoupleOS | [Card](cards/coupleos.md), [case study](case-studies/coupleos.md) | "Это mobile-first consumer product для пар с private UX и retention mechanics." | Consumer product thinking, mobile UX, privacy-aware data boundaries |
+| CoupleOS / Softly | [Card](cards/coupleos.md), [live](https://softlylove.uz), [case study](case-studies/coupleos.md) | "Это мой founder-led mobile-first consumer product для пар с emotional UX, privacy и retention mechanics." | Founder ownership, consumer product thinking, mobile UX, privacy-aware data boundaries |
 | 3d-landing | [Card](cards/3d-landing.md), [public repo](https://github.com/SamandarMansurkhodjaev2713/3d-landing) | "Это visual frontend: Three.js/WebGL, motion и polished product presentation." | Creative frontend, visual polish, performance-aware rendering |
 
 ## Deep Dive Prompts
@@ -100,9 +100,11 @@ Use these when a technical person asks for more depth.
 
 ### Klawis
 
+- Live product: [klawis.uz](https://klawis.uz).
+- Status: deployed and in active development.
 - Architecture: deterministic legal routing, retrieval/citations, AI explanation layer, validation/evaluation mindset.
 - Why it is designed this way: legal-tech cannot rely on a plain chatbot because source traceability and jurisdiction matter.
-- What to emphasize: applied AI, RAG, citation discipline, safe UX for sensitive domains.
+- What to emphasize: applied AI, RAG, citation discipline, live deployment, roadmap and safe UX for sensitive domains.
 - Safe demo assets: anonymized sample questions, architecture diagram, citation behavior.
 
 ### BelfProctor
@@ -147,11 +149,11 @@ Use these when a technical person asks for more depth.
 - What to emphasize: event-driven backend, service contracts, reliability around notification workflows.
 - Safe demo assets: service map, anonymized notifications, admin flow.
 
-### CoupleOS
+### CoupleOS / Softly
 
 - Architecture: Next.js/React mobile-first app, Supabase auth/database/storage, feature modules, PWA direction and notification flow.
 - Why it is designed this way: consumer products need fast iteration, but relationship data needs clear privacy boundaries.
-- What to emphasize: emotional UX, product taste, mobile-first execution, retention mechanics.
+- What to emphasize: founder ownership, emotional UX, product taste, mobile-first execution, retention mechanics and live product positioning.
 - Safe demo assets: sanitized screens, UX flow, case study. Avoid private personal data.
 
 ### 3d-landing
@@ -196,8 +198,8 @@ Before adding any screenshot or video:
 | Forge / Learning OS | 60-90 sec product walkthrough | Strongest product/founder proof |
 | Sentinel Edge | Short dashboard + hardware/protocol demo | Shows breadth beyond normal web apps |
 | TTYL Platform | Architecture diagram + anonymized UI flow | Strong for tech leads and enterprise roles |
-| Klawis | Sample question -> cited answer video | Best AI proof |
-| CoupleOS | Mobile UI flow video | Shows product taste and design |
+| Klawis | Live product link + sample question -> cited answer video | Best deployed AI proof |
+| CoupleOS / Softly | Mobile UI flow video + live product link | Shows founder ownership, product taste and design |
 | VFS Killer Main | Sanitized workflow diagram | Shows automation complexity safely |
 | BelfProctor | Agent/backend/admin architecture diagram | Shows system design without exposing telemetry |
 

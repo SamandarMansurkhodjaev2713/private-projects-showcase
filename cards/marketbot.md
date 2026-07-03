@@ -14,6 +14,10 @@
 
 **Problem it solves:** offer-based products need ingestion, normalization, filters, subscriptions, delivery, affiliate logic, admin visibility and failure handling. A single uncontrolled script becomes hard to debug and evolve.
 
+**Why it stands out:** Marketbot is a strong backend/commercial automation case because it models a business workflow as services and events. It covers the full loop: offer ingestion, subscription logic, affiliate processing, notification delivery, admin visibility and failure isolation.
+
+**Strongest signals:** event-driven architecture, gRPC/protobuf contracts, RabbitMQ flows, service boundaries, commerce automation, Telegram delivery, admin BFF and operational debugging.
+
 **Stack:** Python 3.12, uv workspace, gRPC/protobuf contracts, RabbitMQ, PostgreSQL per service, Redis, React, Vite, TypeScript, TanStack Query, Zod, Docker Compose, Traefik, pytest, Vitest and buf.
 
 **Architecture:** the platform is split into offer ingestion, subscription, notification, affiliate, Telegram bot and admin BFF services. gRPC handles service contracts, while RabbitMQ carries event-driven updates.
@@ -41,6 +45,10 @@ flowchart LR
 **Что это:** Marketbot — приватная e-commerce automation платформа для сбора офферов, управления подписками, генерации affiliate links и отправки Telegram-уведомлений.
 
 **Какую проблему решает:** offer-based продукты требуют ingestion, normalization, filters, subscriptions, delivery, affiliate logic, admin visibility и failure handling. Один большой скрипт быстро становится неподдерживаемым.
+
+**Уникальность:** Marketbot — сильный backend/commercial automation кейс, потому что бизнес-процесс представлен как набор сервисов и событий. Проект закрывает полный цикл: offer ingestion, subscription logic, affiliate processing, notification delivery, admin visibility и failure isolation.
+
+**Сильнейшие стороны:** event-driven architecture, gRPC/protobuf contracts, RabbitMQ flows, service boundaries, commerce automation, Telegram delivery, admin BFF и operational debugging.
 
 **Стек:** Python 3.12, uv workspace, gRPC/protobuf contracts, RabbitMQ, PostgreSQL per service, Redis, React, Vite, TypeScript, TanStack Query, Zod, Docker Compose, Traefik, pytest, Vitest, buf.
 

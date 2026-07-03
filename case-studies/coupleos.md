@@ -1,14 +1,17 @@
-# CoupleOS
+# CoupleOS / Softly
 
 **Domain:** consumer relationship product  
 **Type:** private product / PWA  
-**Role:** product design, frontend architecture, Supabase integration, mobile-first UX
+**Role:** founder, product design, frontend architecture, Supabase integration, mobile-first UX
+**Live:** [SoftlyLove.uz](https://softlylove.uz)
 
 ## Summary
 
-CoupleOS is a mobile-first product for couples focused on emotional check-ins, memories, private interactions, rituals, questions, quizzes and relationship comfort flows.
+CoupleOS / Softly is my founder-led mobile-first product for couples focused on emotional check-ins, memories, private interactions, rituals, questions, quizzes and relationship comfort flows.
 
-The product direction combines playful UX with private data handling, realtime/product mechanics and a founder-style attempt to turn a sensitive emotional domain into a clean, usable product.
+The product direction combines emotional UX with private data handling, realtime/product mechanics and a founder-style attempt to turn a sensitive emotional domain into a clean, usable and habit-forming product.
+
+Unlike a simple "cute app" concept, Softly is designed around a difficult product problem: relationship products must feel personal and safe while still being technically structured enough to support auth, storage, notifications, retention loops and future feature growth.
 
 ## Problem
 
@@ -46,11 +49,14 @@ For a consumer product, iteration speed matters, but private user data must stil
 - Supabase-backed application architecture
 - Privacy-aware consumer product thinking
 - Ability to combine design, frontend and product logic
+- Live product positioning through [SoftlyLove.uz](https://softlylove.uz)
 
 ## Русское описание
 
-CoupleOS — приватный mobile-first продукт для пар. Он сфокусирован на эмоциональных check-ins, воспоминаниях, приватных взаимодействиях, ритуалах, вопросах, quizzes и мягких relationship flows.
+CoupleOS / Softly — мой founder-led mobile-first продукт для пар. Он сфокусирован на emotional check-ins, воспоминаниях, приватных взаимодействиях, ритуалах, вопросах, quizzes и мягких relationship flows.
 
-Главная ценность проекта в том, что это не просто “милое приложение”, а попытка построить полноценный consumer product в чувствительном домене: с приватностью, мобильным UX, быстрыми сценариями, парными сессиями и product mechanics.
+Главная ценность проекта в том, что это не просто “милое приложение”, а попытка построить полноценный consumer product в чувствительном домене: с приватностью, мобильным UX, быстрыми сценариями, парными сессиями, retention mechanics и product positioning.
 
-**Почему это сильный кейс:** CoupleOS показывает founder-style product thinking, работу с эмоциональным UX, mobile-first интерфейсами, Supabase-backed архитектурой и приватными пользовательскими сценариями. Это хороший сигнал для работодателя или партнёра: я умею строить не только утилитарные dashboards и automation, но и продукт, где важны доверие, тональность, дизайн и retention.
+**Live:** [SoftlyLove.uz](https://softlylove.uz)
+
+**Почему это сильный кейс:** CoupleOS / Softly показывает founder-style product thinking, работу с эмоциональным UX, mobile-first интерфейсами, Supabase-backed архитектурой и приватными пользовательскими сценариями. Это хороший сигнал для работодателя или партнёра: я умею строить не только утилитарные dashboards и automation, но и продукт, где важны доверие, тональность, дизайн, privacy и retention.

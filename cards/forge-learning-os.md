@@ -14,6 +14,10 @@
 
 **Problem it solves:** most learning platforms show weak proof: watched lessons, certificates and progress bars. Forge is designed around stronger proof: artifacts, verification, public case studies, portfolio export and commercial positioning.
 
+**Why it stands out:** Forge is not just an education app. It connects learning, proof, portfolio and sales into one product loop: learn by building, prove the work with evidence, publish a case and turn it into a client-facing offer. That makes it a strong founder/product engineering signal rather than a simple dashboard.
+
+**Strongest signals:** product strategy, full-stack architecture, domain modeling, evidence-first learning mechanics, portfolio generation, client-offer workflow, quality gates, tests and launch-oriented UX.
+
 **Stack:** Next.js 15 App Router, React 19, TypeScript strict, Tailwind CSS, shadcn/Radix UI, Framer Motion, Server Actions, Prisma, Auth.js, Zod, SQLite for local development with a Postgres-ready model, Vitest, Playwright and axe-oriented accessibility checks.
 
 **Architecture:** content, progress, evidence, portfolio and client-offer logic are separated into clear layers. Server Actions stay thin and delegate business rules to services. Prisma models user progress, evidence, portfolio pages, proposals and product events.
@@ -40,6 +44,10 @@ flowchart LR
 **Что это:** Forge / Learning OS — личный продукт для AI-native обучения через реальные проекты. Пользователь не просто смотрит уроки, а строит продукты, прикладывает evidence, проходит quality gates, собирает портфолио и превращает результат в клиентское предложение.
 
 **Какую проблему решает:** обычные образовательные платформы часто показывают слабые метрики: просмотренные уроки, сертификаты и проценты прогресса. Forge делает акцент на доказательствах навыка: артефакты, проверки, кейсы, портфолио и коммерческая упаковка результата.
+
+**Уникальность:** Forge — это не просто образовательная платформа. Он связывает обучение, доказательства, портфолио и продажи в один продуктовый цикл: человек учится через проект, подтверждает результат evidence, публикует кейс и превращает его в клиентский оффер. Это выглядит как настоящий founder/product engineering кейс, а не учебный CRUD.
+
+**Сильнейшие стороны:** продуктовая стратегия, full-stack архитектура, доменная модель, evidence-first обучение, генерация портфолио, client-offer workflow, quality gates, тесты и UX, который ведёт пользователя к реальному результату.
 
 **Стек:** Next.js 15 App Router, React 19, TypeScript strict, Tailwind CSS, shadcn/Radix UI, Framer Motion, Server Actions, Prisma, Auth.js, Zod, SQLite для локальной разработки с готовностью к Postgres, Vitest, Playwright, accessibility checks.
 

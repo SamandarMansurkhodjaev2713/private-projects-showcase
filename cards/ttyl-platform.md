@@ -14,6 +14,10 @@
 
 **Problem it solves:** some organizations need modern collaboration UX but cannot move internal communication, files and operational data into external SaaS tools. The platform is positioned around on-premise control, privacy and explicit infrastructure ownership.
 
+**Why it stands out:** TTYL is strong because it combines product UX and infrastructure thinking. It is not only a task board or chat clone: it treats identity, permissions, files, realtime, search, audit logs, notifications and deployment as first-class parts of one controlled enterprise system.
+
+**Strongest signals:** enterprise system design, on-prem readiness, data ownership, service/domain boundaries, realtime collaboration, object storage, queues/workers, auditability and operational thinking.
+
 **Stack:** NestJS, Fastify, Prisma, Next.js, React, TypeScript, Tailwind CSS, Radix UI, TanStack tools, PostgreSQL, Redis, MinIO, BullMQ/workers, WebSocket realtime gateway, Docker, Nginx and observability-oriented infrastructure.
 
 **Architecture:** the system is split by domains: identity, workspace/project management, messaging, files, search, notifications, audit and realtime. Storage, queues and realtime concerns are explicit rather than hidden inside one monolithic feature.
@@ -44,6 +48,10 @@ flowchart TB
 **Что это:** TTYL Platform — приватная self-hosted платформа для командной работы: проекты, задачи, чаты, файлы, поиск, уведомления и audit logs в контролируемой инфраструктуре.
 
 **Какую проблему решает:** не каждая компания может или хочет переносить внутренние данные, файлы и коммуникацию во внешний SaaS. TTYL закрывает потребность в современной collaboration-платформе с on-prem подходом, контролем данных и понятной инфраструктурой.
+
+**Уникальность:** TTYL силён тем, что объединяет product UX и infrastructure thinking. Это не просто task board или чат-клон: identity, permissions, files, realtime, search, audit logs, notifications и deployment рассматриваются как полноценные части одной enterprise-системы.
+
+**Сильнейшие стороны:** enterprise system design, on-prem readiness, контроль данных, service/domain boundaries, realtime collaboration, object storage, очереди/workers, auditability и операционное мышление.
 
 **Стек:** NestJS, Fastify, Prisma, Next.js, React, TypeScript, Tailwind CSS, Radix UI, TanStack tools, PostgreSQL, Redis, MinIO, BullMQ/workers, WebSocket gateway, Docker, Nginx, observability-инфраструктура.
 

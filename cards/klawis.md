@@ -5,6 +5,8 @@
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-API-009688?style=flat-square">
   <img alt="RAG" src="https://img.shields.io/badge/RAG-Citations-6d28d9?style=flat-square">
   <img alt="LegalTech" src="https://img.shields.io/badge/Domain-LegalTech-334155?style=flat-square">
+  <img alt="Live" src="https://img.shields.io/badge/Live-klawis.uz-15803d?style=flat-square">
+  <img alt="Roadmap" src="https://img.shields.io/badge/Status-active%20development-f59e0b?style=flat-square">
   <img alt="Signal" src="https://img.shields.io/badge/Signal-AI%20Architecture-7c3aed?style=flat-square">
 </p>
 
@@ -13,6 +15,14 @@
 **What it is:** Klawis is a legal AI navigator for Uzbekistan that turns a user situation into structured legal direction: likely legal area, jurisdiction, next steps, documents, deadlines and source-backed explanation.
 
 **Problem it solves:** legal questions are ambiguous for non-lawyers, and generic AI answers are not enough when accuracy, jurisdiction and citations matter. Klawis is designed to be traceable, not just conversational.
+
+**Live product:** [klawis.uz](https://klawis.uz)
+
+**Why it stands out:** Klawis is positioned as applied AI for a sensitive domain, not a generic wrapper around an LLM. The value is in the combination of deterministic legal routing, retrieval, citations, careful UX, structured answers and a roadmap for deeper legal workflows.
+
+**Roadmap:** Klawis is in active development. Planned directions include richer legal document flows, expanded legal knowledge coverage, improved citation/evaluation quality, user case history, admin/legal review tooling and more guided next-step scenarios.
+
+**Strongest signals:** RAG, source-backed answers, legal-domain routing, full-stack delivery, sensitive-domain UX, product deployment and a clear growth path from MVP to product platform.
 
 **Stack:** Python 3.12, FastAPI, Pydantic, Next.js, React, TypeScript, Tailwind CSS, Supabase/PostgreSQL, pgvector, Drizzle, RAG, provider abstraction for OpenAI/Gemini-style models, pytest, Vitest and Playwright-style checks.
 
@@ -42,6 +52,14 @@ flowchart LR
 
 **Какую проблему решает:** обычному человеку сложно понять, к какой области права относится ситуация, куда обращаться и какие документы нужны. Обычный AI-chatbot здесь недостаточен, потому что в юридическом домене важны точность, юрисдикция, проверяемость и цитирование.
 
+**Live product:** [klawis.uz](https://klawis.uz)
+
+**Уникальность:** Klawis выглядит как applied AI для чувствительного домена, а не как обычная обёртка над LLM. Ценность проекта в связке deterministic legal routing, retrieval, citations, аккуратного UX, structured answers и понятного roadmap для развития юридических сценариев.
+
+**Roadmap:** проект находится в активной разработке. В плане развития — более глубокие document flows, расширение legal knowledge coverage, улучшение citation/evaluation quality, история пользовательских кейсов, admin/legal review tooling и guided next-step сценарии.
+
+**Сильнейшие стороны:** RAG, ответы с источниками, legal-domain routing, full-stack delivery, sensitive-domain UX, реальный деплой и понятный путь от MVP к продуктовой платформе.
+
 **Стек:** Python 3.12, FastAPI, Pydantic, Next.js, React, TypeScript, Tailwind CSS, Supabase/PostgreSQL, pgvector, Drizzle, RAG, provider abstraction для OpenAI/Gemini-style моделей, pytest, Vitest, Playwright-style checks.
 
 **Архитектура:** deterministic legal routing отделён от retrieval/citations и AI explanation layer. Система сначала структурирует ситуацию и правовой маршрут, затем использует источники и AI-объяснение, а результат остаётся проверяемым.
@@ -54,4 +72,4 @@ flowchart LR
 
 ---
 
-[Deep case study](../case-studies/klawis.md) · [Back to gallery](README.md)
+[Live product](https://klawis.uz) · [Deep case study](../case-studies/klawis.md) · [Back to gallery](README.md)

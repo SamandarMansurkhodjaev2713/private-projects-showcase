@@ -14,6 +14,10 @@
 
 **Problem it solves:** real monitoring systems need more than a dashboard. They need installation, service behavior, heartbeat, event collection, secure uploads, retry logic, policy distribution, admin review and operational visibility.
 
+**Why it stands out:** BelfProctor is a strong beyond-web project. It includes the hard parts employers notice: a Windows-side agent, backend ingestion, secure telemetry/uploads, policies, admin review, deployment packaging and operational failure handling.
+
+**Strongest signals:** client-agent engineering, monitoring pipeline, binary uploads, backend/admin separation, Windows deployment, privacy boundaries and enterprise-style operational UX.
+
 **Stack:** C#/.NET Windows Service, Node.js, Express, TypeScript, PostgreSQL, Prisma, React, Vite, Refine, Ant Design, JWT, encrypted payloads, binary upload endpoints, Docker Compose and Windows deployment scripts.
 
 **Architecture:** the Windows agent collects workstation-side signals and sends events, screenshots/reports and heartbeat data to the backend. The backend manages clients, auth, policies, uploads and reports. The admin panel works as an operational console.
@@ -39,6 +43,10 @@ flowchart TB
 **Что это:** BelfProctor — приватная система прокторинга и мониторинга рабочих станций. В ней есть Windows client-agent, backend ingestion API, база данных, admin panel и deployment-пакет для установки.
 
 **Какую проблему решает:** настоящая monitoring/proctoring система — это не просто админка со скриншотами. Нужны установка, service behavior, heartbeat, события, защищённые загрузки, retry-логика, политики, отчёты и понятная админская наблюдаемость.
+
+**Уникальность:** BelfProctor — сильный beyond-web проект. В нём есть то, что хорошо считывается техлидом: Windows-side agent, backend ingestion, secure telemetry/uploads, policies, admin review, deployment packaging и обработка операционных сбоев.
+
+**Сильнейшие стороны:** client-agent engineering, monitoring pipeline, binary uploads, разделение backend/admin, Windows deployment, privacy boundaries и enterprise-style operational UX.
 
 **Стек:** C#/.NET Windows Service, Node.js, Express, TypeScript, PostgreSQL, Prisma, React, Vite, Refine, Ant Design, JWT, encrypted payloads, binary upload endpoints, Docker Compose, Windows deployment scripts.
 

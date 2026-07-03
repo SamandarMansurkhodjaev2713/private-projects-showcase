@@ -14,6 +14,10 @@
 
 **Problem it solves:** many portfolio/frontend projects look static and generic. This project demonstrates interactive product presentation, motion, hierarchy, rendering control and visual polish.
 
+**Why it stands out:** 3d-landing is the visual proof in the portfolio. It shows that I can build not only backend systems and automations, but also memorable product presentation with 3D, motion, hierarchy, performance awareness and frontend taste.
+
+**Strongest signals:** Three.js/WebGL, scroll-driven storytelling, animation loop, scene/UI separation, responsive polish, performance-aware rendering and product presentation.
+
 **Stack:** JavaScript, Vite, Three.js/WebGL, responsive layout, scroll-driven composition, animation loop, lightweight frontend structure and performance-aware rendering choices.
 
 **Architecture:** the 3D scene is separated from page composition and UI layers. This keeps the landing maintainable while still allowing immersive motion and product-facing presentation.
@@ -38,6 +42,10 @@ flowchart TB
 **Что это:** 3d-landing — публичный cinematic Three.js/WebGL landing с scroll-driven 3D presentation, визуальным storytelling и performance-aware frontend структурой.
 
 **Какую проблему решает:** многие portfolio/frontend проекты выглядят статично и шаблонно. Этот проект показывает interactive product presentation, motion, hierarchy, rendering control и visual polish.
+
+**Уникальность:** 3d-landing — визуальное доказательство в портфолио. Он показывает, что я могу делать не только backend systems и automations, но и запоминающуюся продуктовую подачу через 3D, motion, hierarchy, performance awareness и frontend taste.
+
+**Сильнейшие стороны:** Three.js/WebGL, scroll-driven storytelling, animation loop, scene/UI separation, responsive polish, performance-aware rendering и product presentation.
 
 **Стек:** JavaScript, Vite, Three.js/WebGL, responsive layout, scroll-driven composition, animation loop, lightweight frontend structure и performance-aware rendering choices.
 

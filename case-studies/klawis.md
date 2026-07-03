@@ -3,12 +3,16 @@
 **Domain:** legal-tech AI assistant for Uzbekistan  
 **Type:** private/product project  
 **Role:** full-stack/product engineering, AI architecture, backend/frontend integration
+**Live:** [klawis.uz](https://klawis.uz)
+**Status:** deployed product in active development
 
 ## Summary
 
 Klawis is a legal AI navigator that helps a user describe a situation and receive a structured legal direction: relevant legal area, likely jurisdiction, court/instance logic, required documents, timelines and references to legal sources.
 
 The project is designed as more than a generic chatbot. It combines deterministic legal routing with AI-assisted explanation and retrieval, so the system can be useful while still staying traceable and citation-oriented.
+
+The product is already deployed and has a roadmap for deeper legal workflows. That matters because Klawis is not only a technical prototype; it is positioned as a real product that can grow into document flows, guided legal scenarios, better source evaluation, user case history and admin/legal review tooling.
 
 ## Problem
 
@@ -59,6 +63,26 @@ This reduces hallucination risk and makes the system more credible for a domain 
 
 - Applied AI beyond prompt engineering
 - Product-grade RAG and citation thinking
+- Live deployment and active product roadmap
 - Full-stack delivery from UI to API and database
 - Sensitive-domain UX
 - Architecture that balances speed, safety and usefulness
+
+## Roadmap Direction
+
+- richer legal document and next-step flows;
+- broader legal knowledge coverage;
+- stronger citation/evaluation quality;
+- user case history and saved guidance;
+- admin/legal review tooling;
+- more guided scenarios for common legal problems in Uzbekistan.
+
+## Русское описание
+
+Klawis — задеплоенный legal AI navigator для Узбекистана. Пользователь описывает ситуацию, а система помогает получить структурированное юридическое направление: область права, возможную юрисдикцию, документы, сроки, следующие шаги и объяснение с источниками.
+
+Проект находится в активной разработке. Его ценность не только в AI-интерфейсе, а в архитектуре вокруг юридической точности: deterministic routing, retrieval/citations, structured response, validation/evaluation и аккуратный UX для чувствительного домена.
+
+**Live:** [klawis.uz](https://klawis.uz)
+
+**Почему это сильный кейс:** Klawis показывает applied AI на уровне продукта, а не просто prompt engineering. Здесь есть full-stack delivery, RAG, citation discipline, legal-domain routing, деплой и roadmap развития в сторону document flows, case history, admin/legal review tooling и более глубоких юридических сценариев.

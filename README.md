@@ -19,7 +19,7 @@ GitHub is usually code-first, but real engineering work is often private. This r
 
 Start here for a fast, polished overview of the strongest projects:
 
-**[Open bilingual project cards](project-cards.md)** — English/Russian cards for Forge, TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Sentinel Edge, Task-manager, med-exe, Marketbot, CoupleOS and 3d-landing.
+**[Open bilingual project cards](project-cards.md)** — English/Russian cards for Forge, TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Sentinel Edge, Task-manager, med-exe, Marketbot, CoupleOS / Softly and 3d-landing.
 
 For separate shareable one-page cards, open the **[Project Card Gallery](cards/README.md)**.
 
@@ -34,7 +34,7 @@ Use these when you need to share the portfolio with a recruiter, tech lead, foun
 
 | Project | Domain | Stack | Main signal |
 |---|---|---|---|
-| [Klawis](case-studies/klawis.md) | Legal-tech AI | FastAPI, Next.js, Supabase, RAG | Product-grade AI assistant with citations and jurisdiction logic |
+| [Klawis](case-studies/klawis.md) | Legal-tech AI | FastAPI, Next.js, Supabase, RAG | Deployed legal AI product with citations, jurisdiction logic and active roadmap |
 | [TTYL Platform](case-studies/ttyl-platform.md) | Enterprise collaboration | NestJS, Next.js, PostgreSQL, Redis, MinIO | On-prem project management, chat and files platform |
 | [Forge / Learning OS](case-studies/forge-learning-os.md) | EdTech / AI-native learning | Next.js 15, React 19, Prisma, Auth.js, Zod | Product-first learning platform with evidence engine, portfolio cases and client-offer workflow |
 | [Sentinel Edge / smart-system](case-studies/sentinel-edge.md) | Embedded / IoT | Arduino C++, Node.js, React, Vite | Local smart environment system with firmware, serial protocol and realtime dashboard |
@@ -42,7 +42,7 @@ Use these when you need to share the portfolio with a recruiter, tech lead, foun
 | [Task Manage Bot](case-studies/task-manage-bot.md) | Telegram automation | Python, aiogram, PostgreSQL, OpenAI | Voice-to-task automation with reminders, queues and retries |
 | [med-exe](case-studies/med-exe.md) | Health-tech desktop | Rust, Tauri, React, SQLite | Offline clinical calculation desktop app with clean domain boundaries |
 | [Marketbot](case-studies/marketbot.md) | E-commerce automation | Python, gRPC, RabbitMQ, React | Microservice-style offers, subscriptions and Telegram notifications |
-| [CoupleOS](case-studies/coupleos.md) | Consumer relationship product | Next.js, Supabase, PWA | Mobile-first relationship product with private UX and retention mechanics |
+| [CoupleOS / Softly](case-studies/coupleos.md) | Consumer relationship product | Next.js, Supabase, PWA | Founder-led live product with emotional UX, privacy and retention mechanics |
 | [3d-landing](case-studies/3d-landing.md) | Creative frontend | Three.js, WebGL, Vite | Cinematic landing with scroll-driven 3D scene and frontend polish |
 | [BelfProctor](case-studies/belfproctor.md) | Proctoring / monitoring | C#, Node.js, Express, Prisma, PostgreSQL, React | Client-agent, encrypted telemetry, admin panel and Windows deployment |
 | [VFS Killer Main](case-studies/vfs-killer-main.md) | Browser automation / VFS workflow | Python, Playwright/Camoufox, aiogram, Docker | High-friction external workflow automation with bot control and diagnostics |
@@ -99,7 +99,7 @@ These projects show a profile that is broader than “frontend” or “backend�
 
 Для быстрого просмотра сильнейших проектов откройте:
 
-**[Bilingual project cards](project-cards.md)** — карточки на английском и русском для Forge, TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Sentinel Edge, Task-manager, med-exe, Marketbot, CoupleOS и 3d-landing.
+**[Bilingual project cards](project-cards.md)** — карточки на английском и русском для Forge, TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Sentinel Edge, Task-manager, med-exe, Marketbot, CoupleOS / Softly и 3d-landing.
 
 Для отдельных shareable one-page карточек откройте **[Project Card Gallery](cards/README.md)**.
 
@@ -125,7 +125,7 @@ These projects show a profile that is broader than “frontend” or “backend�
 
 | Проект | Домен | Главный сигнал |
 |---|---|---|
-| [Klawis](case-studies/klawis.md) | Legal-tech AI | AI-ассистент с RAG, цитированием и логикой юрисдикции |
+| [Klawis](case-studies/klawis.md) | Legal-tech AI | Задеплоенный legal AI продукт с RAG, цитированием, юрисдикцией и roadmap развития |
 | [TTYL Platform](case-studies/ttyl-platform.md) | Enterprise collaboration | On-prem платформа для проектов, чатов, файлов, поиска и аудита |
 | [Forge / Learning OS](case-studies/forge-learning-os.md) | EdTech / AI-native learning | Личный продукт: project-first платформа с evidence engine, портфолио, client offers и админкой |
 | [Sentinel Edge / smart-system](case-studies/sentinel-edge.md) | Embedded / IoT | Локальная smart-система с firmware, serial protocol и realtime dashboard |
@@ -133,7 +133,7 @@ These projects show a profile that is broader than “frontend” or “backend�
 | [Task Manage Bot](case-studies/task-manage-bot.md) | Telegram automation | Voice-to-task bot с очередями, напоминаниями и retry-логикой |
 | [med-exe](case-studies/med-exe.md) | Health-tech desktop | Offline desktop app с доменной логикой и чистыми границами |
 | [Marketbot](case-studies/marketbot.md) | E-commerce automation | Event-driven платформа для офферов, подписок и Telegram-уведомлений |
-| [CoupleOS](case-studies/coupleos.md) | Consumer relationship product | Mobile-first продукт для пар с приватным UX, rituals и retention mechanics |
+| [CoupleOS / Softly](case-studies/coupleos.md) | Consumer relationship product | Founder-led live product для пар с emotional UX, privacy и retention mechanics |
 | [3d-landing](case-studies/3d-landing.md) | Creative frontend | Three.js/WebGL landing с визуальным frontend polish |
 | [BelfProctor](case-studies/belfproctor.md) | Proctoring / monitoring | Клиент-агент, защищённая телеметрия, админ-панель и Windows deployment |
 | [VFS Killer Main](case-studies/vfs-killer-main.md) | Browser automation / VFS workflow | Автоматизация сложного внешнего workflow через browser automation и Telegram bot |

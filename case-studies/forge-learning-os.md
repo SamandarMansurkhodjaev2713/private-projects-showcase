@@ -1,8 +1,8 @@
 # Forge / Learning OS
 
-**Domain:** EdTech / AI-native learning platform  
-**Type:** personal product, private source code  
-**Role:** founder, product architect, full-stack engineer, product designer  
+**Domain:** EdTech / AI-native learning platform<br>
+**Type:** personal product, private source code<br>
+**Role:** founder, product architect, full-stack engineer, product designer<br>
 **Status:** local/private product, documented as a safe case study
 
 ## Summary

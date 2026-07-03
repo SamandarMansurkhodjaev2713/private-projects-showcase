@@ -21,6 +21,7 @@ GitHub is usually code-first, but real engineering work is often private. This r
 |---|---|---|---|
 | [Leg-ai / Klawis](case-studies/leg-ai-klawis.md) | Legal-tech AI | FastAPI, Next.js, Supabase, RAG | Product-grade AI assistant with citations and jurisdiction logic |
 | [TTYL Platform](case-studies/ttyl-platform.md) | Enterprise collaboration | NestJS, Next.js, PostgreSQL, Redis, MinIO | On-prem project management, chat and files platform |
+| [Forge / Learning OS](case-studies/forge-learning-os.md) | EdTech / AI-native learning | Next.js 15, React 19, Prisma, Auth.js, Zod | Product-first learning platform with evidence engine, portfolio cases and client-offer workflow |
 | [AI Classroom](case-studies/ai-classroom.md) | AI analytics | Python, FastAPI, Pydantic, workers | Evidence-based classroom analytics with privacy-first design |
 | [Task Manage Bot](case-studies/task-manage-bot.md) | Telegram automation | Python, aiogram, PostgreSQL, OpenAI | Voice-to-task automation with reminders, queues and retries |
 | [med-exe](case-studies/med-exe.md) | Health-tech desktop | Rust, Tauri, React, SQLite | Offline clinical calculation desktop app with clean domain boundaries |
@@ -94,6 +95,7 @@ These projects show a profile that is broader than “frontend” or “backend�
 |---|---|---|
 | [Leg-ai / Klawis](case-studies/leg-ai-klawis.md) | Legal-tech AI | AI-ассистент с RAG, цитированием и логикой юрисдикции |
 | [TTYL Platform](case-studies/ttyl-platform.md) | Enterprise collaboration | On-prem платформа для проектов, чатов, файлов, поиска и аудита |
+| [Forge / Learning OS](case-studies/forge-learning-os.md) | EdTech / AI-native learning | Личный продукт: project-first платформа с evidence engine, портфолио, client offers и админкой |
 | [AI Classroom](case-studies/ai-classroom.md) | AI analytics | Аналитика учебного процесса с privacy-first подходом |
 | [Task Manage Bot](case-studies/task-manage-bot.md) | Telegram automation | Voice-to-task bot с очередями, напоминаниями и retry-логикой |
 | [med-exe](case-studies/med-exe.md) | Health-tech desktop | Offline desktop app с доменной логикой и чистыми границами |

@@ -1,47 +1,33 @@
 # med-exe
 
-**Domain:** health-tech / desktop software  
-**Type:** private clinical/research desktop project  
-**Role:** desktop architecture, Rust domain modeling, frontend integration, offline-first product design
+## Русский
 
-## Summary
+**Кратко:** приватное offline desktop приложение для medical/research расчетов, patient profiles и локальной работы с чувствительной логикой.
 
-med-exe is an offline Windows desktop application for cardiometabolic risk calculation and patient profile management. It is designed to run locally without sending sensitive medical context to a remote server.
+**Проблема:** health-tech инструменты требуют deterministic calculations, воспроизводимости, privacy-aware storage и clean separation между UI и core logic.
 
-## Problem
+**Стек:** Rust, Tauri, React/TypeScript, SQLite, typed IPC, local persistence, domain/calculation modules.
 
-Clinical/research tools need to be deterministic, reproducible and privacy-aware. A web-only architecture can be inappropriate when data should stay local or when the tool must work without a backend.
+**Архитектура:** Tauri дает desktop runtime; React отвечает за UI и формы; Rust core содержит доменные правила и расчеты; SQLite хранит данные локально; typed IPC фиксирует границу между UI и core.
 
-## Stack
+**Почему так:** чувствительная расчетная логика должна быть стабильной и тестируемой. Вынесение core logic в Rust снижает риск случайных UI-ошибок.
 
-- **Desktop:** Tauri 2
-- **Core:** Rust workspace
-- **Frontend:** React, TypeScript, Vite
-- **Storage:** SQLite
-- **Validation:** Zod/typed boundaries
-- **Quality:** Rust tests, clippy, rustfmt, frontend tests/typecheck
+**Что доказывает:** desktop architecture, Rust domain modeling, offline-first privacy, sensitive-domain thinking и clean architecture.
 
-## Architecture
+## English
 
-```mermaid
-flowchart LR
-  UI["React UI"] --> IPC["Typed Tauri commands"]
-  IPC --> App["Application layer"]
-  App --> Domain["Domain rules"]
-  App --> Engine["Calculation engine"]
-  App --> Persistence["SQLite persistence"]
-```
+**Summary:** a private offline desktop application for medical/research calculations, patient profiles and local work with sensitive logic.
 
-Rust code is separated into domain, calculation engine, application and persistence crates. The UI communicates through typed commands and does not directly own the medical calculation logic.
+**Problem:** health-tech tools require deterministic calculations, reproducibility, privacy-aware storage and clean separation between UI and core logic.
 
-## Why This Architecture
+**Stack:** Rust, Tauri, React/TypeScript, SQLite, typed IPC, local persistence and domain/calculation modules.
 
-The calculation logic must be stable and testable. Separating UI from the Rust domain engine reduces the risk that interface changes accidentally affect medical logic. Tauri was chosen to provide a desktop app without the heavier runtime profile of Electron.
+**Architecture:** Tauri provides the desktop runtime; React handles UI and forms; the Rust core contains domain rules and calculations; SQLite stores data locally; typed IPC keeps the UI/core boundary explicit.
 
-## What It Demonstrates
+**Why this architecture:** sensitive calculation logic must be stable and testable. Moving core logic into Rust reduces the risk of accidental UI-driven errors.
 
-- Offline-first desktop product architecture
-- Rust for reliable domain logic
-- Sensitive data awareness
-- Deterministic calculation design
-- Clean boundary between UI and core engine
+**What it proves:** desktop architecture, Rust domain modeling, offline-first privacy, sensitive-domain thinking and clean architecture.
+
+---
+
+[Карточка проекта](../cards/med-exe.md) | [Назад к case studies](README.md)

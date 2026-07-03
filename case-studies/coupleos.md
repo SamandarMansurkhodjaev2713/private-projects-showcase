@@ -1,62 +1,33 @@
 # CoupleOS / Softly
 
-**Domain:** consumer relationship product  
-**Type:** private product / PWA  
-**Role:** founder, product design, frontend architecture, Supabase integration, mobile-first UX
-**Live:** [SoftlyLove.uz](https://softlylove.uz)
+## Русский
 
-## Summary
+**Кратко:** founder-led consumer product для пар с emotional UX, private interactions, relationship flows и mobile-first логикой. Live: <https://softlylove.uz>.
 
-CoupleOS / Softly is my founder-led mobile-first product for couples focused on emotional check-ins, memories, private interactions, rituals, questions, quizzes and relationship comfort flows.
+**Проблема:** relationship-продукт должен быть не только функциональным, но и эмоционально безопасным. Пользователь должен чувствовать приватность, мягкость, понятность и причину возвращаться.
 
-The product direction combines emotional UX with private data handling, realtime/product mechanics and a founder-style attempt to turn a sensitive emotional domain into a clean, usable and habit-forming product.
+**Стек:** Next.js, React, Supabase, PostgreSQL, auth, storage, PWA/mobile-first direction.
 
-Unlike a simple "cute app" concept, Softly is designed around a difficult product problem: relationship products must feel personal and safe while still being technically structured enough to support auth, storage, notifications, retention loops and future feature growth.
+**Архитектура:** product journeys разделены по feature modules; Supabase закрывает auth/data/storage; UI строится mobile-first; архитектура оставляет место для reminders, rituals, retention mechanics и будущей монетизации.
 
-## Problem
+**Почему так:** consumer product требует скорости запуска, аккуратного UX и гибкости. Слишком тяжелая архитектура замедлила бы развитие, а слишком простая не дала бы privacy и роста.
 
-Consumer products in this category need to feel personal and lightweight while still being reliable and private. The challenge is to build an experience that is emotional, fast and safe without turning the codebase into a prototype-only mess.
+**Что доказывает:** founder mindset, product design, emotional UX, privacy-aware engineering, live launch и способность владеть продуктом от идеи до реализации.
 
-## Stack
+## English
 
-- **Frontend:** Next.js, React, TypeScript
-- **Styling/UX:** Tailwind CSS, motion, mobile-first layout
-- **Backend:** Supabase auth/database/storage
-- **PWA:** push notifications, installable/mobile behavior
-- **Validation:** Zod/env validation style patterns
+**Summary:** a founder-led consumer product for couples with emotional UX, private interactions, relationship flows and mobile-first logic. Live: <https://softlylove.uz>.
 
-## Architecture
+**Problem:** a relationship product must be more than functional. Users need privacy, softness, clarity and a reason to return.
 
-```mermaid
-flowchart TB
-  App["Mobile-first Next.js app"] --> Auth["Couple auth/session"]
-  App --> Features["Mood, memories, rituals, quizzes"]
-  Features --> Supabase["Supabase DB/storage"]
-  App --> Push["Push notifications"]
-  App --> Local["Local preview/prototype state"]
-```
+**Stack:** Next.js, React, Supabase, PostgreSQL, auth, storage and PWA/mobile-first direction.
 
-The project separates prototype/local flows from production Supabase integration. Auth, push notifications, storage and feature logic are isolated enough to keep the product expandable.
+**Architecture:** product journeys are separated into feature modules; Supabase handles auth/data/storage; the UI is mobile-first; the architecture leaves room for reminders, rituals, retention mechanics and future monetization.
 
-## Why This Architecture
+**Why this architecture:** a consumer product needs launch speed, careful UX and flexibility. Too much architecture would slow the product down, while too little would limit privacy and growth.
 
-For a consumer product, iteration speed matters, but private user data must still be handled carefully. The architecture allows fast prototyping while keeping a clear path to production data, auth and storage.
+**What it proves:** founder mindset, product design, emotional UX, privacy-aware engineering, live launch and ownership from idea to implementation.
 
-## What It Demonstrates
+---
 
-- Founder-style product building
-- Mobile-first UX and interaction design
-- Supabase-backed application architecture
-- Privacy-aware consumer product thinking
-- Ability to combine design, frontend and product logic
-- Live product positioning through [SoftlyLove.uz](https://softlylove.uz)
-
-## Русское описание
-
-CoupleOS / Softly — мой founder-led mobile-first продукт для пар. Он сфокусирован на emotional check-ins, воспоминаниях, приватных взаимодействиях, ритуалах, вопросах, quizzes и мягких relationship flows.
-
-Главная ценность проекта в том, что это не просто “милое приложение”, а попытка построить полноценный consumer product в чувствительном домене: с приватностью, мобильным UX, быстрыми сценариями, парными сессиями, retention mechanics и product positioning.
-
-**Live:** [SoftlyLove.uz](https://softlylove.uz)
-
-**Почему это сильный кейс:** CoupleOS / Softly показывает founder-style product thinking, работу с эмоциональным UX, mobile-first интерфейсами, Supabase-backed архитектурой и приватными пользовательскими сценариями. Это хороший сигнал для работодателя или партнёра: я умею строить не только утилитарные dashboards и automation, но и продукт, где важны доверие, тональность, дизайн, privacy и retention.
+[Карточка проекта](../cards/coupleos.md) | [Назад к case studies](README.md)

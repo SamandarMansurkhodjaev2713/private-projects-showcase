@@ -1,64 +1,48 @@
 # Forge / Learning OS
 
 <p>
-  <img alt="Private" src="https://img.shields.io/badge/Source-private-334155?style=flat-square">
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-15-111111?style=flat-square">
   <img alt="React" src="https://img.shields.io/badge/React-19-149eca?style=flat-square">
   <img alt="Prisma" src="https://img.shields.io/badge/Prisma-Data%20Model-2d3748?style=flat-square">
-  <img alt="Signal" src="https://img.shields.io/badge/Signal-Founder%20Product%20Engineering-0f766e?style=flat-square">
+  <img alt="Product" src="https://img.shields.io/badge/Signal-Founder%20Product%20Engineering-0f766e?style=flat-square">
 </p>
-
-## English
-
-**What it is:** Forge is a project-first Learning OS for AI-native builders. Instead of measuring passive course progress, it helps a learner build real projects, attach evidence, pass quality gates, publish portfolio cases and turn results into client-ready offers.
-
-**Problem it solves:** most learning platforms show weak proof: watched lessons, certificates and progress bars. Forge is designed around stronger proof: artifacts, verification, public case studies, portfolio export and commercial positioning.
-
-**Why it stands out:** Forge is not just an education app. It connects learning, proof, portfolio and sales into one product loop: learn by building, prove the work with evidence, publish a case and turn it into a client-facing offer. That makes it a strong founder/product engineering signal rather than a simple dashboard.
-
-**Strongest signals:** product strategy, full-stack architecture, domain modeling, evidence-first learning mechanics, portfolio generation, client-offer workflow, quality gates, tests and launch-oriented UX.
-
-**Stack:** Next.js 15 App Router, React 19, TypeScript strict, Tailwind CSS, shadcn/Radix UI, Framer Motion, Server Actions, Prisma, Auth.js, Zod, SQLite for local development with a Postgres-ready model, Vitest, Playwright and axe-oriented accessibility checks.
-
-**Architecture:** content, progress, evidence, portfolio and client-offer logic are separated into clear layers. Server Actions stay thin and delegate business rules to services. Prisma models user progress, evidence, portfolio pages, proposals and product events.
-
-```mermaid
-flowchart LR
-  Content["Typed project content"] --> UI["Next.js App Router"]
-  UI --> Actions["Server Actions"]
-  Actions --> Services["Domain services"]
-  Services --> Evidence["Evidence engine"]
-  Services --> Portfolio["Portfolio engine"]
-  Services --> Offers["Client offers"]
-  Services --> Prisma["Prisma data layer"]
-```
-
-**Why this architecture:** Forge combines learning, progress, evidence, public publishing and sales workflows. A layered architecture keeps the product expandable: new project tracks, quality gates, portfolio formats and proposal workflows can be added without rewriting the core.
-
-**Why it is impressive:** this is the strongest founder/product-minded case. It shows product architecture, domain modeling, UX thinking, full-stack implementation, testing mindset and the ability to turn learning into market-facing proof.
-
-**Safe demo angle:** show the product flow, README/case study, architecture, tests and sanitized screens without exposing `.env`, local database, user data or private product logic.
 
 ## Русский
 
-**Что это:** Forge / Learning OS — личный продукт для AI-native обучения через реальные проекты. Пользователь не просто смотрит уроки, а строит продукты, прикладывает evidence, проходит quality gates, собирает портфолио и превращает результат в клиентское предложение.
+**Что это:** Forge / Learning OS - личный продукт и case study платформы для AI-native обучения, где прогресс измеряется не “просмотренными уроками”, а реальными артефактами: проектами, evidence, портфолио-кейсами, миссиями и client-offer workflow.
 
-**Какую проблему решает:** обычные образовательные платформы часто показывают слабые метрики: просмотренные уроки, сертификаты и проценты прогресса. Forge делает акцент на доказательствах навыка: артефакты, проверки, кейсы, портфолио и коммерческая упаковка результата.
+**Какую проблему решает:** большинство learning platforms продают контент, но слабо показывают реальный навык. Forge превращает обучение в систему доказательств: что человек построил, как он прошел gates, какие артефакты создал и как это можно показать рынку.
 
-**Уникальность:** Forge — это не просто образовательная платформа. Он связывает обучение, доказательства, портфолио и продажи в один продуктовый цикл: человек учится через проект, подтверждает результат evidence, публикует кейс и превращает его в клиентский оффер. Это выглядит как настоящий founder/product engineering кейс, а не учебный CRUD.
+**Стек:** Next.js 15, React 19, Prisma, Auth.js, Zod, typed content seed, server actions, service layer, portfolio/proposal routes.
 
-**Сильнейшие стороны:** продуктовая стратегия, full-stack архитектура, доменная модель, evidence-first обучение, генерация портфолио, client-offer workflow, quality gates, тесты и UX, который ведёт пользователя к реальному результату.
+**Архитектура:** core data model описывает tracks, missions, gates, evidence и portfolio cases; app layer разделяет обучение, проверку, портфолио и client offers; service layer держит бизнес-логику отдельно от UI; typed validation снижает хаос в продукте.
 
-**Стек:** Next.js 15 App Router, React 19, TypeScript strict, Tailwind CSS, shadcn/Radix UI, Framer Motion, Server Actions, Prisma, Auth.js, Zod, SQLite для локальной разработки с готовностью к Postgres, Vitest, Playwright, accessibility checks.
+**Почему именно так:** learning product должен быть не библиотекой уроков, а операционной системой роста. Поэтому архитектура строится вокруг evidence и outcomes, а не только вокруг lessons и progress bars.
 
-**Архитектура:** проект разделён на typed content, UI, server actions, domain services, Prisma data layer, evidence engine, portfolio engine и client-offer workflow. UI не содержит бизнес-логику, server actions остаются тонкими, а ключевые правила живут в сервисном слое.
+**Уникальность и сильные стороны:** founder-style продукт, сильная domain model, связь обучения с портфолио и коммерческими офферами, product-first мышление, архитектура под расширение и внятная логика ценности.
 
-**Почему именно так:** продукт объединяет несколько сложных контуров: обучение, прогресс, evidence, публичные кейсы, экспорт, клиентские офферы и админские сценарии. Если смешать это в одном UI/backend слое, проект быстро станет неподдерживаемым. Разделение слоёв делает систему понятной, тестируемой и готовой к росту.
+**Что доказывает работодателю:** способность проектировать продукт с нуля: идея, UX, доменная модель, backend, frontend, валидация, route structure и market-facing результат.
 
-**Что это доказывает работодателю:** это сильный founder/product-minded кейс. Он показывает, что я умею не только писать код, но и проектировать продукт: доменную модель, UX, backend, data layer, тестирование, публичный результат и бизнес-ценность.
+**Что можно показать:** private case study, архитектурную карту, product walkthrough и план безопасной demo-версии.
 
-**Безопасный формат показа:** можно показывать архитектуру, README, case study, тесты, sanitized screens и пользовательский flow без публикации приватного кода, `.env`, локальной базы и внутренних product-механик.
+## English
+
+**What it is:** Forge / Learning OS is a personal product and case study for an AI-native learning platform where progress is measured not by “watched lessons”, but by real artifacts: projects, evidence, portfolio cases, missions and client-offer workflow.
+
+**Problem it solves:** most learning platforms sell content but do not prove real capability. Forge turns learning into a proof system: what the learner built, which gates they passed, what artifacts they created and how that can be shown to the market.
+
+**Stack:** Next.js 15, React 19, Prisma, Auth.js, Zod, typed content seed, server actions, service layer and portfolio/proposal routes.
+
+**Architecture:** the core data model describes tracks, missions, gates, evidence and portfolio cases; the app layer separates learning, validation, portfolio and client offers; the service layer keeps business logic out of the UI; typed validation reduces product chaos.
+
+**Why this architecture:** a learning product should be an operating system for growth, not a lesson library. The architecture is built around evidence and outcomes instead of only lessons and progress bars.
+
+**Unique strengths:** founder-style product, strong domain model, connection between learning, portfolio and commercial offers, product-first thinking and an architecture designed for expansion.
+
+**Employer signal:** ability to design a product from zero: idea, UX, domain model, backend, frontend, validation, route structure and market-facing output.
+
+**Safe proof:** private case study, architecture map, product walkthrough and plan for a safe demo version.
 
 ---
 
-[Deep case study](../case-studies/forge-learning-os.md) · [Back to gallery](README.md)
+[Назад к галерее](README.md) | [Case study](../case-studies/forge-learning-os.md) | [Главная витрина](../README.md)

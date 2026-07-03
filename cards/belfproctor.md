@@ -1,63 +1,48 @@
 # BelfProctor
 
 <p>
-  <img alt="Private" src="https://img.shields.io/badge/Source-private-334155?style=flat-square">
   <img alt="CSharp" src="https://img.shields.io/badge/C%23-Windows%20Agent-512bd4?style=flat-square">
-  <img alt="Node" src="https://img.shields.io/badge/Node.js-API-339933?style=flat-square">
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-API-339933?style=flat-square">
   <img alt="React" src="https://img.shields.io/badge/React-Admin-149eca?style=flat-square">
-  <img alt="Signal" src="https://img.shields.io/badge/Signal-Proctoring%20System-991b1b?style=flat-square">
+  <img alt="Monitoring" src="https://img.shields.io/badge/Signal-Proctoring%20System-991b1b?style=flat-square">
 </p>
-
-## English
-
-**What it is:** BelfProctor is a private proctoring and workstation monitoring system with a Windows client-agent, backend ingestion API, database, admin panel and deployment package.
-
-**Problem it solves:** real monitoring systems need more than a dashboard. They need installation, service behavior, heartbeat, event collection, secure uploads, retry logic, policy distribution, admin review and operational visibility.
-
-**Why it stands out:** BelfProctor is a strong beyond-web project. It includes the hard parts employers notice: a Windows-side agent, backend ingestion, secure telemetry/uploads, policies, admin review, deployment packaging and operational failure handling.
-
-**Strongest signals:** client-agent engineering, monitoring pipeline, binary uploads, backend/admin separation, Windows deployment, privacy boundaries and enterprise-style operational UX.
-
-**Stack:** C#/.NET Windows Service, Node.js, Express, TypeScript, PostgreSQL, Prisma, React, Vite, Refine, Ant Design, JWT, encrypted payloads, binary upload endpoints, Docker Compose and Windows deployment scripts.
-
-**Architecture:** the Windows agent collects workstation-side signals and sends events, screenshots/reports and heartbeat data to the backend. The backend manages clients, auth, policies, uploads and reports. The admin panel works as an operational console.
-
-```mermaid
-flowchart TB
-  Agent["Windows client-agent"] --> API["Backend ingestion API"]
-  Agent --> Uploads["Encrypted uploads"]
-  API --> DB["PostgreSQL + Prisma"]
-  API --> Policies["Policy distribution"]
-  Policies --> Agent
-  Admin["React admin panel"] --> API
-```
-
-**Why this architecture:** the client, backend, admin panel and deployment layer fail for different reasons. Separating them makes the system easier to debug, deploy, secure and extend on real Windows machines.
-
-**Why it is impressive:** BelfProctor shows engineering outside the usual web app lane: client-agent behavior, sensitive telemetry, binary uploads, admin workflow, deployment packaging and privacy-aware documentation.
-
-**Safe demo angle:** show anonymized architecture, agent/admin flow and deployment model without exposing monitoring data, customer infrastructure, internal policies, screenshots or secrets.
 
 ## Русский
 
-**Что это:** BelfProctor — приватная система прокторинга и мониторинга рабочих станций. В ней есть Windows client-agent, backend ingestion API, база данных, admin panel и deployment-пакет для установки.
+**Что это:** BelfProctor - приватная proctoring/monitoring система с Windows client-agent, backend ingestion API и admin panel для просмотра событий, статусов и материалов проверки.
 
-**Какую проблему решает:** настоящая monitoring/proctoring система — это не просто админка со скриншотами. Нужны установка, service behavior, heartbeat, события, защищённые загрузки, retry-логика, политики, отчёты и понятная админская наблюдаемость.
+**Какую проблему решает:** proctoring система не может быть просто веб-формой. Нужно устанавливаемое клиентское приложение, heartbeat, сбор событий, защищенная передача данных, retry logic, политика мониторинга, admin visibility и понятный workflow проверки.
 
-**Уникальность:** BelfProctor — сильный beyond-web проект. В нём есть то, что хорошо считывается техлидом: Windows-side agent, backend ingestion, secure telemetry/uploads, policies, admin review, deployment packaging и обработка операционных сбоев.
+**Стек:** C# Windows client/agent, Node.js/Express backend, Prisma, PostgreSQL, React/Vite admin panel, deployment scripts, protected uploads/telemetry.
 
-**Сильнейшие стороны:** client-agent engineering, monitoring pipeline, binary uploads, разделение backend/admin, Windows deployment, privacy boundaries и enterprise-style operational UX.
+**Архитектура:** Windows agent собирает события и отправляет telemetry/uploads в backend; API валидирует и сохраняет данные; admin panel дает операторам обзор статусов, нарушений и истории; deployment слой упрощает установку и обновление.
 
-**Стек:** C#/.NET Windows Service, Node.js, Express, TypeScript, PostgreSQL, Prisma, React, Vite, Refine, Ant Design, JWT, encrypted payloads, binary upload endpoints, Docker Compose, Windows deployment scripts.
+**Почему именно так:** proctoring живет на границе desktop, backend и операционного контроля. Разделение agent, ingestion API и admin panel делает систему устойчивее, наблюдаемее и безопаснее.
 
-**Архитектура:** агент отвечает за сбор и отправку данных с рабочей станции. Backend принимает events, heartbeat, reports, screenshots и policies. Admin panel позволяет просматривать клиентов, отчёты, политики и состояние системы.
+**Уникальность и сильные стороны:** проект показывает работу за пределами обычного web: client-agent behavior, Windows deployment, sensitive telemetry, retries, admin workflow и private/security-first мышление.
 
-**Почему именно так:** агент, backend, admin panel и deployment ломаются по разным причинам. Разделение этих частей делает систему проще для отладки, безопасности, установки и расширения на реальных Windows-машинах.
+**Что доказывает работодателю:** умение строить системные продукты с desktop-частью, backend-пайплайном, безопасной передачей данных и административным интерфейсом.
 
-**Что это доказывает работодателю:** проект показывает, что я могу работать не только с web UI, но и с клиентским агентом, sensitive telemetry, binary upload, backend ingestion, admin workflow и deployment-ограничениями.
+**Что можно показать:** архитектуру, карточку, safe demo сценарий, обезличенные screenshots и описание без клиентских данных.
 
-**Безопасный формат показа:** можно показать обезличенную архитектуру, agent/admin flow и deployment story без мониторинговых данных, клиентской инфраструктуры, внутренних политик, скриншотов и секретов.
+## English
+
+**What it is:** BelfProctor is a private proctoring/monitoring system with a Windows client-agent, backend ingestion API and admin panel for reviewing events, statuses and verification material.
+
+**Problem it solves:** a proctoring system cannot be just a web form. It needs an installed client, heartbeat, event collection, protected data transfer, retry logic, monitoring policy, admin visibility and a clear review workflow.
+
+**Stack:** C# Windows client/agent, Node.js/Express backend, Prisma, PostgreSQL, React/Vite admin panel, deployment scripts and protected uploads/telemetry.
+
+**Architecture:** the Windows agent collects events and sends telemetry/uploads to the backend; the API validates and stores data; the admin panel gives operators visibility into statuses, violations and history; the deployment layer supports installation and updates.
+
+**Why this architecture:** proctoring sits between desktop, backend and operational control. Separating agent, ingestion API and admin panel makes the system more reliable, observable and secure.
+
+**Unique strengths:** the project shows work beyond typical web apps: client-agent behavior, Windows deployment, sensitive telemetry, retries, admin workflow and privacy/security-first thinking.
+
+**Employer signal:** ability to build system products with a desktop component, backend pipeline, protected data flow and administrative UI.
+
+**Safe proof:** architecture, project card, safe demo scenario, anonymized screenshots and description without customer data.
 
 ---
 
-[Deep case study](../case-studies/belfproctor.md) · [Back to gallery](README.md)
+[Назад к галерее](README.md) | [Case study](../case-studies/belfproctor.md) | [Главная витрина](../README.md)

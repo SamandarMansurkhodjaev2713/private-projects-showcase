@@ -1,175 +1,111 @@
 # Job Package
 
-Professional positioning package for **Samandar Mansurkhodjaev**.
+Готовый пакет позиционирования для найма, фриланса, контрактной работы и продуктовых коллабораций.
 
-This document is designed for hiring, freelance/client conversations and partner introductions. It explains the profile in a way that is fast for recruiters, credible for tech leads and useful for founders or investors.
+## Короткое позиционирование
 
-Source code is public only where it is safe. Private and commercial work is shown through architecture, product context and code-safe case studies.
+Я full-stack / software engineer с сильным product-minded подходом: умею строить не только код, но и законченные продукты. Мой фокус: AI automation, web platforms, Telegram workflows, embedded/IoT, desktop/mobile apps, dashboards и интерфейсы, которые можно показать, объяснить и развивать.
 
-## Short Profile
+Сейчас я учусь на **3 курсе бакалавриата Software Engineering в IT Park University** и параллельно развиваю собственные продукты, включая **CoupleOS / Softly** и **Klawis**.
 
-**English headline:** Full-stack Developer, AI Automation Developer, Product-minded Engineer and Founder-style Builder.
+## Под какие роли я лучше всего подхожу
 
-**Russian headline:** Full-stack developer, AI automation developer, product-minded engineer и founder-style builder.
+| Роль | Почему есть сильный fit |
+|---|---|
+| **Full-stack Developer** | Умею вести продукт от базы данных и API до UI, деплоя, документации и demo-ready состояния |
+| **AI Automation Developer** | RAG, AI workers, structured outputs, bots, automation pipelines, domain routing |
+| **Software Engineer** | Архитектура, слои, типизация, CI, Docker, clean boundaries, надежность |
+| **Product-minded Engineer** | Думаю о пользователе, бизнес-ценности, UX, roadmap, скорости запуска и результате |
+| **Founder-style Builder** | Могу взять идею, упаковать ее в MVP, довести до live/demo и объяснить ценность |
+| **Freelance / Contractor** | Быстро разбираюсь в задачах, умею работать автономно и показывать результат понятным языком |
 
-**Current education:** formal higher education in IT — 3rd-year Bachelor's student in **Software Engineering at IT Park University**.
+## 30-секундный pitch
 
-**Core positioning:** I build complete products, not isolated features: backend, frontend, AI workflows, automation, dashboards, Telegram bots, desktop/mobile apps, deployment, UX and documentation.
+Я full-stack developer и AI automation developer, который строит законченные продукты: от backend и архитектуры до интерфейса, UX, деплоя и демо. У меня есть коммерческие и приватные проекты в legal AI, enterprise collaboration, browser automation, Telegram workflows, health-tech, embedded/IoT и consumer product. Часть кода закрыта по понятным причинам, поэтому я показываю проекты через безопасные case studies, live links, архитектуру и карточки.
 
-**Главное позиционирование:** я создаю законченные продукты, а не отдельные куски кода: backend, frontend, AI workflow, automation, dashboards, Telegram-боты, desktop/mobile приложения, деплой, UX и документацию.
+## 2-минутное интервью intro
+
+Я не ограничиваюсь одной узкой зоной. Могу делать frontend, backend, AI automation, Telegram bots, dashboards, desktop/mobile apps и embedded-системы. Для меня важно не просто “написать фичу”, а понять задачу, выбрать архитектуру, собрать рабочий продукт, сделать его понятным для пользователя и довести до состояния, где его можно показать работодателю, клиенту или партнеру.
+
+Самые сильные доказательства: **Klawis** как live legal AI продукт, **CoupleOS / Softly** как founder-led consumer product, **TTYL Platform** как enterprise/on-prem system design, **BelfProctor** как monitoring/proctoring система с Windows agent, **VFS Killer Main** как сложная browser automation, **Sentinel Edge** как embedded/full-stack проект и **Task-manager** как публичный Rust Telegram bot с CI.
+
+## Карта доказательств
+
+| Что нужно доказать | Лучшие проекты |
+|---|---|
+| Product thinking | [CoupleOS / Softly](cards/coupleos.md), [Forge / Learning OS](cards/forge-learning-os.md), [Klawis](cards/klawis.md) |
+| AI / RAG / automation | [Klawis](cards/klawis.md), [Task Manage Bot](cards/task-manage-bot.md), [VFS Killer Main](cards/vfs-killer-main.md) |
+| System design | [TTYL Platform](cards/ttyl-platform.md), [BelfProctor](cards/belfproctor.md), [Marketbot](cards/marketbot.md) |
+| Public code proof | [Sentinel Edge](cards/sentinel-edge.md), [Task-manager](cards/task-manage-bot.md), [3d-landing](cards/3d-landing.md) |
+| Visual/frontend taste | [3d-landing](cards/3d-landing.md), [CV-Samandar](https://samandarmansurkhodjaev2713.github.io/CV-Samandar/), [CoupleOS / Softly](cards/coupleos.md) |
+
+## Сообщение HR
+
+Здравствуйте! Я Самандар, full-stack / AI automation developer и product-minded software engineer. У меня есть опыт в web products, AI/RAG, Telegram automation, dashboards, desktop/mobile apps и embedded/IoT. Часть коммерческих проектов приватная, поэтому я подготовил безопасную витрину с карточками, архитектурой и live proof:
+
+<https://github.com/SamandarMansurkhodjaev2713/private-projects-showcase>
+
+## Сообщение техлиду
+
+Здравствуйте! Чтобы быстро оценить мой инженерный уровень, лучше всего открыть project cards: там по каждому проекту есть стек, архитектура, почему выбран такой дизайн, сильные стороны и безопасные proof materials. Особенно рекомендую TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Sentinel Edge и Task-manager.
+
+## Сообщение клиенту / founder
+
+Здравствуйте! Я помогаю превращать продуктовые идеи и операционные задачи в работающие системы: web apps, AI automation, Telegram workflows, dashboards, internal tools и demo-ready MVP. Витрина проектов показывает, как я думаю об архитектуре, пользователе, бизнес-ценности и безопасной демонстрации результата.
+
+---
+
+# Job Package
+
+Positioning package for hiring, freelance, contract work and product collaborations.
+
+## Short Positioning
+
+I am a full-stack / software engineer with a strong product-minded approach: I build complete products, not just code fragments. My focus areas are AI automation, web platforms, Telegram workflows, embedded/IoT, desktop/mobile apps, dashboards and interfaces that can be shown, explained and evolved.
+
+I am currently a **3rd-year Bachelor's student in Software Engineering at IT Park University** and I also build my own products, including **CoupleOS / Softly** and **Klawis**.
 
 ## Best Fit Roles
 
-| Role | Why it fits | Proof to show first |
-|---|---|---|
-| Full-stack Developer | Builds product flows from database/API to frontend, deployment and documentation | [TTYL Platform](cards/ttyl-platform.md), [Forge / Learning OS](cards/forge-learning-os.md), [Sentinel Edge](cards/sentinel-edge.md) |
-| AI Automation Developer | Builds RAG, AI workers, structured outputs, Telegram automation and browser workflows | [Klawis](cards/klawis.md), [Task Manage Bot](cards/task-manage-bot.md), [VFS Killer Main](cards/vfs-killer-main.md) |
-| Product-minded Engineer | Thinks in product value, UX, business flow, user proof and launch readiness | [Forge / Learning OS](cards/forge-learning-os.md), [CoupleOS / Softly](cards/coupleos.md), [Marketbot](cards/marketbot.md) |
-| Software Engineer | Understands architecture, domain separation, reliability, data boundaries and quality signals | [TTYL Platform](cards/ttyl-platform.md), [BelfProctor](cards/belfproctor.md), [med-exe](cards/med-exe.md) |
-| Founder / Builder | Can turn an unclear idea into a working product with positioning and demo value | [Forge / Learning OS](cards/forge-learning-os.md), [CoupleOS / Softly](cards/coupleos.md), [3d-landing](cards/3d-landing.md) |
-
-## Позиции, под которые профиль подходит лучше всего
-
-| Роль | Почему подходит | Что показать первым |
-|---|---|---|
-| Full-stack Developer | Есть проекты от базы данных и API до UI, деплоя и документации | [TTYL Platform](cards/ttyl-platform.md), [Forge / Learning OS](cards/forge-learning-os.md), [Sentinel Edge](cards/sentinel-edge.md) |
-| AI Automation Developer | Есть RAG, AI workers, structured outputs, Telegram automation и browser automation | [Klawis](cards/klawis.md), [Task Manage Bot](cards/task-manage-bot.md), [VFS Killer Main](cards/vfs-killer-main.md) |
-| Product-minded Engineer | Видно мышление про ценность продукта, UX, бизнес-сценарии и demo readiness | [Forge / Learning OS](cards/forge-learning-os.md), [CoupleOS / Softly](cards/coupleos.md), [Marketbot](cards/marketbot.md) |
-| Software Engineer | Видны архитектура, доменные границы, reliability, работа с данными и quality signals | [TTYL Platform](cards/ttyl-platform.md), [BelfProctor](cards/belfproctor.md), [med-exe](cards/med-exe.md) |
-| Founder / Builder | Умеет превращать размытую идею в работающий продукт с понятной ценностью | [Forge / Learning OS](cards/forge-learning-os.md), [CoupleOS / Softly](cards/coupleos.md), [3d-landing](cards/3d-landing.md) |
+| Role | Why it fits |
+|---|---|
+| **Full-stack Developer** | I can take a product from database and API to UI, deployment, documentation and demo-ready state |
+| **AI Automation Developer** | RAG, AI workers, structured outputs, bots, automation pipelines and domain routing |
+| **Software Engineer** | Architecture, layers, typing, CI, Docker, clean boundaries and reliability |
+| **Product-minded Engineer** | User value, business outcomes, UX, roadmap, launch speed and result |
+| **Founder-style Builder** | I can take an idea, package it into an MVP, ship a live/demo version and explain the value |
+| **Freelance / Contractor** | I understand problems quickly, work autonomously and communicate results clearly |
 
 ## 30-Second Pitch
 
-### English
-
-I am a full-stack and AI automation developer with a product-minded engineering style. I build complete systems: web apps, AI workflows, Telegram bots, dashboards, automation tools, desktop/mobile apps and embedded-style prototypes. I am currently a 3rd-year Bachelor's student in Software Engineering at IT Park University, and I combine engineering with product, design and business thinking. Many of my strongest projects are private, so I document them as code-safe case studies with stack, architecture, reasoning and demo notes.
-
-### Русский
-
-Я full-stack и AI automation developer с product-minded подходом. Я делаю не только отдельные фичи, а законченные системы: web apps, AI workflows, Telegram-ботов, dashboards, automation tools, desktop/mobile приложения и embedded-style прототипы. Сейчас я учусь на 3 курсе бакалавриата Software Engineering в IT Park University и совмещаю инженерный подход с продуктовым, дизайнерским и бизнес-мышлением. Часть сильных проектов приватная, поэтому я показываю их через безопасные case studies: стек, архитектуру, причины решений и demo notes без раскрытия приватного кода.
+I am a full-stack developer and AI automation developer who builds complete products: backend, architecture, interface, UX, deployment and demos. I have commercial and private projects in legal AI, enterprise collaboration, browser automation, Telegram workflows, health-tech, embedded/IoT and consumer products. Some code is private for professional reasons, so I present those projects through safe case studies, live links, architecture and project cards.
 
 ## 2-Minute Interview Intro
 
-### English
+I am not limited to one narrow area. I can build frontend, backend, AI automation, Telegram bots, dashboards, desktop/mobile apps and embedded systems. I care about more than “implementing a feature”: I want to understand the problem, choose the architecture, build a working product, make it clear for users and bring it to a state where it can be shown to an employer, client or partner.
 
-My strongest direction is building practical products end to end. I can work across frontend, backend, data, AI, automation, UX and deployment, but I try to keep the work structured: clear domain boundaries, typed contracts, service layers, background jobs where needed, privacy boundaries and documentation that makes the project understandable.
+The strongest proof points are **Klawis** as a live legal AI product, **CoupleOS / Softly** as a founder-led consumer product, **TTYL Platform** as enterprise/on-prem system design, **BelfProctor** as a monitoring/proctoring system with a Windows agent, **VFS Killer Main** as complex browser automation, **Sentinel Edge** as embedded/full-stack work and **Task-manager** as a public Rust Telegram bot with CI.
 
-For public proof, I would start with Sentinel Edge, 3d-landing, Klawis and Softly because they show breadth beyond a normal CRUD app: embedded/IoT plus realtime dashboard, visual WebGL frontend, deployed legal AI and a live founder-led consumer product. For private/commercial work, the main proof is the showcase repository: TTYL shows enterprise collaboration and system design, Klawis shows applied AI with RAG and citations, BelfProctor shows Windows client-agent and monitoring architecture, VFS Killer Main shows real-world browser automation, and Forge / Learning OS shows founder-style product engineering.
+## Proof Map
 
-### Русский
+| What to prove | Best projects |
+|---|---|
+| Product thinking | [CoupleOS / Softly](cards/coupleos.md), [Forge / Learning OS](cards/forge-learning-os.md), [Klawis](cards/klawis.md) |
+| AI / RAG / automation | [Klawis](cards/klawis.md), [Task Manage Bot](cards/task-manage-bot.md), [VFS Killer Main](cards/vfs-killer-main.md) |
+| System design | [TTYL Platform](cards/ttyl-platform.md), [BelfProctor](cards/belfproctor.md), [Marketbot](cards/marketbot.md) |
+| Public code proof | [Sentinel Edge](cards/sentinel-edge.md), [Task-manager](cards/task-manage-bot.md), [3d-landing](cards/3d-landing.md) |
+| Visual/frontend taste | [3d-landing](cards/3d-landing.md), [CV-Samandar](https://samandarmansurkhodjaev2713.github.io/CV-Samandar/), [CoupleOS / Softly](cards/coupleos.md) |
 
-Моё главное направление - делать практичные продукты end to end. Я могу работать на стыке frontend, backend, data, AI, automation, UX и deployment, но стараюсь держать систему структурной: понятные доменные границы, typed contracts, service layers, фоновые задачи там, где они нужны, privacy boundaries и документация, по которой проект можно быстро понять.
+## Message To Recruiter
 
-Из публичных доказательств я бы первым показал Sentinel Edge, 3d-landing, Klawis и Softly: они показывают широту за пределами обычного CRUD - embedded/IoT плюс realtime dashboard, визуальный WebGL/frontend, задеплоенный legal AI и live founder-led consumer product. Для приватных и коммерческих проектов главный источник - showcase repository: TTYL показывает enterprise collaboration и system design, Klawis показывает applied AI с RAG и цитированием, BelfProctor показывает Windows client-agent и monitoring architecture, VFS Killer Main показывает реальную browser automation, а Forge / Learning OS показывает founder-style product engineering.
+Hi! I’m Samandar, a full-stack / AI automation developer and product-minded software engineer. I have experience across web products, AI/RAG, Telegram automation, dashboards, desktop/mobile apps and embedded/IoT. Some commercial projects are private, so I prepared a safe showcase with cards, architecture and live proof:
 
-## Proof Map By Audience
+<https://github.com/SamandarMansurkhodjaev2713/private-projects-showcase>
 
-| Audience | Open first | Main message |
-|---|---|---|
-| Recruiter / HR | [Project cards](project-cards.md), then [Forge](cards/forge-learning-os.md), [Sentinel Edge](cards/sentinel-edge.md), [CoupleOS / Softly](cards/coupleos.md) | Broad, employable, product-oriented engineer with real shipped/project work |
-| Tech lead | [TTYL](cards/ttyl-platform.md), [Klawis](cards/klawis.md), [BelfProctor](cards/belfproctor.md), [VFS Killer Main](cards/vfs-killer-main.md) | Can reason about architecture, domains, reliability, privacy and complex workflows |
-| Founder / client | [Forge](cards/forge-learning-os.md), [Marketbot](cards/marketbot.md), [Task Manage Bot](cards/task-manage-bot.md), [Klawis](cards/klawis.md) | Can turn business problems into products, automations and demos |
-| Investor / partner | [Forge](cards/forge-learning-os.md), [CoupleOS / Softly](cards/coupleos.md), [TTYL](cards/ttyl-platform.md), [Sentinel Edge](cards/sentinel-edge.md) | Builder with product instincts, execution speed and technical range |
+## Message To Tech Lead
 
-## Карта доказательств по аудитории
+Hi! To evaluate my engineering level quickly, the best place to start is the project cards. Each card includes stack, architecture, reasoning, strongest signals and safe proof material. I especially recommend TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Sentinel Edge and Task-manager.
 
-| Кому показывать | Что открыть первым | Главная мысль |
-|---|---|---|
-| HR / рекрутер | [Project cards](project-cards.md), потом [Forge](cards/forge-learning-os.md), [Sentinel Edge](cards/sentinel-edge.md), [CoupleOS / Softly](cards/coupleos.md) | Широкий, нанимаемый, product-oriented инженер с реальными проектами |
-| Техлид | [TTYL](cards/ttyl-platform.md), [Klawis](cards/klawis.md), [BelfProctor](cards/belfproctor.md), [VFS Killer Main](cards/vfs-killer-main.md) | Может мыслить архитектурой, доменами, reliability, privacy и сложными workflow |
-| Founder / клиент | [Forge](cards/forge-learning-os.md), [Marketbot](cards/marketbot.md), [Task Manage Bot](cards/task-manage-bot.md), [Klawis](cards/klawis.md) | Может превращать бизнес-проблемы в продукты, автоматизации и демо |
-| Инвестор / партнёр | [Forge](cards/forge-learning-os.md), [CoupleOS / Softly](cards/coupleos.md), [TTYL](cards/ttyl-platform.md), [Sentinel Edge](cards/sentinel-edge.md) | Builder с продуктовым мышлением, скоростью реализации и технической широтой |
+## Message To Client / Founder
 
-## Strongest Project Signals
-
-| Signal | Projects | What it proves |
-|---|---|---|
-| Product ownership | Forge / Learning OS, CoupleOS / Softly | Can design product logic, UX, retention mechanics and market-facing proof |
-| Enterprise architecture | TTYL Platform, BelfProctor | Can design permissions, files, realtime, audit, admin workflows and deployment boundaries |
-| Applied AI | Klawis, Task Manage Bot, AI Classroom | Uses AI with structure: routing, RAG, citations, validation, tasks and privacy constraints. Klawis is deployed at [klawis.uz](https://klawis.uz). |
-| Real automation | VFS Killer Main, Marketbot, Task Manage Bot | Handles unreliable external systems, queues, retries, notifications and operator workflows |
-| Breadth beyond web | Sentinel Edge, med-exe | Can work with embedded-style firmware, desktop apps, Rust/Tauri and local-first architecture |
-| Visual polish | 3d-landing, CV-Samandar, CoupleOS / Softly | Can make products presentable, not only functional |
-
-## Сильнейшие сигналы по проектам
-
-| Сигнал | Проекты | Что доказывает |
-|---|---|---|
-| Product ownership | Forge / Learning OS, CoupleOS / Softly | Умение проектировать продуктовую логику, UX, retention mechanics и market-facing proof |
-| Enterprise architecture | TTYL Platform, BelfProctor | Умение проектировать permissions, files, realtime, audit, admin workflows и deployment boundaries |
-| Applied AI | Klawis, Task Manage Bot, AI Classroom | AI не как “промпт”, а как система: routing, RAG, citations, validation, tasks и privacy constraints. Klawis задеплоен на [klawis.uz](https://klawis.uz). |
-| Real automation | VFS Killer Main, Marketbot, Task Manage Bot | Работа с нестабильными внешними системами, очередями, retries, уведомлениями и operator workflows |
-| Breadth beyond web | Sentinel Edge, med-exe | Опыт за пределами обычного web: firmware-style логика, desktop apps, Rust/Tauri, local-first architecture |
-| Visual polish | 3d-landing, CV-Samandar, CoupleOS / Softly | Продукты выглядят аккуратно и продаваемо, а не только “работают” |
-
-## Copy-Ready Outreach Messages
-
-### Recruiter / HR - English
-
-Hi! I am Samandar, a full-stack and AI automation developer. I build complete products across frontend, backend, AI workflows, automation, Telegram bots, dashboards and deployment. I am currently a 3rd-year Bachelor's student in Software Engineering at IT Park University. My GitHub includes public repositories plus a code-safe showcase for private/commercial projects with architecture, stack and product context: <https://github.com/SamandarMansurkhodjaev2713/private-projects-showcase>
-
-### Recruiter / HR - Русский
-
-Здравствуйте! Меня зовут Самандар, я full-stack и AI automation developer. Я создаю законченные продукты: frontend, backend, AI workflows, automation, Telegram-боты, dashboards и deployment. Сейчас я учусь на 3 курсе бакалавриата Software Engineering в IT Park University. На GitHub есть публичные репозитории и безопасная витрина приватных/коммерческих проектов с описанием архитектуры, стека и продуктового контекста: <https://github.com/SamandarMansurkhodjaev2713/private-projects-showcase>
-
-### Tech Lead - English
-
-Hi! For a technical review, I would suggest starting with my project cards and case studies. The strongest architecture signals are TTYL Platform for enterprise collaboration, Klawis for deployed RAG/citation-based legal AI, BelfProctor for Windows agent and monitoring architecture, VFS Killer Main for browser automation under unstable external constraints, and Sentinel Edge for firmware + serial protocol + realtime dashboard.
-
-### Tech Lead - Русский
-
-Здравствуйте! Для технического просмотра я бы начал с project cards и case studies. Самые сильные архитектурные сигналы: TTYL Platform как enterprise collaboration система, Klawis как задеплоенный RAG/citation-based legal AI, BelfProctor как Windows agent и monitoring architecture, VFS Killer Main как browser automation в нестабильной внешней среде, и Sentinel Edge как firmware + serial protocol + realtime dashboard.
-
-### Founder / Client - English
-
-Hi! I help turn business problems into working products and automation systems. My strongest examples are Forge / Learning OS for product-first platform thinking, Softly for live founder-led consumer product execution, Marketbot for commerce automation, Task Manage Bot for operational Telegram workflows, Klawis for deployed legal AI, and VFS Killer Main for complex browser automation. I can discuss safe demos and architecture without exposing private client code.
-
-### Founder / Client - Русский
-
-Здравствуйте! Я помогаю превращать бизнес-задачи в рабочие продукты и автоматизации. Самые подходящие примеры: Forge / Learning OS как product-first платформа, Softly как live founder-led consumer product, Marketbot как commerce automation, Task Manage Bot как операционный Telegram workflow, Klawis как задеплоенный legal AI и VFS Killer Main как сложная browser automation. Могу показать безопасные демо и архитектуру без раскрытия приватного клиентского кода.
-
-## Common Questions
-
-### Why are many projects private?
-
-Because several projects were built for commercial contexts, sensitive domains, unreleased products or private business logic. Publishing the source code would risk exposing customer context, credentials, datasets, workflows or proprietary implementation details.
-
-### Почему многие проекты приватные?
-
-Потому что часть проектов делалась для коммерческого контекста, чувствительных доменов, невыпущенных продуктов или приватной бизнес-логики. Публикация исходного кода может раскрыть customer context, credentials, datasets, workflows или proprietary implementation details.
-
-### How can the work be evaluated without source code?
-
-Through public repositories where possible, and through code-safe proof where source code cannot be published: architecture, stack, responsibilities, product flow, quality signals, screenshots/video only when sanitized, and a technical walkthrough during interview.
-
-### Как оценивать работу без исходного кода?
-
-Через публичные репозитории там, где это безопасно, и через code-safe proof там, где код публиковать нельзя: architecture, stack, responsibilities, product flow, quality signals, sanitized screenshots/video и технический walkthrough на интервью.
-
-## Hiring Narrative
-
-The cleanest narrative is:
-
-1. I am not only a frontend/backend developer. I build complete systems.
-2. I can work with AI and automation in practical production-like workflows, not only demos.
-3. I understand product value, UX and business context.
-4. I keep private work private and document it safely.
-5. I am completing a Software Engineering Bachelor's degree while already building a portfolio with real breadth and product depth.
-
-Самая сильная линия подачи:
-
-1. Я не только frontend/backend developer. Я строю законченные системы.
-2. Я умею делать AI и automation в практичных production-like workflow, а не только демо.
-3. Я понимаю product value, UX и бизнес-контекст.
-4. Я не раскрываю приватный код и умею безопасно документировать закрытую работу.
-5. Я прохожу бакалавриат по Software Engineering и параллельно уже строю портфолио с реальной широтой и продуктовой глубиной.
-
-## Safe Links
-
-- [Main showcase](README.md)
-- [Project cards](project-cards.md)
-- [One-page cards](cards/README.md)
-- [Demo & Interview Kit](demo-kit.md)
-- [Visual Evidence Pack](visual-evidence-pack.md)
-- [Sentinel Edge public repo](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system)
-- [GitHub profile](https://github.com/SamandarMansurkhodjaev2713)
+Hi! I help turn product ideas and operational problems into working systems: web apps, AI automation, Telegram workflows, dashboards, internal tools and demo-ready MVPs. The showcase explains how I think about architecture, users, business value and safe presentation of results.

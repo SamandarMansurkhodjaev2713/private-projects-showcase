@@ -1,66 +1,33 @@
 # TTYL Platform
 
-**Domain:** enterprise collaboration / on-prem productivity  
-**Type:** private product platform  
-**Role:** full-stack architecture, backend systems, product design, deployment planning
+## Русский
 
-## Summary
+**Кратко:** приватная on-prem collaboration платформа для проектов, задач, чатов, файлов, поиска, уведомлений, ролей и audit logs.
 
-TTYL Platform is a self-hosted collaboration platform for teams that need project management, chat, files, search, notifications and auditability in one controlled environment.
+**Проблема:** командам часто нужны современные collaboration tools, но с контролем над данными и инфраструктурой. Внешний SaaS не всегда подходит из-за приватности, регуляторики или внутренней политики.
 
-The product direction is close to replacing a stack like Jira + Slack + file storage for organizations that prefer on-premise deployment and stronger control over their data.
+**Стек:** NestJS, Next.js, PostgreSQL, Redis, MinIO/object storage, WebSocket/realtime, RBAC, workers, Docker-style deployment.
 
-## Problem
+**Архитектура:** identity, workspaces, projects, tasks, messaging, files, search, notifications, audit и realtime gateway разделены как домены. Файлы вынесены в object storage, background jobs обрабатывают тяжелые операции, RBAC управляет доступом.
 
-Many teams need collaboration tools, but not every organization wants to send internal work, files and communication to external SaaS providers. The challenge is to provide modern UX while keeping deployment, storage, permissions and audit logs under control.
+**Почему так:** enterprise collaboration быстро растет в сложность. Доменное разделение помогает удерживать безопасность, масштабируемость, тестируемость и возможность on-prem deployment.
 
-## Stack
+**Что доказывает:** enterprise system design, backend depth, permissions, realtime, storage, audit, deployment и понимание внутренних платформ.
 
-- **Backend:** TypeScript, NestJS, Fastify, Prisma
-- **Frontend:** Next.js, React, TypeScript, Tailwind, Radix UI, TanStack tools
-- **Data:** PostgreSQL, Redis
-- **Files:** MinIO, ClamAV-style scanning boundary
-- **Async:** BullMQ/workers, realtime gateway, WebSocket
-- **Infra:** Docker, Nginx, OpenTelemetry/Prometheus/Grafana/Loki/Tempo style observability
-- **Monorepo:** pnpm workspaces, Turborepo
+## English
 
-## Architecture
+**Summary:** a private on-prem collaboration platform for projects, tasks, chat, files, search, notifications, roles and audit logs.
 
-```mermaid
-flowchart TB
-  Web["Web client"] --> Gateway["API gateway / realtime"]
-  Gateway --> Identity["Identity service"]
-  Gateway --> Workspace["Workspace/project service"]
-  Gateway --> Messaging["Messaging service"]
-  Gateway --> Files["Files service"]
-  Gateway --> Search["Search service"]
-  Gateway --> Audit["Audit service"]
-  Files --> ObjectStorage["MinIO/object storage"]
-  Messaging --> Redis["Redis/realtime"]
-  Workspace --> Postgres["PostgreSQL schemas"]
-  Gateway --> Workers["Jobs/notification workers"]
-```
+**Problem:** teams often need modern collaboration tools while keeping control over data and infrastructure. External SaaS is not always acceptable because of privacy, regulation or internal policy.
 
-The system is split by domains: identity, workspace/project management, messaging, files, search, notifications, audit and realtime. It uses clear service boundaries and shared contracts instead of mixing all workflows into a single unstructured backend.
+**Stack:** NestJS, Next.js, PostgreSQL, Redis, MinIO/object storage, WebSocket/realtime, RBAC, workers and Docker-style deployment.
 
-## Why This Architecture
+**Architecture:** identity, workspaces, projects, tasks, messaging, files, search, notifications, audit and realtime gateway are separated as domains. Files are stored in object storage, background jobs handle heavy operations and RBAC controls access.
 
-The main reason is operational clarity. Collaboration platforms contain very different types of complexity:
+**Why this architecture:** enterprise collaboration grows complex quickly. Domain separation helps maintain security, scalability, testability and on-prem deployment readiness.
 
-- permissions and identity;
-- realtime messaging;
-- project/task workflows;
-- file storage and scanning;
-- search;
-- notifications;
-- audit trails.
+**What it proves:** enterprise system design, backend depth, permissions, realtime, storage, audit, deployment and internal-platform thinking.
 
-Keeping these boundaries separate makes the platform easier to secure, test, deploy and scale. It also supports an on-premise story because infrastructure dependencies are explicit.
+---
 
-## What It Demonstrates
-
-- Enterprise full-stack architecture
-- On-premise and privacy-aware product thinking
-- Realtime, files, queues and audit logs
-- Service boundaries and typed contracts
-- Ability to design a product platform, not only a single feature
+[Карточка проекта](../cards/ttyl-platform.md) | [Назад к case studies](README.md)

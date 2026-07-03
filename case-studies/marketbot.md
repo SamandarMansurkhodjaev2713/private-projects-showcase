@@ -1,60 +1,33 @@
 # Marketbot
 
-**Domain:** e-commerce automation / notifications  
-**Type:** private backend/product platform  
-**Role:** service design, backend architecture, admin workflow, event-driven pipeline
+## Русский
 
-## Summary
+**Кратко:** приватная commerce automation платформа для офферов, подписок, affiliate links, Telegram notifications и операционной админки.
 
-Marketbot is a platform for collecting product offers, managing subscriptions, generating affiliate links and sending relevant Telegram notifications to users.
+**Проблема:** offer-based продукты требуют ingestion, нормализации, фильтров, подписок, delivery, retries, админского контроля и обработки ошибок.
 
-## Problem
+**Стек:** Python services, RabbitMQ, gRPC, PostgreSQL, Telegram bot, React admin, event-driven workflows.
 
-Offer-based products need several moving parts:
+**Архитектура:** ingestion service собирает офферы; subscription service хранит интересы; affiliate/link service генерирует ссылки; notification service доставляет события; Telegram bot выводит value пользователю; admin panel дает контроль.
 
-- ingestion from external product sources;
-- normalized storage;
-- user subscriptions and filters;
-- notification delivery;
-- admin visibility into failures and state;
-- affiliate link generation.
+**Почему так:** commerce automation зависит от событий и внешних источников. Очереди и сервисные границы позволяют переживать задержки, сбои и рост сценариев.
 
-Putting everything into one uncontrolled script would make the system hard to debug and evolve.
+**Что доказывает:** event-driven backend, service contracts, commerce thinking, Telegram delivery, admin visibility и automation для бизнес-результата.
 
-## Stack
+## English
 
-- **Backend:** Python 3.12, uv workspace
-- **Contracts:** gRPC/protobuf
-- **Messaging:** RabbitMQ
-- **Data:** PostgreSQL per service, Redis
-- **Admin:** React, Vite, TypeScript, TanStack Query, Zod
-- **Infra:** Docker Compose, Traefik
-- **Quality:** pytest, Vitest, buf
+**Summary:** a private commerce automation platform for offers, subscriptions, affiliate links, Telegram notifications and an operational admin panel.
 
-## Architecture
+**Problem:** offer-based products require ingestion, normalization, filtering, subscriptions, delivery, retries, admin control and error handling.
 
-```mermaid
-flowchart LR
-  Ingestion["Offer ingestion"] --> Queue["RabbitMQ"]
-  Queue --> Notification["Notification service"]
-  Subscription["Subscription service"] --> Notification
-  Notification --> Affiliate["Affiliate service"]
-  Affiliate --> Telegram["Telegram bot"]
-  Admin["Admin web"] --> BFF["Admin BFF"]
-  BFF --> Subscription
-  BFF --> Ingestion
-```
+**Stack:** Python services, RabbitMQ, gRPC, PostgreSQL, Telegram bot, React admin and event-driven workflows.
 
-The platform is split into domain services: subscription, offer ingestion, notification, affiliate, Telegram bot and admin BFF. Services communicate through gRPC contracts and async events.
+**Architecture:** the ingestion service collects offers; the subscription service stores interests; the affiliate/link service generates links; the notification service delivers events; the Telegram bot brings value to users; the admin panel provides control.
 
-## Why This Architecture
+**Why this architecture:** commerce automation depends on events and external sources. Queues and service boundaries help handle delays, failures and growth in scenarios.
 
-Ingestion, subscriptions, notifications and affiliate logic change for different reasons. Separating them reduces coupling and makes failures easier to isolate. RabbitMQ fits the event-driven nature of offer updates and notifications.
+**What it proves:** event-driven backend, service contracts, commerce thinking, Telegram delivery, admin visibility and automation for business outcomes.
 
-## What It Demonstrates
+---
 
-- Microservice-style backend design
-- Event-driven architecture
-- Admin panel and operational workflows
-- gRPC/protobuf contracts
-- E-commerce automation and Telegram delivery
+[Карточка проекта](../cards/marketbot.md) | [Назад к case studies](README.md)

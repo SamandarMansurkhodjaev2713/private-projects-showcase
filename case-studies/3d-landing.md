@@ -1,56 +1,37 @@
 # 3d-landing
 
-**Domain:** creative frontend / WebGL<br>
-**Type:** public project repository<br>
-**Role:** frontend engineering, 3D scene composition, interaction design, performance-aware UI<br>
-**Repository:** [3d-landing](https://github.com/SamandarMansurkhodjaev2713/3d-landing)
+## Русский
 
-## Summary
+**Кратко:** публичный Three.js/WebGL landing с интерактивной 3D-сценой, motion и product-style визуальной подачей.
 
-3d-landing is a cinematic Three.js/WebGL landing page with scroll-driven 3D presentation and adaptive performance thinking.
+**Проблема:** frontend-портфолио часто выглядит статично. Этот проект показывает визуальную инженерность: сцену, движение, адаптивность, performance-aware подход и demo-ready презентацию.
 
-The project exists as a visual frontend proof: it shows that I can build not only operational dashboards and backend systems, but also polished, interactive product-facing experiences.
+**Стек:** Three.js, WebGL, Vite, JavaScript/TypeScript direction, animation loop, responsive layout, GitHub Pages.
 
-## Problem
+**Архитектура:** Vite отвечает за build pipeline; Three.js scene отделена от UI; animation loop управляет движением; layout слой отвечает за контент и адаптивность; GitHub Pages дает live proof.
 
-Portfolio/frontend projects often become static pages. A strong landing needs motion, hierarchy, responsiveness, rendering control and a sense of product presentation.
+**Почему так:** 3D UI требует контроля state, performance и layout. Разделение scene, animation и UI делает проект проще оптимизировать и показывать.
 
-The challenge is to make a landing page feel immersive without turning it into a heavy, fragile visual experiment.
+**Что доказывает:** visual frontend taste, WebGL, motion, responsiveness, performance awareness и способность делать интерфейсы, которые запоминаются.
 
-## Stack
+**Demo:** <https://samandarmansurkhodjaev2713.github.io/3d-landing/>
 
-- **Frontend:** JavaScript, Vite
-- **3D:** Three.js / WebGL
-- **UI:** responsive layout, scroll-driven composition
-- **Performance:** adaptive rendering choices and lightweight frontend structure
+## English
 
-## Architecture
+**Summary:** a public Three.js/WebGL landing with an interactive 3D scene, motion and product-style visual presentation.
 
-```mermaid
-flowchart TB
-  Page["Landing page"] --> Scene["Three.js scene"]
-  Scene --> Camera["Camera / scroll motion"]
-  Scene --> Objects["3D objects / materials"]
-  Page --> UI["Text and CTA layers"]
-  Page --> Perf["Responsive/performance tuning"]
-```
+**Problem:** frontend portfolios often look static. This project shows visual engineering: scene, motion, responsiveness, performance-aware implementation and demo-ready presentation.
 
-The project separates the visual scene from the page composition so the landing can remain maintainable while still feeling interactive.
+**Stack:** Three.js, WebGL, Vite, JavaScript/TypeScript direction, animation loop, responsive layout and GitHub Pages.
 
-## Why This Architecture
+**Architecture:** Vite owns the build pipeline; the Three.js scene is separated from UI; the animation loop controls motion; the layout layer handles content and responsiveness; GitHub Pages provides live proof.
 
-Three.js projects can easily become hard to control if rendering, layout and copy are mixed together. Keeping the scene logic and UI composition separate makes iteration easier and keeps the landing more stable across devices.
+**Why this architecture:** 3D UI requires control over state, performance and layout. Separating scene, animation and UI makes the project easier to optimize and present.
 
-## What It Demonstrates
+**What it proves:** visual frontend taste, WebGL, motion, responsiveness, performance awareness and ability to build memorable interfaces.
 
-- WebGL/Three.js frontend engineering
-- Visual storytelling
-- Scroll-driven interaction
-- Performance-aware frontend work
-- Ability to make products feel polished, not only functional
+**Demo:** <https://samandarmansurkhodjaev2713.github.io/3d-landing/>
 
-## Русское описание
+---
 
-3d-landing — публичный визуальный frontend-проект на Three.js/WebGL. Он показывает, что я могу делать не только backend, dashboards и automation, но и сильную продуктовую подачу: 3D-сцену, scroll-driven experience, motion и аккуратный frontend polish.
-
-**Почему это сильный кейс:** для работодателя это сигнал, что я умею работать с визуальной частью продукта и могу делать интерфейсы, которые выглядят современно, интерактивно и не как шаблонная страница.
+[Карточка проекта](../cards/3d-landing.md) | [Назад к case studies](README.md)

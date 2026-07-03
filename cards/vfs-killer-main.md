@@ -1,64 +1,48 @@
 # VFS Killer Main
 
 <p>
-  <img alt="Private" src="https://img.shields.io/badge/Source-private-334155?style=flat-square">
   <img alt="Python" src="https://img.shields.io/badge/Python-Automation-3776ab?style=flat-square">
   <img alt="Playwright" src="https://img.shields.io/badge/Playwright-Browser%20Control-2f855a?style=flat-square">
   <img alt="Telegram" src="https://img.shields.io/badge/Telegram-Bot-229ed9?style=flat-square">
-  <img alt="Signal" src="https://img.shields.io/badge/Signal-Diagnostics%20First-92400e?style=flat-square">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-Runtime-2496ed?style=flat-square">
 </p>
-
-## English
-
-**What it is:** VFS Killer Main is a private browser-automation system for a high-friction external workflow. It combines Playwright/Camoufox-style browser control, Telegram operator commands, runtime configuration and diagnostics tools.
-
-**Problem it solves:** real browser workflows fail because of sessions, timing, network/proxy instability, external-state changes and anti-automation friction. A one-file script is not enough for this class of work.
-
-**Why it stands out:** VFS Killer Main shows automation in the real world, where the hard part is not clicking buttons but surviving unreliable external state. The project is valuable because it includes operator control, diagnostics, environment checks, state boundaries and recovery thinking.
-
-**Strongest signals:** browser automation under unstable constraints, diagnostics-first design, Telegram control surface, Docker runtime, proxy/network awareness, retry mindset and practical debugging experience.
-
-**Stack:** Python, Playwright/Camoufox-style browser automation, aiogram/Telegram bot workflows, local configuration and state boundaries, Docker, Docker Compose, endpoint/proxy/connection/parsing diagnostics.
-
-**Architecture:** the Telegram interface is separated from the automation workflow, browser layer, local state and diagnostics. Diagnostics are treated as part of the product because external workflows often fail outside the application code.
-
-```mermaid
-flowchart TB
-  Operator["Telegram operator"] --> Bot["Bot control layer"]
-  Bot --> Workflow["Automation workflow"]
-  Workflow --> Browser["Playwright / Camoufox"]
-  Browser --> External["External web workflow"]
-  Workflow --> State["Local state / queues"]
-  Diagnostics["Diagnostics tools"] --> Browser
-  Diagnostics --> Network["Proxy / network checks"]
-```
-
-**Why this architecture:** browser automation in unstable external systems needs observability, recovery and manual control. Separating bot, workflow, browser, diagnostics and config avoids turning the project into a fragile happy-path script.
-
-**Why it is impressive:** it demonstrates practical automation under real-world constraints: timing, retries, diagnostics, Docker runtime, external-state failures and operator UX.
-
-**Safe demo angle:** show architecture, sanitized logs, diagnostics flow and bot command model without exposing accounts, proxy data, browser traces, external targets or secrets.
 
 ## Русский
 
-**Что это:** VFS Killer Main — приватная browser-automation система для сложного внешнего workflow. Она объединяет Playwright/Camoufox-style browser control, Telegram-управление, конфигурацию, локальное состояние и diagnostic tools.
+**Что это:** VFS Killer Main - приватная browser automation система для сложного внешнего workflow, управляемая через Telegram bot и поддержанная diagnostics-first инструментами.
 
-**Какую проблему решает:** реальные browser workflows часто ломаются из-за сессий, таймингов, сети, прокси, внешнего состояния и anti-automation friction. Для этого недостаточно одного скрипта на happy path.
+**Какую проблему решает:** реальные browser workflows ломаются из-за таймингов, сессий, внешнего состояния, сетевых ошибок, прокси, нестабильных страниц и anti-automation friction. В таких задачах недостаточно написать “скрипт, который кликает кнопки”.
 
-**Уникальность:** VFS Killer Main показывает автоматизацию в реальном мире, где сложность не в “нажать кнопки”, а в том, чтобы выдержать нестабильное внешнее состояние. Сильная часть проекта — operator control, diagnostics, environment checks, state boundaries и recovery thinking.
+**Стек:** Python, Playwright/Camoufox, aiogram, Docker, Telegram bot interface, diagnostics, local state handling, retry/error flow.
 
-**Сильнейшие стороны:** browser automation в нестабильных условиях, diagnostics-first design, Telegram control surface, Docker runtime, proxy/network awareness, retry mindset и практический опыт отладки.
+**Архитектура:** workflow engine управляет шагами сценария, browser layer изолирует автоматизацию, Telegram bot дает оператору контроль и статусы, diagnostics помогает быстро понять сбой, а Docker/runtime слой делает запуск повторяемым.
 
-**Стек:** Python, Playwright/Camoufox-style automation, aiogram/Telegram bot workflows, local config/state, Docker, Docker Compose, diagnostics для endpoint/proxy/connection/parsing.
+**Почему именно так:** автоматизация внешней системы должна быть наблюдаемой и управляемой. Если сделать только headless script, при первом нестабильном кейсе он станет черным ящиком. Поэтому здесь важны retries, logs, screenshots, operator control и clear state boundaries.
 
-**Архитектура:** Telegram interface отделён от workflow engine, browser layer, local state и diagnostics. Диагностика вынесена как отдельная часть системы, потому что проблемы часто возникают не в коде, а во внешнем состоянии, сети или браузерном окружении.
+**Уникальность и сильные стороны:** проект демонстрирует практическую автоматизацию в реальном мире: нестабильные внешние системы, диагностика, Telegram control, container runtime и умение проектировать не только happy path.
 
-**Почему именно так:** нестабильная browser automation требует наблюдаемости, восстановления и ручного контроля. Разделение bot, workflow, browser, diagnostics и config делает систему устойчивее и проще для отладки.
+**Что доказывает работодателю:** способность решать сложные automation-задачи, где важны reliability, debugging, observability, security boundaries и productized operator experience.
 
-**Что это доказывает работодателю:** проект показывает реальную automation-инженерию: retry-мышление, диагностику, Docker runtime, работу с нестабильной внешней средой и operator UX.
+**Что можно показать:** code-safe architecture, demo script, обезличенный workflow, screenshots diagnostics и описание без приватных данных.
 
-**Безопасный формат показа:** можно показать архитектуру, обезличенные логи, diagnostic flow и модель команд бота без аккаунтов, proxy data, browser traces, внешних целей и секретов.
+## English
+
+**What it is:** VFS Killer Main is a private browser automation system for a complex external workflow, controlled through a Telegram bot and supported by diagnostics-first tooling.
+
+**Problem it solves:** real browser workflows fail because of timing, sessions, external state, network issues, proxies, unstable pages and anti-automation friction. In this domain, “a script that clicks buttons” is not enough.
+
+**Stack:** Python, Playwright/Camoufox, aiogram, Docker, Telegram bot interface, diagnostics, local state handling and retry/error flow.
+
+**Architecture:** the workflow engine controls scenario steps, the browser layer isolates automation, the Telegram bot gives operators control and status, diagnostics helps understand failures quickly, and the Docker/runtime layer makes execution repeatable.
+
+**Why this architecture:** automation against external systems must be observable and controllable. A simple headless script becomes a black box at the first unstable case, so retries, logs, screenshots, operator control and state boundaries are essential.
+
+**Unique strengths:** the project demonstrates practical real-world automation: unstable external systems, diagnostics, Telegram control, container runtime and thinking beyond the happy path.
+
+**Employer signal:** ability to solve hard automation problems where reliability, debugging, observability, security boundaries and productized operator experience matter.
+
+**Safe proof:** code-safe architecture, demo script, anonymized workflow, diagnostic screenshots and description without private data.
 
 ---
 
-[Deep case study](../case-studies/vfs-killer-main.md) · [Back to gallery](README.md)
+[Назад к галерее](README.md) | [Case study](../case-studies/vfs-killer-main.md) | [Главная витрина](../README.md)

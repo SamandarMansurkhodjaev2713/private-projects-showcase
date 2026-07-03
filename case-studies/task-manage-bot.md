@@ -1,60 +1,37 @@
 # Task Manage Bot
 
-**Domain:** Telegram automation / operations  
-**Type:** private automation project  
-**Role:** backend architecture, bot workflow design, AI transcription integration, reliability patterns
+## Русский
 
-## Summary
+**Кратко:** Telegram task automation направление: публичный Rust Task-manager и приватный AI/voice-to-task workflow для превращения сообщений в задачи, сроки, напоминания и статусы.
 
-Task Manage Bot is a Telegram group bot for turning voice messages and chat activity into structured tasks, reminders and operational workflows.
+**Проблема:** задачи в чатах быстро теряются. Нужен bot workflow, который переводит неструктурированную коммуникацию в управляемый процесс с надежными напоминаниями.
 
-The project is built as a production-style automation system rather than a simple command bot.
+**Стек:** Rust, Teloxide, SQLx, Docker, GitHub Actions, Python/aiogram, PostgreSQL/SQLite, async jobs, reminders.
 
-## Problem
+**Архитектура:** bot layer принимает команды; domain layer управляет задачами и статусами; storage layer хранит данные; scheduler/outbox обрабатывает напоминания; retries/idempotency защищают workflow.
 
-Teams often create tasks informally in chats and voice messages. Important work gets lost because there is no structured assignment, deadline, reminder or review loop.
+**Почему так:** боты быстро становятся неподдерживаемыми, если смешать команды, storage и бизнес-логику. Слои делают систему понятнее и надежнее.
 
-The bot solves this by extracting tasks from natural communication and turning them into trackable workflow items.
+**Что доказывает:** Telegram automation, async backend thinking, Rust public proof, CI, reminders, workflow design и operational reliability.
 
-## Stack
+**Proof:** <https://github.com/SamandarMansurkhodjaev2713/Task-manager>
 
-- **Language:** Python 3.12
-- **Bot:** aiogram 3
-- **AI:** OpenAI transcription and structured output flow
-- **Data:** PostgreSQL, SQLAlchemy async, Alembic
-- **Reliability:** retries, idempotency, queue/outbox patterns
-- **Quality:** pytest, mypy, ruff, bandit-style checks, structured logging
-- **Infra:** Docker Compose
+## English
 
-## Architecture
+**Summary:** a Telegram task automation direction: public Rust Task-manager and private AI/voice-to-task workflow for turning messages into tasks, deadlines, reminders and statuses.
 
-```mermaid
-flowchart TB
-  Telegram["Telegram group"] --> Bot["aiogram bot"]
-  Bot --> Transcription["Voice transcription"]
-  Transcription --> Parser["Structured task extraction"]
-  Parser --> Domain["Task domain logic"]
-  Domain --> DB["PostgreSQL"]
-  Domain --> Outbox["Outbox / reminders"]
-  Outbox --> Notifier["Telegram notifications"]
-```
+**Problem:** tasks in chats are easy to lose. The bot workflow turns unstructured communication into a managed process with reliable reminders.
 
-The project uses a clean modular structure with domain, application and infrastructure layers. Slow or failure-prone operations are handled through queues/outbox/retry logic, so the bot can remain responsive while still processing reminders and follow-ups reliably.
+**Stack:** Rust, Teloxide, SQLx, Docker, GitHub Actions, Python/aiogram, PostgreSQL/SQLite, async jobs and reminders.
 
-## Why This Architecture
+**Architecture:** the bot layer handles commands; the domain layer manages tasks and statuses; the storage layer persists data; the scheduler/outbox handles reminders; retries/idempotency protect the workflow.
 
-Telegram bots are easy to prototype but hard to make reliable. This architecture focuses on:
+**Why this architecture:** bots become hard to maintain if commands, storage and business logic are mixed. Layers make the system clearer and more reliable.
 
-- idempotent handling of messages;
-- safe retries for external APIs;
-- clear task domain logic;
-- background reminders;
-- structured logging and testable use cases.
+**What it proves:** Telegram automation, async backend thinking, Rust public proof, CI, reminders, workflow design and operational reliability.
 
-## What It Demonstrates
+**Proof:** <https://github.com/SamandarMansurkhodjaev2713/Task-manager>
 
-- AI automation inside a practical workflow
-- Telegram bot architecture beyond simple commands
-- Async Python and database design
-- Reliability thinking: queues, retries, idempotency
-- Product thinking for team operations
+---
+
+[Карточка проекта](../cards/task-manage-bot.md) | [Назад к case studies](README.md)

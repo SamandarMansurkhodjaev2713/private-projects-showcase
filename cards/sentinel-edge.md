@@ -1,63 +1,48 @@
 # Sentinel Edge / smart-system
 
 <p>
-  <img alt="Public" src="https://img.shields.io/badge/Source-public-15803d?style=flat-square">
   <img alt="Arduino" src="https://img.shields.io/badge/Arduino-Firmware-00878f?style=flat-square">
-  <img alt="Node" src="https://img.shields.io/badge/Node.js-Serial%20Bridge-339933?style=flat-square">
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-Serial%20Bridge-339933?style=flat-square">
   <img alt="React" src="https://img.shields.io/badge/React-Realtime%20Dashboard-149eca?style=flat-square">
-  <img alt="Signal" src="https://img.shields.io/badge/Signal-Embedded%20%2B%20Full--stack-0f766e?style=flat-square">
+  <img alt="Public" src="https://img.shields.io/badge/Repo-Public-15803d?style=flat-square">
 </p>
-
-## English
-
-**What it is:** Sentinel Edge is a public local smart-environment monitoring prototype built around Arduino-style firmware, a compact serial protocol, a Node.js bridge and a React/Vite realtime operator dashboard.
-
-**Problem it solves:** many embedded demos stop at raw sensor values. Sentinel Edge adds adaptive baselines, anomaly scoring, finite-state machine states, explainable events and a real dashboard without pretending to be heavyweight cloud AI.
-
-**Why it stands out:** Sentinel Edge is a rare portfolio signal because it connects hardware-style constraints with full-stack product presentation. It shows that the system is thought through from firmware and protocol design to realtime UI, documentation, QA notes and public repo polish.
-
-**Strongest signals:** C++/Arduino-style firmware, compact protocol design, Node serial bridge, realtime React dashboard, bounded state, anomaly logic, hardware/software integration and public documentation.
-
-**Stack:** Arduino-style C++ for UNO-class devices, serial `TEL`/`EVT`/`CMD` protocol, Node.js, `serialport`, `ws`, React 19, Vite, TypeScript, Tailwind CSS, Framer Motion, Zustand, uPlot and detailed product/QA/deployment docs.
-
-**Architecture:** firmware handles sensors, signal processing, baselines, anomaly scoring, FSM decisions and protocol output. The Node bridge isolates serial transport from the browser. The dashboard focuses on realtime visualization and controls.
-
-```mermaid
-flowchart LR
-  Sensors["Sensors"] --> Firmware["C++ firmware"]
-  Firmware --> Protocol["TEL / EVT / CMD serial"]
-  Protocol --> Bridge["Node.js bridge"]
-  Bridge --> Dashboard["React realtime dashboard"]
-  Dashboard --> Commands["START / STOP / RECAL / SET"]
-  Commands --> Bridge
-```
-
-**Why this architecture:** the design respects embedded constraints. Firmware stays deterministic and compact, the protocol stays MCU-friendly, the bridge owns hardware access, and the dashboard stays responsive and user-facing.
-
-**Why it is impressive:** Sentinel Edge shows breadth: embedded systems, protocol design, realtime UI, dashboard state management, documentation and honest edge-intelligence thinking.
-
-**Live/public proof:** [public repository](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system)
 
 ## Русский
 
-**Что это:** Sentinel Edge / smart-system — публичный проект на стыке embedded и full-stack: Arduino-style прошивка, serial protocol, Node.js bridge и React/Vite realtime dashboard.
+**Что это:** Sentinel Edge / smart-system - публичный embedded + full-stack проект: firmware на Arduino-style C++, serial protocol, Node.js bridge и React/Vite realtime dashboard для локальной smart environment системы.
 
-**Какую проблему решает:** многие embedded-демо заканчиваются выводом значений датчиков. Здесь есть adaptive baseline, anomaly scoring, FSM states, explainable events и полноценная operator console без фейкового заявления про “большой AI”.
+**Какую проблему решает:** многие embedded демо заканчиваются выводом данных с датчика. Здесь проект показывает полный контур: сбор телеметрии, baseline learning, anomaly scoring, события, serial communication, bridge и операторский dashboard.
 
-**Уникальность:** Sentinel Edge — редкий сигнал для портфолио, потому что соединяет hardware-style ограничения с full-stack продуктовой подачей. Здесь видно мышление от firmware и protocol design до realtime UI, документации, QA notes и публично оформленного repo.
+**Стек:** Arduino-style C++, Node.js, serial protocol, WebSocket, React, Vite, realtime charts, local dashboard architecture.
 
-**Сильнейшие стороны:** C++/Arduino-style firmware, compact protocol design, Node serial bridge, realtime React dashboard, bounded state, anomaly logic, hardware/software integration и публичная документация.
+**Архитектура:** firmware отвечает за датчики, baseline и события; serial protocol передает `TEL`, `EVT` и `CMD`; Node bridge превращает serial поток в WebSocket/API; React dashboard показывает состояние, графики, события и operator controls.
 
-**Стек:** Arduino-style C++ для UNO-class devices, serial protocol `TEL`/`EVT`/`CMD`, Node.js, `serialport`, `ws`, React 19, Vite, TypeScript, Tailwind CSS, Framer Motion, Zustand, uPlot, подробная документация по продукту, архитектуре, QA и демо.
+**Почему именно так:** embedded-система должна быть локальной, понятной и устойчивой. Разделение firmware, bridge и dashboard позволяет независимо тестировать железо, протокол и интерфейс, а также объяснять систему техлиду без физического доступа к устройству.
 
-**Архитектура:** firmware отвечает за датчики, signal processing, baseline, anomaly scoring, FSM, decisions и protocol output. Node bridge отделяет serial transport от браузера. Dashboard показывает realtime данные, события, состояние системы и controls.
+**Уникальность и сильные стороны:** это не только web: здесь есть C++/firmware, протокол, realtime поток, edge logic, dashboard и публичный репозиторий с чистой структурой.
 
-**Почему именно так:** архитектура учитывает ограничения embedded. Прошивка остаётся детерминированной, protocol компактным, bridge изолирует доступ к hardware, а dashboard отвечает за визуализацию и UX.
+**Что доказывает работодателю:** широту инженерного мышления: от low-level sensor logic до frontend dashboard, документации, CI/live demo и аккуратной архитектуры.
 
-**Что это доказывает работодателю:** проект показывает широту: C++/embedded, protocol design, Node bridge, realtime frontend, state management и аккуратную документацию. Это сильный сигнал, что я могу соединять hardware, backend и frontend в одну систему.
+**Что можно показать:** [публичный репозиторий](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system), [dashboard demo](https://samandarmansurkhodjaev2713.github.io/sentinel-edge-smart-system/), карточку и документацию.
 
-**Публичное доказательство:** [public repository](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system)
+## English
+
+**What it is:** Sentinel Edge / smart-system is a public embedded + full-stack project: Arduino-style C++ firmware, serial protocol, Node.js bridge and React/Vite realtime dashboard for a local smart environment system.
+
+**Problem it solves:** many embedded demos stop at printing sensor values. This project shows the full loop: telemetry, baseline learning, anomaly scoring, events, serial communication, bridge and operator dashboard.
+
+**Stack:** Arduino-style C++, Node.js, serial protocol, WebSocket, React, Vite, realtime charts and local dashboard architecture.
+
+**Architecture:** firmware handles sensors, baseline and events; the serial protocol sends `TEL`, `EVT` and `CMD`; the Node bridge turns the serial stream into WebSocket/API; the React dashboard shows state, charts, events and operator controls.
+
+**Why this architecture:** an embedded system should be local, understandable and resilient. Separating firmware, bridge and dashboard makes hardware logic, protocol and UI testable independently and easy to explain without physical device access.
+
+**Unique strengths:** this is more than web: C++/firmware, protocol design, realtime stream, edge logic, dashboard and a public repository with clean structure.
+
+**Employer signal:** broad engineering thinking: from low-level sensor logic to frontend dashboard, documentation, CI/live demo and clear architecture.
+
+**Safe proof:** [public repository](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system), [dashboard demo](https://samandarmansurkhodjaev2713.github.io/sentinel-edge-smart-system/), project card and documentation.
 
 ---
 
-[Deep case study](../case-studies/sentinel-edge.md) · [Back to gallery](README.md)
+[Назад к галерее](README.md) | [Case study](../case-studies/sentinel-edge.md) | [Главная витрина](../README.md)

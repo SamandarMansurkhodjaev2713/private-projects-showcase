@@ -1,59 +1,33 @@
 # AI Classroom
 
-**Domain:** education analytics / applied AI  
-**Type:** private AI platform  
-**Role:** AI system design, backend architecture, evidence model, privacy-first product thinking
+## Русский
 
-## Summary
+**Кратко:** приватный AI analytics case study для образовательного процесса: сбор evidence, анализ активности, structured outputs и privacy-first подход.
 
-AI Classroom is an evidence-based classroom intelligence platform. Instead of producing one vague “AI score”, the system is designed around traceable evidence events: timestamp, source, confidence, data quality and human review status.
+**Проблема:** образовательная аналитика часто либо слишком поверхностная, либо слишком рискованная по приватности. Нужна система, которая помогает понимать процесс, но не превращает данные учеников в небезопасный black box.
 
-## Problem
+**Стек:** Python, FastAPI, Pydantic, workers, structured AI outputs, database layer, privacy-aware processing.
 
-Educational environments are sensitive. A useful classroom analytics system must avoid becoming a black box. It needs:
+**Архитектура:** API принимает события и данные; workers обрабатывают аналитические задачи; AI слой формирует structured insights; validation layer проверяет формат; privacy boundaries ограничивают раскрытие чувствительных данных.
 
-- local/private processing options;
-- explainable observations;
-- confidence and quality tracking;
-- human review;
-- reproducible event history.
+**Почему так:** AI analytics должна быть воспроизводимой и проверяемой. Structured outputs и validation снижают хаос, а privacy boundaries делают систему пригодной для чувствительного образовательного контекста.
 
-## Stack
+**Что доказывает:** applied AI analytics, privacy-first engineering, structured outputs, backend workflows и способность проектировать AI не как чат, а как аналитическую систему.
 
-- **Backend/Core:** Python 3.12, Pydantic v2
-- **API:** FastAPI
-- **Data:** SQLAlchemy, Alembic, PostgreSQL/SQLite
-- **Workers:** Redis/RQ style background jobs
-- **Infra:** Docker Compose
-- **AI direction:** video/audio workers, detection/tracking/ASR/VLM pipeline, model registry
+## English
 
-## Architecture
+**Summary:** a private AI analytics case study for education workflows: evidence collection, activity analysis, structured outputs and privacy-first design.
 
-```mermaid
-flowchart LR
-  Sources["Video/audio/data sources"] --> Workers["AI workers"]
-  Workers --> Events["Evidence events"]
-  Events --> Review["Human review"]
-  Events --> Storage["Database / object storage"]
-  Storage --> API["FastAPI"]
-  API --> Dashboard["Dashboard / reports"]
-```
+**Problem:** education analytics is often either too shallow or too risky from a privacy perspective. The system needs to explain the learning process without turning student data into an unsafe black box.
 
-The code follows Clean Architecture principles:
+**Stack:** Python, FastAPI, Pydantic, workers, structured AI outputs, database layer and privacy-aware processing.
 
-- `domain` for models and rules;
-- `application` for use cases and orchestration;
-- `infrastructure` for database, queues and integrations;
-- `interfaces` for HTTP/CLI.
+**Architecture:** the API receives events and data; workers process analytics tasks; the AI layer produces structured insights; the validation layer checks output format; privacy boundaries limit exposure of sensitive data.
 
-## Why This Architecture
+**Why this architecture:** AI analytics should be reproducible and verifiable. Structured outputs and validation reduce chaos, while privacy boundaries make the system safer for sensitive education contexts.
 
-AI systems for real-world environments need traceability. The architecture keeps AI outputs as evidence, not as unquestioned truth. This makes the system more trustworthy, debuggable and suitable for privacy-sensitive contexts.
+**What it proves:** applied AI analytics, privacy-first engineering, structured outputs, backend workflows and ability to design AI as an analytical system, not just a chat interface.
 
-## What It Demonstrates
+---
 
-- Production-oriented AI system thinking
-- Evidence, review and data-quality modeling
-- Clean backend architecture
-- Privacy-first design
-- Ability to build AI products beyond a simple chat UI
+[Назад к case studies](README.md) | [Главная витрина](../README.md)

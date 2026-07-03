@@ -1,4 +1,4 @@
-# Leg-ai / Klawis
+# Klawis
 
 **Domain:** legal-tech AI assistant for Uzbekistan  
 **Type:** private/product project  

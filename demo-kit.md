@@ -4,6 +4,8 @@ Demo and interview playbook for showing selected work by **Samandar Mansurkhodja
 
 Use this document when someone asks: "What projects should I look at?", "What exactly did you build?", "Can you show your architecture?", or "Why is the code private?"
 
+For live links, GitHub Actions proof and screenshot/video priorities, also open the [Visual Evidence Pack](visual-evidence-pack.md).
+
 ## Safe Demo Rules
 
 1. Do not show customer names, private infrastructure, `.env`, credentials, private datasets or internal business rules.

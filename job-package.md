@@ -170,5 +170,6 @@ The cleanest narrative is:
 - [Project cards](project-cards.md)
 - [One-page cards](cards/README.md)
 - [Demo & Interview Kit](demo-kit.md)
+- [Visual Evidence Pack](visual-evidence-pack.md)
 - [Sentinel Edge public repo](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system)
 - [GitHub profile](https://github.com/SamandarMansurkhodjaev2713)

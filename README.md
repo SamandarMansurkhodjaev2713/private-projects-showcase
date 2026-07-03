@@ -29,6 +29,7 @@ Use these when you need to share the portfolio with a recruiter, tech lead, foun
 
 - **[Job Package](job-package.md)** — positioning, role fit, short pitches, outreach messages and proof map.
 - **[Demo & Interview Kit](demo-kit.md)** — what to show first, project demo scripts, safe private-code explanation and screenshot/video checklist.
+- **[Visual Evidence Pack](visual-evidence-pack.md)** — live demos, GitHub Actions proof, screenshot/video priorities and safe visual proof plan.
 
 ## Featured Case Studies
 
@@ -109,6 +110,7 @@ These projects show a profile that is broader than “frontend” or “backend�
 
 - **[Job Package](job-package.md)** — позиционирование, подходящие роли, короткие pitches, сообщения для отправки и карта доказательств.
 - **[Demo & Interview Kit](demo-kit.md)** — что показывать первым, скрипты демонстрации проектов, безопасное объяснение приватного кода и checklist для скриншотов/видео.
+- **[Visual Evidence Pack](visual-evidence-pack.md)** — live demos, GitHub Actions proof, приоритеты скриншотов/видео и безопасный план визуальных доказательств.
 
 ## Что показывают эти проекты
 

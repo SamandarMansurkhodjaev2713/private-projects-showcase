@@ -33,6 +33,12 @@
 
 **Что можно показать:** [SoftlyLove.uz](https://softlylove.uz), карточку, roadmap, безопасные скриншоты и product walkthrough.
 
+## Как обеспечивалось качество
+
+**Реализованное QA-покрытие:** продуктовые тесты pairing, activation, daily questions, widgets, PWA actions, rate limiting и server mapping; SQL-проверки Supabase RLS для изоляции данных пар. Такой приоритет выбран из-за privacy-риска и зависимости retention от стабильных ежедневных сценариев.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** this is a live founder-led product where I own not only code, but product, emotion, privacy and launch.
@@ -58,6 +64,12 @@
 **Employer signal:** shows the ability to think beyond “build a screen”: user psychology, retention, privacy, product-market signal, design, technical implementation and launch.
 
 **Safe proof:** [SoftlyLove.uz](https://softlylove.uz), project card, roadmap, safe screenshots and product walkthrough.
+
+## Quality engineering
+
+**Implemented quality coverage:** product tests for pairing, activation, daily questions, widgets, PWA actions, rate limiting and server mapping, plus Supabase RLS SQL checks for couple-data isolation. The priority reflects privacy risk and retention-critical daily flows.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

@@ -33,6 +33,12 @@
 
 **Что можно показать:** архитектуру, карточку, safe demo сценарий, обезличенные screenshots и описание без клиентских данных.
 
+## Как обеспечивалось качество
+
+**Code-safe QA-кейс:** xUnit/Moq integration checks проверяли сохранение и загрузку политик, генерацию отчета, изолированную работу с файлами и передачу результата в transmission service. Изоляция файловой системы и mocked transport выбраны, чтобы надежно тестировать observable behavior без реального сервера и пользовательских данных.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** a system project beyond web: Windows agent, protected telemetry and admin review workflow.
@@ -58,6 +64,12 @@
 **Employer signal:** ability to build system products with a desktop component, backend pipeline, protected data flow and administrative UI.
 
 **Safe proof:** architecture, project card, safe demo scenario, anonymized screenshots and description without customer data.
+
+## Quality engineering
+
+**Code-safe QA case:** xUnit/Moq integration checks covered policy persistence/loading, report generation, isolated filesystem behavior and handoff to the transmission service. Filesystem isolation and mocked transport validate observable behavior without a live server or user data.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

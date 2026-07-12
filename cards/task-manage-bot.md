@@ -33,6 +33,12 @@
 
 **Что можно показать:** [публичный репозиторий](https://github.com/SamandarMansurkhodjaev2713/Task-manager), GitHub Actions CI, карточку и private case study.
 
+## Как обеспечивалось качество
+
+**Реализованное QA-покрытие:** Rust unit, regression и repository-integration тесты для RBAC, onboarding, deadlines, notifications, voice processing, prompt schemas и persistence. Автоматизированы именно повторяемые критичные правила, где дефект приводит к неверному назначению, статусу или уведомлению.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** Telegram automation with workflow, reminders, async jobs, CI and reliability patterns.
@@ -58,6 +64,12 @@
 **Employer signal:** ability to build operational automation: async jobs, reminders, state, retries, Telegram UX and backend discipline.
 
 **Safe proof:** [public repository](https://github.com/SamandarMansurkhodjaev2713/Task-manager), GitHub Actions CI, project card and private case study.
+
+## Quality engineering
+
+**Implemented quality coverage:** Rust unit, regression and repository-integration tests for RBAC, onboarding, deadlines, notifications, voice processing, prompt schemas and persistence. Automation focuses on repeatable critical rules where a defect can create a wrong assignee, status or notification.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

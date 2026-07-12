@@ -33,6 +33,12 @@
 
 **Что можно показать:** private case study, архитектурную карту, product walkthrough и план безопасной demo-версии.
 
+## Как обеспечивалось качество
+
+**QA-фокус и следующий слой:** privacy пользовательских данных, переходы learning state, восстановление длинных workflow и качество AI-вывода. Публичная автоматизация не заявляется; рациональный следующий слой — golden learning scenarios, permission checks, workflow recovery и model-evaluation dataset.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** a Learning OS where education becomes proof of skill, portfolio output and commercial offers.
@@ -58,6 +64,12 @@
 **Employer signal:** ability to design a product from zero: idea, UX, domain model, backend, frontend, validation, route structure and market-facing output.
 
 **Safe proof:** private case study, architecture map, product walkthrough and plan for a safe demo version.
+
+## Quality engineering
+
+**Quality focus and next layer:** user-data privacy, learning-state transitions, long-workflow recovery and AI-output quality. No public automation is claimed; the next rational layer is golden learning scenarios, permission checks, workflow recovery and a model-evaluation dataset.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

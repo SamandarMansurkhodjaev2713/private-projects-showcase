@@ -33,6 +33,12 @@
 
 **Что можно показать:** [публичный репозиторий](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system), [dashboard demo](https://samandarmansurkhodjaev2713.github.io/sentinel-edge-smart-system/), карточку и документацию.
 
+## Как обеспечивалось качество
+
+**QA-фокус и следующий слой:** критичные риски — границы сенсоров, поврежденный serial frame, reconnect, дубли телеметрии и рассинхронизация dashboard. Публичный automated suite не заявляется; следующий проверяемый слой — protocol fixtures, bridge integration tests и hardware-in-the-loop smoke.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** public proof that shows the full path from firmware and serial protocol to realtime dashboard.
@@ -58,6 +64,12 @@
 **Employer signal:** broad engineering thinking: from low-level sensor logic to frontend dashboard, documentation, CI/live demo and clear architecture.
 
 **Safe proof:** [public repository](https://github.com/SamandarMansurkhodjaev2713/sentinel-edge-smart-system), [dashboard demo](https://samandarmansurkhodjaev2713.github.io/sentinel-edge-smart-system/), project card and documentation.
+
+## Quality engineering
+
+**Quality focus and next layer:** critical risks include sensor boundaries, malformed serial frames, reconnects, duplicate telemetry and dashboard desynchronization. No public automated suite is claimed; the next evidence layer is protocol fixtures, bridge integration tests and hardware-in-the-loop smoke.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

@@ -33,6 +33,12 @@
 
 **Что можно показать:** code-safe архитектуру, карточку, диаграмму модулей и приватный walkthrough без исходного кода.
 
+## Как обеспечивалось качество
+
+**Реализованное QA-покрытие:** unit, domain, application, infrastructure, integration и E2E-проверки для auth/RBAC, MFA, idempotency, CSRF, WebSocket proxy, файловых операций, MinIO, очередей и сервисных границ. Такое покрытие выбрано потому, что главный риск платформы — регрессия на стыке сервисов, прав доступа и асинхронных процессов.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** a real on-prem collaboration platform with enterprise complexity, not another CRUD app.
@@ -58,6 +64,12 @@
 **Employer signal:** strong system design, backend depth, enterprise constraints and the ability to build internal-platform-grade products.
 
 **Safe proof:** code-safe architecture, project card, module diagram and private walkthrough without source code.
+
+## Quality engineering
+
+**Implemented quality coverage:** unit, domain, application, infrastructure, integration and E2E checks for auth/RBAC, MFA, idempotency, CSRF, WebSocket proxying, file operations, MinIO, queues and service boundaries. This depth targets the main risk: regressions across services, permissions and asynchronous flows.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

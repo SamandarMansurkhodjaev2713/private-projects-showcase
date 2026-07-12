@@ -33,6 +33,12 @@
 
 **Что можно показать:** [live product](https://klawis.uz), архитектурную карточку и безопасное описание без приватной логики.
 
+## Как обеспечивалось качество
+
+**Реализованное QA-покрытие:** pytest для REST API, retrieval, classifier, citations и citation guards; evaluation-наборы качества ответов; Vitest и Playwright для frontend/full-stack сценариев. В Legal AI проверяется не только доступность ответа, но и опора на источники, корректная маршрутизация и защита от уверенного неподтвержденного вывода.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** this is not a prompt demo, but a live legal AI product with sources, domain logic and a roadmap.
@@ -58,6 +64,12 @@
 **Employer signal:** shows the ability to build AI products as real systems, not prompt demos: architecture, sources, domain constraints, product thinking and a clear user journey.
 
 **Safe proof:** [live product](https://klawis.uz), architecture card and code-safe product description.
+
+## Quality engineering
+
+**Implemented quality coverage:** pytest for REST APIs, retrieval, classification, citations and citation guards; answer-evaluation datasets; Vitest and Playwright for frontend/full-stack flows. Legal AI quality means validating sources and routing, not merely checking that a response exists.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

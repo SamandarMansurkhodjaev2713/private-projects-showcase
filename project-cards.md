@@ -16,6 +16,7 @@
 | Техлид / CTO | TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Marketbot, med-exe |
 | Founder / клиент | Klawis, CoupleOS / Softly, Marketbot, Task Manage Bot, VFS Killer Main |
 | Инвестор / партнер | Forge / Learning OS, CoupleOS / Softly, Klawis, TTYL Platform, Sentinel Edge |
+| QA Lead / тестировщик | TTYL Platform, Task-manager, Klawis, CoupleOS, BelfProctor, VFS automation |
 
 ## Быстрый индекс
 
@@ -49,6 +50,7 @@
 - [Путеводитель по портфолио](portfolio-guide.md)
 - [Сотрудничество](collaboration.md)
 - [Доказательства](proof.md)
+- [QA Engineering Portfolio](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio)
 - [Главная витрина](README.md)
 
 ---
@@ -69,6 +71,7 @@ For deeper review, open the separate cards in [`cards/`](cards/README.md). Every
 | Tech lead / CTO | TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Marketbot, med-exe |
 | Founder / client | Klawis, CoupleOS / Softly, Marketbot, Task Manage Bot, VFS Killer Main |
 | Investor / partner | Forge / Learning OS, CoupleOS / Softly, Klawis, TTYL Platform, Sentinel Edge |
+| QA lead / tester | TTYL Platform, Task-manager, Klawis, CoupleOS, BelfProctor and VFS automation |
 
 ## Quick Index
 
@@ -102,4 +105,5 @@ For deeper review, open the separate cards in [`cards/`](cards/README.md). Every
 - [Portfolio guide](portfolio-guide.md)
 - [Collaboration](collaboration.md)
 - [Proof](proof.md)
+- [QA Engineering Portfolio](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio)
 - [Main showcase](README.md)

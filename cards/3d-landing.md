@@ -33,6 +33,12 @@
 
 **Что можно показать:** [live demo](https://samandarmansurkhodjaev2713.github.io/3d-landing/), [public repo](https://github.com/SamandarMansurkhodjaev2713/3d-landing), карточку и screenshot/video.
 
+## Как обеспечивалось качество
+
+**QA-фокус и следующий слой:** responsive framing, non-blank WebGL canvas, загрузка assets, motion и отсутствие перекрытий текста. Публичный test suite не заявляется; следующий слой — Playwright visual snapshots, canvas-pixel checks и mobile/desktop interaction smoke.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** visual frontend that can be opened and felt immediately: WebGL, motion, live demo and polish.
@@ -58,6 +64,12 @@
 **Employer signal:** not only backend/system skills, but strong frontend taste: motion, composition, responsiveness, performance and presentation.
 
 **Safe proof:** [live demo](https://samandarmansurkhodjaev2713.github.io/3d-landing/), [public repo](https://github.com/SamandarMansurkhodjaev2713/3d-landing), project card and screenshot/video.
+
+## Quality engineering
+
+**Quality focus and next layer:** responsive framing, a non-blank WebGL canvas, asset loading, motion and text-overlap prevention. No public test suite is claimed; the next layer is Playwright visual snapshots, canvas-pixel checks and mobile/desktop interaction smoke.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

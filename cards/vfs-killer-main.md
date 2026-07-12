@@ -33,6 +33,12 @@
 
 **Что можно показать:** code-safe architecture, demo script, обезличенный workflow, screenshots diagnostics и описание без приватных данных.
 
+## Как обеспечивалось качество
+
+**Code-safe QA-кейс:** pytest и async integration flow проверяли конфигурацию, worker-сценарий, обнаружение сигнала и его передачу через Redis в следующий этап. Внешний сайт отделен от детерминированной логики, потому что нестабильную третью сторону нельзя делать единственной основой regression suite.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** automation built for unstable external workflows, not happy-path scripting.
@@ -58,6 +64,12 @@
 **Employer signal:** ability to solve hard automation problems where reliability, debugging, observability, security boundaries and productized operator experience matter.
 
 **Safe proof:** code-safe architecture, demo script, anonymized workflow, diagnostic screenshots and description without private data.
+
+## Quality engineering
+
+**Code-safe QA case:** pytest and an asynchronous integration flow covered configuration, worker behavior, signal detection and Redis delivery into the next stage. External-site behavior is separated from deterministic logic because an unstable third party should not be the only regression oracle.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

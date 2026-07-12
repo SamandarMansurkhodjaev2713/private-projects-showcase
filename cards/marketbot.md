@@ -33,6 +33,12 @@
 
 **Что можно показать:** case study, архитектуру сервисов, безопасные screenshots и demo flow без коммерческих данных.
 
+## Как обеспечивалось качество
+
+**Реализованное QA-покрытие:** pytest для доменной логики deduplication, money/discount rules и URL, а также service-level проверки retries, retention, requeue и Telegram notifications; отдельно задокументирован load-test report. Это снижает риск дублей офферов, неверной цены и потерянных уведомлений.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** commerce automation with an event-driven backend, not just a notification bot.
@@ -58,6 +64,12 @@
 **Employer signal:** ability to build business backend automation: events, queues, service contracts, delivery, retries, admin tooling and monetization logic.
 
 **Safe proof:** case study, service architecture, safe screenshots and demo flow without commercial data.
+
+## Quality engineering
+
+**Implemented quality coverage:** pytest for deduplication, money/discount rules and URLs, plus service-level retry, retention, requeue and Telegram notification checks; a load-test report is documented separately. This targets duplicate offers, incorrect prices and lost notifications.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

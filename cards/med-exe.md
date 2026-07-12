@@ -33,6 +33,12 @@
 
 **Что можно показать:** code-safe case study, архитектуру, обезличенный walkthrough и screenshots без персональных данных.
 
+## Как обеспечивалось качество
+
+**Реализованное QA-покрытие:** React/Vitest проверки форм, расчетного workspace, локализации и отчетов, а также Rust/SQLite integration test воспроизводимости результата. Для медицинского расчетного продукта ключевой критерий — одинаковый результат при одинаковом входе и прозрачность формулы.
+
+[Полная матрица QA-доказательств](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
+
 ## English
 
 > **Main signal:** an offline desktop app for a sensitive domain where Rust core, typed boundaries and accuracy matter.
@@ -58,6 +64,12 @@
 **Employer signal:** ability to design applications for sensitive domains: stability, reproducibility, local storage, typed boundaries and clean architecture.
 
 **Safe proof:** code-safe case study, architecture, anonymized walkthrough and screenshots without personal data.
+
+## Quality engineering
+
+**Implemented quality coverage:** React/Vitest checks for forms, the calculation workspace, localization and reports, plus a Rust/SQLite integration test for result reproducibility. In a medical calculation product, identical inputs must produce identical, explainable outputs.
+
+[Full QA evidence matrix](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio/blob/main/docs/project-quality-matrix.md)
 
 ---
 

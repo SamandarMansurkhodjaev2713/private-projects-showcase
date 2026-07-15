@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | Embedded + full-stack smart environment system |
+| Статус | Публичный проект · dashboard demo |
+| Моя роль | System architecture, firmware/bridge/dashboard integration и QA planning |
 | Сложность | C++ firmware, protocol, Node bridge, WebSocket, React dashboard |
 | Эффект | Показывает широту: hardware-adjacent logic, backend bridge и UI |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | Embedded + full-stack smart environment system |
+| Status | Public project · dashboard demo |
+| My role | System architecture, firmware/bridge/dashboard integration and QA planning |
 | Complexity | C++ firmware, protocol, Node bridge, WebSocket and React dashboard |
 | Impact | Shows breadth: hardware-adjacent logic, backend bridge and UI |
 

@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | Legal AI assistant, доступный на [klawis.uz](https://klawis.uz) |
+| Статус | Приватный продукт · live deployment · roadmap in progress |
+| Моя роль | Product architecture, AI flow, full-stack implementation, deployment и QA |
 | Сложность | RAG, legal routing, citations, sensitive-domain UX |
 | Эффект | Показывает applied AI, где важны доверие, доказательность и продуктовая ответственность |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | Legal AI assistant live at [klawis.uz](https://klawis.uz) |
+| Status | Private product · live deployment · roadmap in progress |
+| My role | Product architecture, AI flow, full-stack implementation, deployment and QA |
 | Complexity | RAG, legal routing, citations and sensitive-domain UX |
 | Impact | Shows applied AI where trust, evidence and product responsibility matter |
 

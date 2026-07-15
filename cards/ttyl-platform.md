@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | Self-hosted workspace для проектов, чатов, файлов и audit |
+| Статус | Приватный коммерческий проект |
+| Моя роль | Full-stack development, platform modules, integration и release QA |
 | Сложность | RBAC, realtime, storage, search, workers, on-prem deployment |
 | Эффект | Показывает system design и понимание корпоративных ограничений |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | Self-hosted workspace for projects, chat, files and audit |
+| Status | Private commercial project |
+| My role | Full-stack development, platform modules, integration and release QA |
 | Complexity | RBAC, realtime, storage, search, workers and on-prem deployment |
 | Impact | Shows system design and understanding of enterprise constraints |
 

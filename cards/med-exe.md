@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | Health-tech/research desktop application |
+| Статус | Приватный desktop-проект |
+| Моя роль | Product architecture, domain implementation, desktop UX и validation |
 | Сложность | Rust calculations, Tauri shell, typed IPC, SQLite, offline privacy |
 | Эффект | Показывает аккуратность в домене, где ошибки и данные критичны |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | Health-tech/research desktop application |
+| Status | Private desktop project |
+| My role | Product architecture, domain implementation, desktop UX and validation |
 | Complexity | Rust calculations, Tauri shell, typed IPC, SQLite and offline privacy |
 | Impact | Shows care in a domain where errors and data are critical |
 

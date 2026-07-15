@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | Browser automation система с Telegram control |
+| Статус | Приватный коммерческий проект |
+| Моя роль | Automation architecture, browser workflows, diagnostics и QA |
 | Сложность | Sessions, timing, retries, diagnostics, Docker runtime |
 | Эффект | Показывает надежную автоматизацию в реальных, ломких условиях |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | Browser automation system with Telegram control |
+| Status | Private commercial project |
+| My role | Automation architecture, browser workflows, diagnostics and QA |
 | Complexity | Sessions, timing, retries, diagnostics and Docker runtime |
 | Impact | Shows reliable automation under fragile real-world conditions |
 

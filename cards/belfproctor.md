@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | Proctoring/monitoring система с desktop-agent |
+| Статус | Приватный коммерческий проект |
+| Моя роль | Backend, доменная логика, интеграции и QA |
 | Сложность | Heartbeat, uploads, retries, policy, admin visibility |
 | Эффект | Показывает работу с чувствительными данными, deployment и operational UX |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | Proctoring/monitoring system with a desktop agent |
+| Status | Private commercial project |
+| My role | Backend, domain logic, integrations and QA |
 | Complexity | Heartbeat, uploads, retries, policy and admin visibility |
 | Impact | Shows sensitive data handling, deployment and operational UX |
 

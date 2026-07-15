@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | Interactive Three.js landing |
+| Статус | Публичный проект · live demo |
+| Моя роль | Solo frontend engineering, 3D interaction и visual direction |
 | Сложность | 3D scene, animation loop, responsive layout, performance choices |
 | Эффект | Показывает вкус, визуальное мышление и frontend, который запоминается |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | Interactive Three.js landing |
+| Status | Public project · live demo |
+| My role | Solo frontend engineering, 3D interaction and visual direction |
 | Complexity | 3D scene, animation loop, responsive layout and performance choices |
 | Impact | Shows taste, visual thinking and memorable frontend work |
 

@@ -1,139 +1,77 @@
-# Витрина проектов / Project Showcase
+# Проекты Самандара Мансурходжаева
 
-## Русский
+**Продуктовая разработка · прикладной AI · автоматизация · инженерия качества**
 
-Code-safe портфолио приватных, коммерческих и продуктовых проектов **Самандара Мансурходжаева**.
+Здесь собраны публичные репозитории и безопасные case studies приватных продуктов. Для каждого проекта указаны реальный статус, моя роль, продуктовая задача, архитектура, инженерные решения, QA-подход и доступные доказательства. Приватный код, данные клиентов, секреты и внутренняя бизнес-логика не публикуются.
 
-Этот репозиторий нужен для одной простой цели: показать сильные проекты профессионально, понятно и безопасно, даже если исходный код нельзя открыть публично. Здесь нет приватного кода, клиентских данных, секретов, `.env` файлов или внутренней бизнес-логики. Вместо этого собраны карточки, архитектурные описания, demo routes и доказательства уровня работы.
+[Полная галерея](cards/README.md) · [Сравнить проекты](project-cards.md) · [QA-портфолио](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio) · [Live proof](proof.md)
 
-## Как читать эту витрину
+## С чего начать
 
-| Кто смотрит | С чего начать | Зачем |
+| Проект | Статус | Почему стоит открыть |
 |---|---|---|
-| HR / рекрутер | [Карта проектов](project-cards.md) | За 2-3 минуты понять роли, стек, масштаб и сильные проекты |
-| Техлид / CTO | [Карточки проектов](cards/README.md) | Быстро увидеть архитектуру, сложность, решения и инженерные сигналы |
-| Founder / клиент | [Сотрудничество](collaboration.md) и [Доказательства](proof.md) | Понять, как я превращаю идею в продукт, демо и бизнес-результат |
-| Инвестор / партнер | [Доказательства](proof.md) | Увидеть live proof, публичные репозитории, Actions и безопасные материалы |
+| [Доступное Право](cards/dostupnoe-pravo.md) | Public + live demo | Legal CRM, Clean Architecture, RLS, конкурентные обновления, 192 теста |
+| [Klawis](cards/klawis.md) | Private + live | Legal AI, RAG, citations, evals и UX чувствительного домена |
+| [Softly / CoupleOS](cards/coupleos.md) | Private + live | Founder-led consumer product, privacy, PWA и эмоциональный UX |
+| [CarSuperApp](cards/carsuperapp.md) | Active foundation | Multi-tenant architecture, PostgreSQL RLS, recovery, CI и risk-based QA |
+| [TTYL Platform](cards/ttyl-platform.md) | Private commercial | On-prem collaboration, RBAC, realtime, storage и enterprise testing |
+| [AI Classroom](cards/ai-classroom.md) | Private foundation | Evidence-first AI, local privacy, human review и reproducible validation |
+| [Platform Core](cards/platform-core.md) | Active scaffolding | Go AI gateway, NestJS omnichannel hub и Python eval harness |
+| [Sentinel Edge](cards/sentinel-edge.md) | Public + demo | Полный путь от C++ firmware и serial protocol до React dashboard |
 
-## Иерархия файлов
+## Публичные продукты и демо
 
-| Файл или папка | Назначение |
-|---|---|
-| [`README.md`](README.md) | Главная точка входа и маршрут по портфолио |
-| [`project-cards.md`](project-cards.md) | Короткая карта всех сильных проектов в одном файле |
-| [`cards/`](cards/README.md) | Отдельные красивые карточки по каждому проекту, русский сначала, английский после |
-| [`case-studies/`](case-studies) | Более глубокие технические описания проектов |
-| [`portfolio-guide.md`](portfolio-guide.md) | Публичный путеводитель: какие проекты смотреть HR, техлиду, клиенту или партнеру |
-| [`collaboration.md`](collaboration.md) | Форматы сотрудничества и направления, где я могу быть полезен |
-| [`proof.md`](proof.md) | Live links, public repos, CI/Actions и безопасные доказательства |
+- [Доступное Право](https://dostupnoe-pravo-alpha.vercel.app) — CRM для юридической практики.
+- [Klawis](https://klawis.uz) — legal AI продукт.
+- [Softly](https://softlylove.uz) — mobile-first продукт для пар.
+- [Sentinel Edge dashboard](https://samandarmansurkhodjaev2713.github.io/sentinel-edge-smart-system/) — realtime embedded dashboard.
+- [CardioGuard](https://samandarmansurkhodjaev2713.github.io/cardioguard/) — cross-platform health-tech прототип.
+- [IZATULO / BEL ALMA](https://samandarmansurkhodjaev2713.github.io/izatullo-komir-/) — мультиязычный B2B-каталог и заявка.
+- [3D Landing](https://samandarmansurkhodjaev2713.github.io/3d-landing/) — Three.js/WebGL проект.
 
-## Лучшие проекты для первого просмотра
+## Полный каталог
 
-| Проект | Домен | Главный сигнал |
-|---|---|---|
-| [Klawis](cards/klawis.md) | Legal AI | Задеплоенный AI-продукт с RAG, источниками, roadmap и UX для чувствительного домена |
-| [CoupleOS / Softly](cards/coupleos.md) | Consumer product | Founder-led live product: emotional UX, privacy, retention, mobile-first thinking |
-| [TTYL Platform](cards/ttyl-platform.md) | Enterprise collaboration | On-prem система с проектами, чатами, файлами, поиском, audit и realtime |
-| [Forge / Learning OS](cards/forge-learning-os.md) | EdTech / AI-native learning | Личный продукт с evidence engine, портфолио, client offers и product-first архитектурой |
-| [BelfProctor](cards/belfproctor.md) | Proctoring / monitoring | Windows agent, защищенная телеметрия, admin panel, deployment packaging |
-| [VFS Killer Main](cards/vfs-killer-main.md) | Browser automation | Playwright/Camoufox automation, Telegram control, diagnostics-first runtime |
-| [Sentinel Edge](cards/sentinel-edge.md) | Embedded / IoT | C++ firmware, serial protocol, Node bridge, realtime React dashboard |
-| [Task-manager / Task Manage Bot](cards/task-manage-bot.md) | Telegram automation | Rust/Python automation, reminders, retries, async jobs, clean bot architecture |
-| [med-exe](cards/med-exe.md) | Health-tech desktop | Offline Tauri/Rust desktop app для чувствительной расчетной логики |
-| [Marketbot](cards/marketbot.md) | Commerce automation | Event-driven backend, subscriptions, affiliate links, Telegram notifications |
-| [3d-landing](cards/3d-landing.md) | Visual frontend | Three.js/WebGL, интерактивная презентация, frontend polish |
+**Продукты и AI:** [CarSuperApp](cards/carsuperapp.md) · [Klawis](cards/klawis.md) · [AI Classroom](cards/ai-classroom.md) · [Platform Core](cards/platform-core.md) · [Forge / Learning OS](cards/forge-learning-os.md) · [Softly / CoupleOS](cards/coupleos.md)
 
-## Почему часть кода закрыта
+**Business systems и automation:** [TTYL Platform](cards/ttyl-platform.md) · [Доступное Право](cards/dostupnoe-pravo.md) · [BelfProctor](cards/belfproctor.md) · [VFS Killer](cards/vfs-killer-main.md) · [Marketbot](cards/marketbot.md) · [Task-manager](cards/task-manage-bot.md)
 
-Реальная разработка часто живет не в public GitHub: коммерческие продукты, клиентские ограничения, приватная бизнес-логика, чувствительные домены, внутренние процессы и еще не выпущенные фичи. Открывать такой код было бы непрофессионально.
+**Mobile, desktop и health-tech:** [CardioGuard](cards/cardioguard.md) · [med-exe](cards/med-exe.md)
 
-Мой формат: показывать не секреты, а инженерную зрелость. Для каждого приватного проекта я раскрываю:
+**Embedded, data и frontend:** [Sentinel Edge](cards/sentinel-edge.md) · [BioFlux Observer](cards/bioflux-observer.md) · [IZATULO / BEL ALMA](cards/izatulo-bel-alma.md) · [3D Landing](cards/3d-landing.md)
 
-- какую проблему решает продукт;
-- какую роль я выполнял;
-- какой стек использовался;
-- как устроена архитектура;
-- почему выбран именно такой дизайн;
-- какие есть сильные стороны и unique value;
-- что можно безопасно показать через demo, screenshots, live links или case study.
+## Что объединяет проекты
 
-## Что доказывает эта витрина
-
-| Сигнал | Как он проявляется |
-|---|---|
-| **Full-stack engineering** | Я могу вести продукт от базы данных и API до UI, деплоя, документации и демо |
-| **AI automation** | RAG, structured outputs, AI workers, domain routing, validation, Telegram/operation bots |
-| **System design** | Очереди, сервисные границы, auth, storage, realtime, audit, observability, deployment |
-| **Product thinking** | Думаю о ценности, UX, воронке, удержании, speed-to-demo и бизнес-результате |
-| **Privacy-aware engineering** | Не раскрываю приватный код, данные, секреты и внутренние алгоритмы |
-| **Breadth** | Web, AI, Telegram, embedded/IoT, desktop, mobile, 3D/frontend, automation |
+1. **Продуктовая логика:** сначала пользователь, бизнес-ограничения и критерии успеха, затем технология.
+2. **Архитектурная ясность:** слои, сервисные границы, данные, интеграции, отказоустойчивость и эксплуатация описаны явно.
+3. **Качество по риску:** тестируется не всё одинаково, а то, где дефект дороже всего — права, деньги, данные, AI-выводы, интеграции и ключевые сценарии.
+4. **Честный статус:** live, prototype, active foundation и scaffolding не смешиваются.
+5. **Безопасная публичность:** private source не выдаётся за open source; вместо него показываются решения и проверяемые артефакты.
 
 ---
 
-## English
+# English
 
-Code-safe portfolio for selected private, commercial and product projects by **Samandar Mansurkhodjaev**.
+## Samandar Mansurkhodjaev — Project Portfolio
 
-This repository has one clear purpose: to present strong engineering work professionally and safely when the source code cannot be published. It does not include private source code, customer data, secrets, `.env` files or internal business logic. Instead, it contains project cards, architectural descriptions, demo routes and proof of work.
+**Product engineering · applied AI · automation · quality engineering**
 
-## How To Read This Showcase
+This repository combines public work and code-safe case studies for private products. Every card states the actual maturity level, ownership, problem, architecture, quality approach and available proof without exposing customer source code, data or secrets.
 
-| Audience | Start here | Why |
+[Full gallery](cards/README.md) · [Project comparison](project-cards.md) · [QA portfolio](https://github.com/SamandarMansurkhodjaev2713/qa-engineering-portfolio) · [Live proof](proof.md)
+
+## Start Here
+
+| Project | Status | Main signal |
 |---|---|---|
-| Recruiter / HR | [Project map](project-cards.md) | Understand roles, stack, scale and strongest projects in 2-3 minutes |
-| Tech lead / CTO | [Project cards](cards/README.md) | Review architecture, complexity, decisions and engineering signals |
-| Founder / client | [Collaboration](collaboration.md) and [Proof](proof.md) | See how I turn ideas into products, demos and business outcomes |
-| Investor / partner | [Proof](proof.md) | See live proof, public repos, Actions and safe presentation material |
+| [Dostupnoe Pravo](cards/dostupnoe-pravo.md) | Public + live demo | Legal CRM, Clean Architecture, RLS, concurrency control and 192 tests |
+| [Klawis](cards/klawis.md) | Private + live | Legal AI, RAG, citations, evaluations and sensitive-domain UX |
+| [Softly / CoupleOS](cards/coupleos.md) | Private + live | Founder-led consumer product, privacy, PWA and emotional UX |
+| [CarSuperApp](cards/carsuperapp.md) | Active foundation | Multi-tenant design, PostgreSQL RLS, recovery, CI and risk-based QA |
+| [TTYL Platform](cards/ttyl-platform.md) | Private commercial | On-prem collaboration, RBAC, realtime, storage and enterprise testing |
+| [AI Classroom](cards/ai-classroom.md) | Private foundation | Evidence-first AI, local privacy, human review and reproducible validation |
+| [Platform Core](cards/platform-core.md) | Active scaffolding | Go AI gateway, NestJS omnichannel hub and Python evaluation harness |
+| [Sentinel Edge](cards/sentinel-edge.md) | Public + demo | C++ firmware and serial protocol through to a React dashboard |
 
-## File Hierarchy
+The full gallery also covers Forge, BelfProctor, VFS automation, Marketbot, Task-manager, CardioGuard, med-exe, BioFlux Observer, IZATULO and 3D frontend work.
 
-| File or folder | Purpose |
-|---|---|
-| [`README.md`](README.md) | Main entry point and portfolio route |
-| [`project-cards.md`](project-cards.md) | Compact map of all strong projects in one file |
-| [`cards/`](cards/README.md) | Separate project cards, Russian first and English second |
-| [`case-studies/`](case-studies) | Deeper technical project writeups |
-| [`portfolio-guide.md`](portfolio-guide.md) | Public guide: which projects to open for HR, tech leads, clients or partners |
-| [`collaboration.md`](collaboration.md) | Collaboration formats and areas where I can help |
-| [`proof.md`](proof.md) | Live links, public repos, CI/Actions and safe visual proof |
-
-## Best Projects To Open First
-
-| Project | Domain | Main signal |
-|---|---|---|
-| [Klawis](cards/klawis.md) | Legal AI | Deployed AI product with RAG, citations, roadmap and sensitive-domain UX |
-| [CoupleOS / Softly](cards/coupleos.md) | Consumer product | Founder-led live product: emotional UX, privacy, retention and mobile-first thinking |
-| [TTYL Platform](cards/ttyl-platform.md) | Enterprise collaboration | On-prem system with projects, chat, files, search, audit and realtime |
-| [Forge / Learning OS](cards/forge-learning-os.md) | EdTech / AI-native learning | Personal product with evidence engine, portfolio, client offers and product-first architecture |
-| [BelfProctor](cards/belfproctor.md) | Proctoring / monitoring | Windows agent, protected telemetry, admin panel and deployment packaging |
-| [VFS Killer Main](cards/vfs-killer-main.md) | Browser automation | Playwright/Camoufox automation, Telegram control and diagnostics-first runtime |
-| [Sentinel Edge](cards/sentinel-edge.md) | Embedded / IoT | C++ firmware, serial protocol, Node bridge and realtime React dashboard |
-| [Task-manager / Task Manage Bot](cards/task-manage-bot.md) | Telegram automation | Rust/Python automation, reminders, retries, async jobs and clean bot architecture |
-| [med-exe](cards/med-exe.md) | Health-tech desktop | Offline Tauri/Rust desktop app for sensitive calculation logic |
-| [Marketbot](cards/marketbot.md) | Commerce automation | Event-driven backend, subscriptions, affiliate links and Telegram notifications |
-| [3d-landing](cards/3d-landing.md) | Visual frontend | Three.js/WebGL, interactive presentation and frontend polish |
-
-## Why Some Code Is Private
-
-Real engineering work often does not live in public GitHub: commercial products, client constraints, private business logic, sensitive domains, internal processes and unreleased features. Publishing that code would be unprofessional.
-
-My format is to show engineering maturity without exposing secrets. For each private project, I document:
-
-- what problem the product solves;
-- what role I owned;
-- what stack was used;
-- how the architecture works;
-- why that architecture was chosen;
-- what makes the project strong or unique;
-- what can be safely shown through demos, screenshots, live links or case studies.
-
-## What This Showcase Proves
-
-| Signal | How it appears |
-|---|---|
-| **Full-stack engineering** | I can take a product from database and API to UI, deployment, documentation and demo |
-| **AI automation** | RAG, structured outputs, AI workers, domain routing, validation and Telegram/operation bots |
-| **System design** | Queues, service boundaries, auth, storage, realtime, audit, observability and deployment |
-| **Product thinking** | Value, UX, funnel, retention, speed-to-demo and business outcomes |
-| **Privacy-aware engineering** | No private code, customer data, secrets or internal algorithms are exposed |
-| **Breadth** | Web, AI, Telegram, embedded/IoT, desktop, mobile, 3D/frontend and automation |
+Quality is treated as an engineering decision: requirements and risks define the valuable test layer, while public evidence distinguishes implemented coverage from planned improvements.

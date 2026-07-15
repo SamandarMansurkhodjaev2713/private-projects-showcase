@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | Offers, subscriptions, affiliate links, Telegram delivery |
+| Статус | Приватный коммерческий проект |
+| Моя роль | Backend/automation architecture, integrations и operational QA |
 | Сложность | RabbitMQ, gRPC, service boundaries, admin visibility |
 | Эффект | Показывает backend для бизнес-процессов и монетизации |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | Offers, subscriptions, affiliate links and Telegram delivery |
+| Status | Private commercial project |
+| My role | Backend/automation architecture, integrations and operational QA |
 | Complexity | RabbitMQ, gRPC, service boundaries and admin visibility |
 | Impact | Shows backend work for business workflows and monetization |
 

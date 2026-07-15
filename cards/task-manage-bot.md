@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | Public Rust bot + private AI task workflow |
+| Статус | Публичный репозиторий + приватный production-вариант |
+| Моя роль | Solo architecture, bot/backend implementation, deployment и QA |
 | Сложность | State, reminders, outbox, retries, SQLx, Telegram UX |
 | Эффект | Показывает backend discipline в практической автоматизации |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | Public Rust bot + private AI task workflow |
+| Status | Public repository + private production variant |
+| My role | Solo architecture, bot/backend implementation, deployment and QA |
 | Complexity | State, reminders, outbox, retries, SQLx and Telegram UX |
 | Impact | Shows backend discipline in practical automation |
 

@@ -1,69 +1,50 @@
-# Галерея карточек проектов / Project Card Gallery
+# Галерея проектов
 
-## Русский
+Русский раздел идёт первым; в каждой карточке ниже есть английская версия. Статусы не унифицированы искусственно: live-продукт, коммерческий private project, prototype, active foundation и scaffolding обозначены отдельно.
 
-Здесь лежат отдельные, shareable карточки сильных проектов. Каждую карточку можно отправить HR, техлиду, клиенту или партнеру как самостоятельный материал: сначала русский блок, затем английский.
+## Продукты, AI и архитектура
 
-## Лучшие проекты для первого открытия
+| Проект | Статус | Сильный сигнал |
+|---|---|---|
+| [CarSuperApp](carsuperapp.md) | Active foundation | Multi-tenant PWA, RLS, idempotency, recovery, CI и проверяемая архитектура |
+| [Klawis](klawis.md) | Live private product | Legal AI, RAG, sources, evaluation и roadmap |
+| [AI Classroom](ai-classroom.md) | Private foundation | Evidence events, local-first AI, human review и golden reports |
+| [Platform Core](platform-core.md) | Active scaffolding | Gateway + channels + eval platform на Go/NestJS/Python |
+| [Forge / Learning OS](forge-learning-os.md) | Active private product | Project-first learning, evidence engine и founder thinking |
+| [Softly / CoupleOS](coupleos.md) | Live private product | Consumer product, emotional UX, privacy и retention loops |
 
-| Проект | Кому показывать | Что доказывает | Карточка |
-|---|---|---|---|
-| **Klawis** | AI/legal-tech, техлид, founder | Задеплоенный legal AI: RAG, источники, roadmap, чувствительный домен | [Открыть](klawis.md) |
-| **CoupleOS / Softly** | Founder, product lead, consumer app team | Live founder-led продукт: emotional UX, privacy, retention, mobile-first | [Открыть](coupleos.md) |
-| **TTYL Platform** | CTO, техлид, enterprise-команда | On-prem collaboration platform: проекты, чаты, файлы, поиск, audit, realtime | [Открыть](ttyl-platform.md) |
-| **Forge / Learning OS** | HR, founder, product lead, техлид | Product-minded engineering: evidence engine, portfolio cases, client offers | [Открыть](forge-learning-os.md) |
-| **BelfProctor** | Enterprise/system team, contractor client | Windows agent, telemetry, admin panel, deployment packaging | [Открыть](belfproctor.md) |
-| **VFS Killer Main** | Automation client, backend lead | Browser automation под реальные ограничения: sessions, retries, diagnostics | [Открыть](vfs-killer-main.md) |
-| **Sentinel Edge** | Full-stack/IoT team, HR | Firmware + protocol + bridge + realtime dashboard | [Открыть](sentinel-edge.md) |
-| **Task-manager / Task Manage Bot** | Operations team, automation client | Telegram workflow, reminders, async jobs, clean bot architecture | [Открыть](task-manage-bot.md) |
-| **med-exe** | Health-tech team, desktop/client app team | Offline-first desktop, Rust core, sensitive domain boundaries | [Открыть](med-exe.md) |
-| **Marketbot** | E-commerce founder, backend lead | Event-driven commerce automation, subscriptions, notifications | [Открыть](marketbot.md) |
-| **3d-landing** | Frontend/design-aware team | WebGL, motion, visual engineering, polished presentation | [Открыть](3d-landing.md) |
+## Корпоративные системы и автоматизация
 
-## Как использовать
+| Проект | Статус | Сильный сигнал |
+|---|---|---|
+| [TTYL Platform](ttyl-platform.md) | Private commercial | On-prem collaboration, RBAC, storage, realtime и audit |
+| [Доступное Право](dostupnoe-pravo.md) | Public + live demo | Legal CRM, RLS, concurrency control и 192 теста |
+| [BelfProctor](belfproctor.md) | Private commercial | Windows agent, policy engine, telemetry и backend ownership |
+| [VFS Killer Main](vfs-killer-main.md) | Private commercial | Browser automation, diagnostics и resilient workers |
+| [Marketbot](marketbot.md) | Private commercial | Event-driven commerce automation, queues и notifications |
+| [Task-manager](task-manage-bot.md) | Public + private variant | Rust/Python Telegram automation, RBAC и async jobs |
 
-- Для **первого HR-скрининга**: открыть Klawis, CoupleOS / Softly, Sentinel Edge, Task-manager и 3d-landing.
-- Для **технического интервью**: открыть TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Marketbot и med-exe.
-- Для **фриланса или подрядов**: открыть Klawis, Marketbot, Task Manage Bot, VFS Killer Main и TTYL Platform.
-- Для **инвесторов или партнеров**: открыть Forge / Learning OS, CoupleOS / Softly, Klawis, TTYL Platform и Sentinel Edge.
+## Mobile, desktop, embedded и визуализация
 
-## Что важно
+| Проект | Статус | Сильный сигнал |
+|---|---|---|
+| [CardioGuard](cardioguard.md) | Public academic prototype | React Native + Kotlin, domain logic и 206 тестов |
+| [med-exe](med-exe.md) | Private desktop | Tauri/Rust, offline calculations и reproducibility |
+| [Sentinel Edge](sentinel-edge.md) | Public + demo | C++ firmware, serial protocol, Node bridge и React dashboard |
+| [BioFlux Observer](bioflux-observer.md) | Public prototype | Industrial telemetry UX, alarms и data-quality modeling |
+| [IZATULO / BEL ALMA](izatulo-bel-alma.md) | Public commercial frontend | RU/UZ/EN, SEO, conversion flow и Playwright E2E |
+| [3D Landing](3d-landing.md) | Public + demo | Three.js, adaptive performance и cinematic interaction |
 
-Карточки написаны как безопасная витрина: они показывают продукт, стек, архитектуру, причины технических решений и сильные стороны проекта, но не раскрывают приватный код, секреты, клиентские данные и внутреннюю бизнес-логику.
+## Как устроена сильная карточка
 
----
-
-## English
-
-This folder contains separate shareable cards for selected strong projects. Each card can be sent to a recruiter, tech lead, client or partner as a standalone material: Russian first, English second.
-
-## Best Projects To Open First
-
-| Project | Best audience | What it proves | Card |
-|---|---|---|---|
-| **Klawis** | AI/legal-tech, tech lead, founder | Deployed legal AI: RAG, sources, roadmap and sensitive-domain UX | [Open](klawis.md) |
-| **CoupleOS / Softly** | Founder, product lead, consumer app team | Live founder-led product: emotional UX, privacy, retention and mobile-first thinking | [Open](coupleos.md) |
-| **TTYL Platform** | CTO, tech lead, enterprise team | On-prem collaboration platform: projects, chat, files, search, audit and realtime | [Open](ttyl-platform.md) |
-| **Forge / Learning OS** | HR, founder, product lead, tech lead | Product-minded engineering: evidence engine, portfolio cases and client offers | [Open](forge-learning-os.md) |
-| **BelfProctor** | Enterprise/system team, contractor client | Windows agent, telemetry, admin panel and deployment packaging | [Open](belfproctor.md) |
-| **VFS Killer Main** | Automation client, backend lead | Browser automation under real constraints: sessions, retries and diagnostics | [Open](vfs-killer-main.md) |
-| **Sentinel Edge** | Full-stack/IoT team, HR | Firmware + protocol + bridge + realtime dashboard | [Open](sentinel-edge.md) |
-| **Task-manager / Task Manage Bot** | Operations team, automation client | Telegram workflow, reminders, async jobs and clean bot architecture | [Open](task-manage-bot.md) |
-| **med-exe** | Health-tech team, desktop/client app team | Offline-first desktop, Rust core and sensitive domain boundaries | [Open](med-exe.md) |
-| **Marketbot** | E-commerce founder, backend lead | Event-driven commerce automation, subscriptions and notifications | [Open](marketbot.md) |
-| **3d-landing** | Frontend/design-aware team | WebGL, motion, visual engineering and polished presentation | [Open](3d-landing.md) |
-
-## How To Use
-
-- For **HR screening**: open Klawis, CoupleOS / Softly, Sentinel Edge, Task-manager and 3d-landing.
-- For a **technical interview**: open TTYL Platform, Klawis, BelfProctor, VFS Killer Main, Marketbot and med-exe.
-- For **freelance or contract sales**: open Klawis, Marketbot, Task Manage Bot, VFS Killer Main and TTYL Platform.
-- For **investors or partners**: open Forge / Learning OS, CoupleOS / Softly, Klawis, TTYL Platform and Sentinel Edge.
-
-## Important Note
-
-These cards are written as a safe showcase: they present the product, stack, architecture, reasoning and strongest project signals without exposing private code, secrets, customer data or internal business logic.
+Каждая карточка отвечает на семь вопросов: что это за продукт, какую проблему решает, что делал я, как устроена архитектура, почему она выбрана, как обеспечивается качество и чем подтверждается результат. Это позволяет быстро отделить реальную инженерную работу от красивого, но непроверяемого описания.
 
 ---
 
-[Назад к витрине](../README.md) | [Карта проектов](../project-cards.md) | [Путеводитель](../portfolio-guide.md) | [Сотрудничество](../collaboration.md) | [Доказательства](../proof.md)
+# Project Gallery
+
+Russian comes first and every card includes an English section. Maturity is explicit: live, private commercial, prototype, active foundation and scaffolding are not presented as the same thing.
+
+The portfolio covers product engineering and AI (CarSuperApp, Klawis, AI Classroom, Platform Core, Forge, Softly), enterprise automation (TTYL, Dostupnoe Pravo, BelfProctor, VFS, Marketbot, Task-manager) and mobile/desktop/embedded/frontend work (CardioGuard, med-exe, Sentinel Edge, BioFlux, IZATULO and 3D Landing).
+
+Each card answers the same practical questions: product, problem, ownership, architecture, reasoning, quality and proof.

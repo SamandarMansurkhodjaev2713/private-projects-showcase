@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | Consumer app для пар, live на [SoftlyLove.uz](https://softlylove.uz) |
+| Статус | Приватный продукт · live deployment · active development |
+| Моя роль | Founder, product strategy, UX, full-stack implementation и QA |
 | Сложность | Emotional UX, private flows, mobile-first, retention thinking |
 | Эффект | Показывает founder mindset и способность строить продукт от идеи до рынка |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | Consumer app for couples, live at [SoftlyLove.uz](https://softlylove.uz) |
+| Status | Private product · live deployment · active development |
+| My role | Founder, product strategy, UX, full-stack implementation and QA |
 | Complexity | Emotional UX, private flows, mobile-first product and retention thinking |
 | Impact | Shows founder mindset and the ability to build from idea to market |
 

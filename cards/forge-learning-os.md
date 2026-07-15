@@ -14,6 +14,8 @@
 | Быстрый взгляд | Деталь |
 |---|---|
 | Продукт | AI-native learning platform с evidence engine |
+| Статус | Приватный личный продукт · active development |
+| Моя роль | Founder, product architecture, UX и full-stack implementation |
 | Сложность | Missions, gates, portfolio cases, client-offer workflow |
 | Эффект | Показывает product-first мышление и сильную доменную модель |
 
@@ -46,6 +48,8 @@
 | Quick view | Detail |
 |---|---|
 | Product | AI-native learning platform with an evidence engine |
+| Status | Private personal product · active development |
+| My role | Founder, product architecture, UX and full-stack implementation |
 | Complexity | Missions, gates, portfolio cases and client-offer workflow |
 | Impact | Shows product-first thinking and a strong domain model |
 
